@@ -1,9 +1,8 @@
-console.log("Welcome!");
 content = {
   chapter: "1",
   title: "Formule de salut",
-  contentR1: ["Bună ziua.", "ceva"],
-  contentS1: ["¡Buenos días!", "altceva"],
+  contentR1: ["Bună ziua."],
+  contentS1: ["¡Buenos días!"],
 };
 
 function $(selector) {
@@ -11,15 +10,20 @@ function $(selector) {
 }
 
 function HTMLContent() {
-  console.log("here");
-  return `<h1>Română - Spaniolă<h1>
-  <h2 class = "here">${content.chapter}. ${content.title}</h2>
-  <p>${content.contentR1.map((a) => a)}</p> <hr/> <p>${content.contentS1}</p>`;
+  return `
+  <header>
+  <h1>Română - Spaniolă<h1>
+  </header>
+  <section>
+  <h2 class = "h2Design">${content.chapter}. ${content.title}</h2>
+  <div class = "displayContent"><p>${content.contentR1}</p> <hr/> <p>${content.contentS1}</p>
+  </div>
+  </section>
+  `;
 }
 
 function displayContent() {
   const place = $("body");
-  //   console.log((place.innerHTML = HTMLContent()));
   place.innerHTML = HTMLContent();
 }
 

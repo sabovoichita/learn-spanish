@@ -6,9 +6,17 @@ h1 {
   color: rgb(154, 50, 12);
   text-align: center;
 }
-.here {
-  color: red;
+.h2Design {
+  color: rgb(106, 13, 13);
 }
 p {
   font-size: 1.2rem;
+}
+.displayContent {
+  border: 2px solid rgb(81, 81, 112);
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  color: rgb(140, 104, 104);
+  align-items: left;
 }

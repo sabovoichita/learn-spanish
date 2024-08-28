@@ -7,7 +7,9 @@ function createStructure() {
   <header>
     <h1>Learn Spanish<h1>
   </header>
-  <div id ="container"></div>`;
+    </br>
+  <div id ="container"></div>
+  `;
 }
 
 function renderDivs(lessonNumber) {
@@ -19,39 +21,94 @@ function renderDivs(lessonNumber) {
   }
 }
 
-function showHeader() {
-  return `
-  
-  <div id ="container"></div>
-  `;
-}
-
-function showLesson(lessonNumber, lesson) {
-  const spaceRender = $(`#l${lessonNumber}`);
+function showLesson(lessonNumber, lessons) {
+  const spaceRender = document.getElementById(`l${lessonNumber}`);
   if (!spaceRender) {
     console.error(`Lesson #l${lessonNumber} not found.`);
     return;
   }
 
-  var text = lesson.map((lesson) => {
-    // console.info("inside map %o", lesson);
-    return `
-  <section>
-    <h2 class = "h2Design">Chapter: ${lesson.chapter}. ${lesson.title}</h2>
-    <div class = "displayLesson">
-      <ul>${lesson.lessonS
-        .map((contentItem) => `<li>${contentItem}</li>`)
-        .join(" ")}</li> = ${lesson.lessonE
-      .map((contentItem) => `<li>${contentItem}</li>`)
-      .join(" ")}</ul>
-    </div>
-  </section>
-    `;
-  });
-  console.warn("lesson is: %o", lessonNumber, text);
-  spaceRender.innerHTML = text.join("");
+  const text = lessons
+    .map(
+      ({
+        chapter,
+        title,
+        wordS,
+        wordE,
+        lessonContent,
+        wordSingular,
+        wordPlural,
+        subChapter1,
+        subChapter2,
+        subSub1Chapter2,
+        subSub2Chapter2,
+        subChapter2WordsS,
+        subChapter2WordsE,
+        subChapter2WordsExamples,
+        subSub2Chapter2WordsS,
+        subSub2Chapter2WordsE,
+        subSub2Chapter2WordSingular,
+        subSub2Chapter2WordPlural,
+      }) => `
+    <section id="sectionArea">
+      <h2 class="h2Design">Chapter: ${chapter}. ${title}</h2>
+      <div class="displayLesson">
+      <h3 class="subChapter">${subChapter1} </h3>
+        <div class="lessonContent">
+          ${lessonContent
+            .map((item) => `<p class="notes">${item} </p>`)
+            .join("")}
+        </div>
+        <div class="wordMapping">
+        <p class="type">Spanish => English</p>
+          ${wordS
+            .map(
+              (item, index) =>
+                `<p class="words">${item} <span class="black"> => </span> <span class="wordEnglish">${wordE[index]}</span></p>`
+            )
+            .join("")}
+            <p class="type">Singular => Plural</p>
+            ${wordSingular
+              .map(
+                (item, index) =>
+                  `<p class="words">${item} <span class="black"> => </span> <span class="wordEnglish">${wordPlural[index]}</span></p>`
+              )
+              .join("")}
+            <h3 class="subChapter">${subChapter2} </h3>
+            <h4 class="subChapter">${subSub1Chapter2} </h4>
+
+            ${subChapter2WordsS
+              .map(
+                (item, index) =>
+                  `<p class="words">${item} <span class="black"> => </span> <span class="wordEnglish">${subChapter2WordsE[index]}</span></p>`
+              )
+              .join("")}
+              ${subChapter2WordsExamples
+                .map((item) => `<p class="words">${item} </p>`)
+                .join("")}
+            <h4 class="subChapter">${subSub2Chapter2} </h4>
+            ${subSub2Chapter2WordsS
+              .map(
+                (item, index) =>
+                  `<p class="words">${item} <span class="black"> => </span> <span class="wordEnglish">${subSub2Chapter2WordsE[index]}</span></p>`
+              )
+              .join("")}
+              <p class="type">Singular => Plural</p>
+              ${subSub2Chapter2WordSingular
+                .map(
+                  (item, index) =>
+                    `<p class="words">${item} <span class="black"> => </span> <span class="wordEnglish">${subSub2Chapter2WordPlural[index]}</span></p>`
+                )
+                .join("")}
+        </div>
+      </div>
+    </section>
+  `
+    )
+    .join("");
+
+  spaceRender.innerHTML = text;
 }
-// showLesson();
 
 function loadLesson(lessonNumber) {
   fetch(`./data/${lessonNumber}.json`).then((r) => {
@@ -62,9 +119,9 @@ function loadLesson(lessonNumber) {
   });
 }
 
-createStructure();
-
 function initEvents() {
+  createStructure();
+
   const numberOfLessons = 2;
   renderDivs(numberOfLessons);
 

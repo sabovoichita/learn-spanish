@@ -9,6 +9,9 @@ h1 {
 .h2Design {
   color: rgb(106, 13, 13);
 }
+.pDesign {
+  color: rgb(189, 109, 109);
+}
 p {
   font-size: 1.2rem;
 }
@@ -22,4 +25,26 @@ p {
 }
 .displayLesson {
   display: inline;
+}
+.words {
+  color: blue;
+}
+.words .wordEnglish {
+  color: green;
+  /* display: none; */
+}
+.words .black {
+  color: black;
+  font-weight: 900;
+}
+.notes {
+  color: rgb(223, 98, 26);
+}
+.type {
+  color: black;
+  font-weight: bolder;
+}
+.subChapter {
+  color: ;
+  text-decoration: underline;
 }

@@ -1,8 +1,25 @@
 [
   {
     "chapter": "2",
-    "title": "Numbers, times and dates",
-    "lessonS": ["uno"],
-    "lessonE": ["1"]
+    "title": "Numbers, Times and Dates",
+    "wordS": ["uno", "dos", "tres", "cuatro"],
+    "wordE": ["1", "2", "3", "4"],
+    "lessonContent": [
+      "The only number that changes from is uno(una fem.). Remember the uno loses its -o before a noun, uno must always agree in gender with the noun that follows it, even when it forms part of another number",
+      "altceva 2"
+    ],
+    "wordSingular": [],
+    "wordPlural": [],
+    "subChapter1": [""],
+    "subChapter2": [""],
+    "subSub1Chapter2": [""],
+    "subSub2Chapter2": [],
+    "subChapter2WordsS": [],
+    "subChapter2WordsE": [],
+    "subChapter2WordsExamples": [],
+    "subSub2Chapter2WordsS": [],
+    "subSub2Chapter2WordsE": [],
+    "subSub2Chapter2WordSingular": [],
+    "subSub2Chapter2WordPlural": []
   }
 ]

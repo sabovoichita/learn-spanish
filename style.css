@@ -48,3 +48,6 @@ p {
   color: ;
   text-decoration: underline;
 }
+.exerciseInput {
+  width: 70px;
+}

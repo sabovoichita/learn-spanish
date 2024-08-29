@@ -108,6 +108,36 @@
       "I'm a bachelor",
       "I'm a very happy bachelor"
     ],
-    "exercises": "Exercises"
+    "exercises": "Exercises",
+    "lessonEx": "1. Give the appropriate definite form 'el', 'la', 'las', 'los' to agree in gender with the nouns",
+    "placeholder": "Type Here",
+    "ex1": [
+      "problema",
+      "niños",
+      "ciudades",
+      "sol",
+      "canción",
+      "poema",
+      "conditiones",
+      "temas",
+      "cantidad",
+      "perro",
+      "nacion",
+      "casas"
+    ],
+    "ex1A": [
+      "el",
+      "los",
+      "los",
+      "el",
+      "la",
+      "el",
+      "los",
+      "los",
+      "la",
+      "el",
+      "la",
+      "las"
+    ]
   }
 ]

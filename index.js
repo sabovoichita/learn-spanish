@@ -67,6 +67,10 @@ function generateLessonContent(lessons) {
         subSub2Ch2SSp5,
         subSub2Ch2SEn5,
         exercises,
+        lessonEx,
+        ex1,
+        placeholder,
+        ex1A,
       }) => `
     <section id="sectionArea">
       <h2 class="h2Design">Chapter: ${ch}. ${title}</h2>
@@ -108,8 +112,15 @@ function generateLessonContent(lessons) {
        ${createWSection("Spanish", "English", subSub2Ch2SSp4, subSub2Ch2SEn4)}
        <p class="notes">${lessonContentSubCh2[8]} </p>
        ${createWSection("Spanish", "English", subSub2Ch2SSp5, subSub2Ch2SEn5)}
-        </div>
+       </div>
+      </div>
+    </section>
+    <section id="exerciseArea">
       <h3 class="subCh">${exercises} </h3>
+      <div>
+      <p class="notes">${lessonEx} </p>
+       ${createExSection(placeholder, ex1)} 
+
       </div>
     </section>
   `
@@ -131,6 +142,44 @@ function createWSection(label1, label2, ws1, ws2) {
   );
 }
 
+function createExSection(placeholder, ex1) {
+  return `
+    <div class="ex-section">
+      ${ex1
+        .map(
+          (example, index) =>
+            `<div>
+              ${index + 1})  
+              <input class="exerciseInput"  id="input-${index}" placeholder="${placeholder}" />
+              <span class="ws"> ${example} </span> 
+            </div>`
+        )
+        .join("\n")}
+        <button onclick="verifyAnswers()">Check Answers</button>
+    </div>
+  `;
+}
+
+let ex1A = [];
+function verifyAnswers() {
+  ex1A.forEach((correctAnswer, index) => {
+    const inputElement = document.getElementById(`input-${index}`);
+    if (inputElement) {
+      // Check if the element exists
+      const userAnswer = inputElement.value.trim();
+      if (userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+        (inputElement.style.background = "green") &&
+          (inputElement.style.color = "white"); // Indicate correct answer
+      } else {
+        (inputElement.style.borderColor = "white") &&
+          (inputElement.style.color = "red"); // Indicate incorrect answer
+      }
+    } else {
+      console.warn(`Input element with ID input-${index} not found.`);
+    }
+  });
+}
+
 // Function to display a lesson's content
 function showLesson(lessonNumber, lessons) {
   const lessonDiv = $(`#l${lessonNumber}`);
@@ -143,10 +192,13 @@ function showLesson(lessonNumber, lessons) {
 
 function loadLesson(lessonNumber) {
   fetch(`./data/${lessonNumber}.json`).then((r) => {
-    r.json().then((lesson) => {
-      // console.log(lesson);
-      showLesson(lessonNumber, lesson);
-    });
+    r.json()
+      .then((lessons) => {
+        // console.log(lesson);
+        ex1A = lessons[0].ex1A || [];
+        showLesson(lessonNumber, lessons);
+      })
+      .catch((error) => console.error("Error loading lesson:", error));
   });
 }
 

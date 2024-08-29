@@ -109,7 +109,11 @@
       "I'm a very happy bachelor"
     ],
     "exercises": "Exercises",
-    "lessonEx": "1. Give the appropriate definite form 'el', 'la', 'las', 'los' to agree in gender with the nouns",
+    "lessonEx": [
+      "1. Give the appropriate definite form 'el', 'la', 'las', 'los' to agree in gender with the nouns",
+      "2. Give the appropriate article form 'un', 'una', 'unos', 'unas' to agree in gender with the nouns",
+      "3. Form the plural of the following noun phrases. A written accent on the final syllable of the singular noun will dissapear in the plural(e. g. la sesión, las sesiones)"
+    ],
     "placeholder": "Type Here",
     "ex1": [
       "problema",
@@ -138,6 +142,62 @@
       "el",
       "la",
       "las"
+    ],
+    "ex2": [
+      "hermana",
+      "ciudad",
+      "pueblo",
+      "pie",
+      "funciones",
+      "copa",
+      "camión",
+      "autobús",
+      "bares",
+      "clases",
+      "tren",
+      "tapa"
+    ],
+    "ex2A": [
+      "una",
+      "una",
+      "un",
+      "un",
+      "unas",
+      "unas",
+      "un",
+      "un",
+      "unos",
+      "unos",
+      "un",
+      "una"
+    ],
+    "ex3": [
+      "el maestro",
+      "un camion",
+      "la madre",
+      "un hacha",
+      "un hermano",
+      "la pensión",
+      "una mano",
+      "el mapa",
+      "el abuelo",
+      "la canción",
+      "un hotel",
+      "una habitación"
+    ],
+    "ex3A": [
+      "los maestros",
+      "unos camiones",
+      "las madres",
+      "unas hachas",
+      "los hermanos",
+      "las pensiones",
+      "unas manos",
+      "las mapas",
+      "los abuelos",
+      "las canciones",
+      "unos hoteles",
+      "unas habitaciones"
     ]
   }
 ]

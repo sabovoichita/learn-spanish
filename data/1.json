@@ -1,9 +1,9 @@
 [
   {
-    "chapter": "1",
+    "ch": "1",
     "title": "Nouns and Articles",
-    "wordS": ["el niño", "el libro", "la niña", "la playa"],
-    "wordE": ["the boy", "the book", "the girl", "the beach"],
+    "wS": ["el niño", "el libro", "la niña", "la playa"],
+    "wE": ["the boy", "the book", "the girl", "the beach"],
     "lessonContent": [
       "All nouns in Spanish are either masculine or feminine.",
       "Nouns that ends in '-o' are masculine as well those ending in '-or', '-ema', '-ista', while those ending in '-a' , '-ion', '-ad', '-ud' are feminine.",
@@ -11,52 +11,103 @@
       "There are few irregular plurals and nouns that do not change in the plural. Some nouns lose their written accents in the plural for reasons which follow the normal rules of pronunciation.",
       "The word 'carácter' changes it's spoken stress in the plural and therefore looses its written accent."
     ],
-    "wordSingular": [
-      "niño",
-      "playa",
-      "coche",
-      "bar",
-      "ciudad",
-      "accion",
-      "jardín",
-      "carácter"
+    "wSg": ["niño", "playa", "coche", "bar", "ciudad"],
+    "wSg1": ["accion", "jardín"],
+    "wSg2": ["carácter"],
+    "wPl": ["niños", "playas", "coches", "bares", "ciudades"],
+    "wPl1": ["acciones", "jardines"],
+    "wPl2": ["caracteres"],
+    "subCh1": ["Numbers"],
+    "subCh2": ["Articles"],
+    "subSub1Ch2": ["The definite article"],
+    "lessonContentSubCh2": [
+      "There are two types of articles: definite and indefinite",
+      "Note: Feminine nouns beginnings with a stressed 'a' or 'ha' are preceded by el and not la, but this does not make them masculine nouns, it is for ease of pronunciation.",
+      "What has been said with regard to feminine nouns beginnings in stressed 'a' or 'ha' is also true for the indefinite article",
+      "The plural forms ' unos ' and ' unas ' are commonly ommited without any significant change of meaning. When used, they often have the meaning of 'a few' or 'some'.",
+      "'Uno' and 'una' are also used to mean 'one'.",
+      "But note that the form 'uno'/'una' is used to mean 'one' when referring to a masculine singular noun, when the noun itself is not mentioned:",
+      "When referring to nouns in general: Nouns that refer to all the members of the relevant class usually require the use of the  definite article, although in English the article is omitted in such cases: ",
+      "With nouns in apposition: When the noun refers back to the one just mentioned, the definite article is omitted:",
+      "Before professions and status: Nouns that refer to professions, occupations and status, do not normally require an indefinite article, unless they are qualified by an adjective or other expression: "
     ],
-    "wordPlural": [
-      "niños",
-      "playas",
-      "coches",
-      "bares",
-      "ciudades",
-      "acciones",
-      "jardines",
-      "caracteres"
-    ],
-    "subChapter1": ["Numbers"],
-    "subChapter2": ["Articles"],
-    "subChapter2WordsS": [
+    "subCh2WsS": [
       "el (masc/sg)",
       "la (fem/sg)",
       "los (masc/pl)",
       "las (fem/pl)"
     ],
-    "subChapter2WordsE": ["the", "the", "the", "the"],
-    "subChapter2WordsExamples": [
+    "subCh2WsE": ["the", "the", "the", "the"],
+    "subCh2WsExamples": [
       "el agua",
       "el hacha",
       "el águila",
       "la grand águila",
       "las hachas"
     ],
-    "subSub1Chapter2": ["The definite article"],
-    "subSub2Chapter2": ["The indefinite article"],
-    "subSub2Chapter2WordsS": [
+
+    "subSub2Ch2": ["The indefinite article"],
+    "subSub2Ch2WsS": [
       "uno (masc/sg)",
       "una (fem/sg)",
       "unos (masc/pl)",
       "unas (fem/pl)"
     ],
-    "subSub2Chapter2WordsE": ["a", "an", "some", "some"],
-    "subSub2Chapter2WordSingular": ["un hacha", "un águila"],
-    "subSub2Chapter2WordPlural": ["unas hachas", "unas águilas"]
+    "subSub2Ch2WsE": ["a", "an", "some", "some"],
+    "subSub2Ch2WSg": ["un hacha", "un águila"],
+    "subSub2Ch2WPl": ["unas hachas", "unas águilas"],
+    "subSub2Ch2SSp": [
+      "Hay galletas en la caja.",
+      "Hay unos niños en la calle."
+    ],
+    "subSub2Ch2SEn": [
+      "There are biscuits in the box.",
+      "There are some children in the street."
+    ],
+    "subSub2Ch2SSp1": ["Sólo tengo un hermano."],
+    "subSub2Ch2SEn1": ["I only have one brother."],
+    "subSub2Ch2SSp2": [
+      "¿Tienes un pero?",
+      "Sí, tengo uno.",
+      "¿Tienes una casa?",
+      "Sí, tengo una"
+    ],
+    "subSub2Ch2SEn2": [
+      "Do you have a dog",
+      "Yes, I have one",
+      "Do you have a house?",
+      "Yes, I have one"
+    ],
+    "subSub2Ch2SSp3": [
+      "Me gusta el café",
+      "La violencia es inaceptable,",
+      "El ruido me molesta"
+    ],
+    "subSub2Ch2SEn3": [
+      "I like coffee (all coffee in general)",
+      "Violence is unacceptable (all violence)",
+      "Noise irritates me (all noise in general)"
+    ],
+    "subSub2Ch2SSp4": [
+      "Juan Carlos, rey de España.",
+      "Madrid, capital de España."
+    ],
+    "subSub2Ch2SEn4": [
+      "Juan Carlos, the king of Spain.",
+      "Madrid, the capital of Spain."
+    ],
+    "subSub2Ch2SSp5": [
+      "Es médico.",
+      "Es un buen médico.",
+      "Soy soltero.",
+      "Soy un soltero muy feliz."
+    ],
+    "subSub2Ch2SEn5": [
+      "He's a doctor.",
+      "He's a good doctor",
+      "I'm a bachelor",
+      "I'm a very happy bachelor"
+    ],
+    "exercises": "Exercises"
   }
 ]

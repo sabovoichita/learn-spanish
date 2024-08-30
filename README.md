@@ -1,3 +1,3 @@
 # Romana-Spaniola
 
-[link](https://sabovoichita.github.io/romana-spaniola/)
+[link](https://sabovoichita.github.io/learn-spanish/)

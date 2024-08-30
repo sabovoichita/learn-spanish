@@ -65,6 +65,8 @@ function generateLessonContent(lessons) {
         ex1,
         ex2,
         ex3,
+        ex4,
+        ex5,
       }) => `
     <section id="sectionArea">
       <h2 class="h2Design">Chapter: ${ch}. ${title}</h2>
@@ -104,6 +106,7 @@ function generateLessonContent(lessons) {
         ${createWSection("Spanish", "English", subSub2Ch2SSp4, subSub2Ch2SEn4)}
         <p class="notes">${lessonContentSubCh2[8]}</p>
         ${createWSection("Spanish", "English", subSub2Ch2SSp5, subSub2Ch2SEn5)}
+
       </div>
     </section>
     <section id="exerciseArea">
@@ -115,6 +118,11 @@ function generateLessonContent(lessons) {
         ${createExSection("ex2", placeholder, ex2)}
         <p class="notes">${lessonEx[2]}</p>
         ${createExSection("ex3", placeholder, ex3)}
+        <p class="notes">${lessonEx[3]}</p>
+        ${createExSection1("ex4", placeholder, ex4)}
+        <p class="notes">${lessonEx[4]}</p>
+        ${createExSection1("ex5", placeholder, ex5)}
+
       </div>
     </section>
   `
@@ -154,11 +162,33 @@ function createExSection(exIdPrefix, placeholder, ex) {
   `;
 }
 
+function createExSection1(exIdPrefix, placeholder, ex) {
+  return `
+    <div class="ex-section">
+      ${ex
+        .map(
+          (example, index) =>
+            `<span style="display: inline-block; margin-right: 10px;">
+              <span class="ws" style="display: inline;">${example}</span> ${
+              index + 1
+            })
+              <input class="exerciseInput" style="display: inline-block; margin-left: 5px;" id="${exIdPrefix}-${index}" placeholder="${placeholder}" />
+
+            </span>`
+        )
+        .join("")}
+      <button style="display: inline-block; margin-left: 10px;" onclick="verifyAnswers('${exIdPrefix}')">Check Answers</button>
+    </div>
+  `;
+}
+
 function verifyAnswers(exIdPrefix) {
   const answersMap = {
     ex1: ex1A,
     ex2: ex2A,
     ex3: ex3A,
+    ex4: ex4A,
+    ex5: ex5A,
   };
   const exerciseAnswers = answersMap[exIdPrefix] || [];
 
@@ -193,6 +223,8 @@ function loadLesson(lessonNumber) {
       ex1A = lessons[0].ex1A || [];
       ex2A = lessons[0].ex2A || [];
       ex3A = lessons[0].ex3A || [];
+      ex4A = lessons[0].ex4A || [];
+      ex5A = lessons[0].ex5A || [];
       showLesson(lessonNumber, lessons);
     })
     .catch((error) => console.error("Error loading lesson:", error));

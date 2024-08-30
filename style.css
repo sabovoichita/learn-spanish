@@ -48,5 +48,35 @@ p {
   text-decoration: underline;
 }
 .exerciseInput {
+  margin: 5px;
   width: 70px;
+  color: red;
+}
+.exerciseInput::placeholder {
+  color: red;
+  color: rgba(0, 0, 0, 0.3);
+  opacity: 0.5;
+  font-style: italic;
+  padding: 5px;
+}
+.cultural {
+  color: rgb(224, 22, 147);
+}
+#t1 {
+  border: 2px solid black;
+}
+#vocabularyTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#vocabularyTable th,
+#vocabularyTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#vocabularyTable th {
+  background-color: #f4f4f4;
+  text-align: left;
 }

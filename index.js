@@ -67,6 +67,11 @@ function generateLessonContent(lessons) {
         ex3,
         ex4,
         ex5,
+        culturalBrief,
+        bTitle,
+        bContent,
+        vocabulary,
+        vocabularyE,
       }) => `
     <section id="sectionArea">
       <h2 class="h2Design">Chapter: ${ch}. ${title}</h2>
@@ -109,7 +114,7 @@ function generateLessonContent(lessons) {
 
       </div>
     </section>
-    <section id="exerciseArea">
+    <section class="exerciseArea">
       <h3 class="subCh">${exercises}</h3>
       <div>
         <p class="notes">${lessonEx[0]}</p>
@@ -124,6 +129,35 @@ function generateLessonContent(lessons) {
         ${createExSection1("ex5", placeholder, ex5)}
 
       </div>
+    </section>
+
+    <section class="culturalBrief">
+    <h3 class="subCh">${culturalBrief}</h3>
+    <h4 class="subCh">${bTitle[0]}</h4>
+    <div>${bContent.map((a) => `<p  class="cultural">${a}</p>`).join("")}</div>
+    </hr>
+    <h4 class="subCh">${bTitle[1]}</h4>
+    <table id="vocabularyTable">
+    <thead>
+      <tr>
+        <th>Vocabulary (Spanish)</th>
+        <th>Vocabulary (English)</th>
+      </tr>
+    </thead>
+    <tbody>
+      ${vocabulary
+        .map(
+          (term, index) => `
+          <tr>
+            <td>${term}</td>
+            <td>${vocabularyE[index]}</td>
+          </tr>
+        `
+        )
+        .join("")}
+    </tbody>
+  </table>
+  
     </section>
   `
     )
@@ -157,6 +191,7 @@ function createExSection(exIdPrefix, placeholder, ex) {
         </div>`
         )
         .join("\n")}
+         </br>
       <button onclick="verifyAnswers('${exIdPrefix}')">Check Answers</button>
     </div>
   `;
@@ -168,7 +203,7 @@ function createExSection1(exIdPrefix, placeholder, ex) {
       ${ex
         .map(
           (example, index) =>
-            `<span style="display: inline-block; margin-right: 10px;">
+            `<span style="display: inline; margin-right: 10px;text-align: justify;">
               <span class="ws" style="display: inline;">${example}</span> ${
               index + 1
             })
@@ -177,6 +212,7 @@ function createExSection1(exIdPrefix, placeholder, ex) {
             </span>`
         )
         .join("")}
+        </br>
       <button style="display: inline-block; margin-left: 10px;" onclick="verifyAnswers('${exIdPrefix}')">Check Answers</button>
     </div>
   `;

@@ -1,0 +1,769 @@
+[
+  {
+    "ch": "2",
+    "title": "Numbers, times and dates",
+    "subCh1": "Numbers",
+    "lessonContent": [
+      {
+        "type": "wordSection",
+        "label1": "English",
+        "label2": "Spanish",
+        "words1": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "30",
+          "31",
+          "32",
+          "40",
+          "41",
+          "50",
+          "60",
+          "70",
+          "80",
+          "90",
+          "100"
+        ],
+        "words2": [
+          "uno",
+          "dos",
+          "tres",
+          "cuatro",
+          "cinco",
+          "seis",
+          "siete",
+          "ocho",
+          "nueve",
+          "diez",
+          "once",
+          "doce",
+          "trece",
+          "catorce",
+          "quince",
+          "dieciséis",
+          "diecisite",
+          "dieciocho",
+          "diecinueve",
+          "veinte",
+          "veintiuno",
+          "veintidos",
+          "veititrés",
+          "veinticuatro",
+          "veinticinco",
+          "veintiséis",
+          "treinta",
+          "treinta y uno",
+          "treinta y dos",
+          "cuarenta",
+          "cuarenta y uno",
+          "cincuenta",
+          "sesenta",
+          "setenta",
+          "ochenta",
+          "noventa",
+          "cien(to)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The only number that changes form is uno, which has the feminine form una. Remember the uno loses its -o before a noun. uno must always agree in gender with the noun that follows it, even when it forms part of another number:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Tiene veintiún años.", "Hay veintiuna casas."],
+        "words2": ["She is 21 years old.", "There are 21 houses"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that numbers 21 to 29 are written as one word in modern Spanish. You may come across some older spellings where they appear as separate words:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["veinte y dos", "veinte y ocho"],
+        "words2": ["", ""]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "A hundred is either cien or ciento depending on the context in which it is used.When it is followed by a plural noun,it is cien: "
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["cien hombres", "cien casas"],
+        "words2": ["100 men", "100 houses "]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "When it is followed by another number, it is ciento: "
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["ciento veintiocho"],
+        "words2": ["", ""]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "The exception to this rule is 100,000,which is cien mil."
+      },
+      {
+        "type": "paragraph",
+        "text": "Numbers above 100 are as follows: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "200",
+        "label2": "",
+        "words1": ["doscientos"],
+        "words2": ["(doscientas before a feminine plural noun"]
+      },
+      {
+        "type": "wordSection",
+        "label1": "Similarly:",
+        "label2": "",
+        "words1": [
+          "300",
+          "400",
+          "500",
+          "600",
+          "700",
+          "800",
+          "1.000",
+          "2.000",
+          "1.000.000"
+        ],
+        "words2": [
+          "trescientos",
+          "cuatrocientos",
+          "quinientos",
+          "seiscientos",
+          "setecientos",
+          "ochocientos",
+          "novecientos",
+          "mil",
+          "dos mil",
+          "un millón"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "It is very easy to combine numbers in Spanish: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "Similarly:",
+        "label2": "",
+        "words1": ["105", "256", "389", "1.247", "2.321", "1.750.459"],
+        "words2": [
+          "ciento cinco",
+          "doscientos cincuenta y seis",
+          "trescientos ochenta y nueve",
+          "mil doscientos cuarenta y siete",
+          "setecientos",
+          "dos mil trescientos veintiuno ",
+          "un millón setecientos cincuenta mil cuatrocientos cincuenta y nueve"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that the only place y occurs is between tens and units.  "
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: In numbers a full stop is used to mark off thousands or millions, when in English we would use a comma. The comma is used where we would use the decimal point in English (e.g. 12,6% el doce coma seis por ciento – ‘twelve point six per cent’). "
+      }
+    ],
+
+    "subCh2": "Telling the time",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "If it is on the hour: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "Masculine Singular/Plural",
+        "label2": "Feminine Singular/Plural",
+        "words1": ["Es la una.", "Son las dos.", "Son las tres."],
+        "words2": [
+          "It's one o'clock.",
+          "It's two o'clock.",
+          "It’s three o’clock, etc. "
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Note the use of es in the case of one o’clock and son in all other cases. "
+      },
+
+      {
+        "type": "paragraph",
+        "text": "To express a number of minutes past the hour y is added to the above, followed by the appropriate number:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "Son las ocho y veinte.",
+          "Son las tres y cinco.",
+          "Es la una y diez."
+        ],
+        "words2": [
+          "It is twenty past eight.",
+          "It is five past three.",
+          "It is ten past one."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "As in English 'quarter past' and 'half past' are usually expressed with words rather than with the numbers themselves: "
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Son las doce y media.", "Son las siete y cuarto."],
+        "words2": ["It's half past twelve. ", "It's quarter past seven."]
+      },
+      {
+        "type": "paragraph",
+        "text": "To express a number of minutes before the hour menos is used in the same way as y:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Son las tres menos cinco.", "Es la una menos cuarto."],
+        "words2": ["It's five minutes to three. ", "It's quarter to one. "]
+      },
+      {
+        "type": "paragraph",
+        "text": "If you want to specify the part of the day you are referring to you can add to the above expressions: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["de la mañana", "de la tarde", "de la noche "],
+        "words2": ["morning", "afternoon, roughly until dark", "after dark"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Instead of son las doce de la noche you can say es medianoche and instead of son las doce de la mañana you can say es mediodia. "
+      },
+
+      {
+        "type": "paragraph",
+        "text": "You cannot add fractions to midnight or midday like you do in English: 'half past midnight' = las doce y cuarto de la noche (not *medianoche y cuarto)."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you want to say 'at' a certain time as opposed to 'it is…', you just replace es or sonwith a:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["a las diez y media de la mañana", "a medianoche"],
+        "words2": ["at 10.30 a.m. ", "at midnigh"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Two useful expressions to remember are sobre (about) and en punto (precisely):"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["sobre las ocho", "a las dos en punto"],
+        "words2": ["about eight o'clock", "at two on the dot "]
+      },
+      {
+        "type": "paragraph",
+        "text": "The 24-hour clock is used in the same circumstances as in English, for example when announcing departure times of trains or planes:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Las trece veintiséis"],
+        "words2": ["thirteen twenty-six "]
+      }
+    ],
+
+    "subCh3": "Telling the time",
+    "lessonContentSubCh3": [
+      {
+        "type": "subchapter",
+        "text": "Days of the Week"
+      },
+      {
+        "type": "paragraph",
+        "text": "The days of the week are as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "domingo",
+          "lunes",
+          "martes ",
+          "miércoles",
+          "jueves",
+          "viernes",
+          "sábado"
+        ],
+        "words2": [
+          "Sunday",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that capital letters are not used unless the word comes at the beginning of the sentence. "
+      },
+      {
+        "type": "paragraph",
+        "text": "The days of the week are all masculine nouns and to say 'on Monday' the definite article el is used: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["el lunes"],
+        "words2": ["on Monday"]
+      },
+      {
+        "type": "paragraph",
+        "text": "To say 'on Mondays' (i.e.regularly, every week) the definite article is used with the plural noun:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["los lunes"],
+        "words2": ["on Mondays"]
+      },
+      {
+        "type": "subchapter",
+        "text": "Months of the year"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "enero",
+          "febrero",
+          "marzo",
+          "abril",
+          "mayo",
+          "junio",
+          "julio",
+          "agosto",
+          "se(p)tiembre",
+          "octubre",
+          "noviembre",
+          "diciembre"
+        ],
+        "words2": [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "Ocrober",
+          "November",
+          "December"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "*The Spanish for 'September' can be spelt either with or without the p. The more modern spelling is setiembre. "
+      },
+      {
+        "type": "paragraph",
+        "text": "en is used to say 'in…':"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["en julio"],
+        "words2": ["in July "]
+      },
+      {
+        "type": "subchapter",
+        "text": "Dates"
+      },
+      {
+        "type": "paragraph",
+        "text": "To ask the date you could say either: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿Qué fecha es hoy?"],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "To ask the date you could say either: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Es el dos de mayo."],
+        "words2": ["It is the second of May. "]
+      },
+      {
+        "type": "paragraph",
+        "text": "Or you could say:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿A qué estamos?"],
+        "words2": [""]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "In this case the answer would be:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Estamos a dos de mayo."],
+        "words2": ["It is the second of May."]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "The first of the month is commonly expressed by el uno de, but el primero is also found. "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["El uno de diciembre.", "El primero de diciembre."],
+        "words2": [""]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "If you want to add the year to the date, it is normally joined to the date by de:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["El doce de marzo de dos mil uno."],
+        "words2": [""]
+      }
+    ],
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1. Write the following numbers in full: ",
+      "2 Write the following numbers in figures: ",
+      "3 Write the following dates in full: ",
+      "4 Write the following times in the 24-hour clock (e.g.'14:13' las catorce trece): ",
+      "5 Write the following times in Spanish in full using the 12-hour clock (e.g. 'twelve minutes past one' la una y doce): "
+    ],
+    "placeholder": "Type Here",
+
+    "ex1": [
+      "5",
+      "10",
+      "27",
+      "30",
+      "46",
+      "14",
+      "52",
+      "67",
+      "76",
+      "102",
+      "18",
+      "145",
+      "269",
+      "12",
+      "313"
+    ],
+
+    "ex1A": [
+      "cinco",
+      "diez",
+      "veintisiete",
+      "treinta",
+      "cuarenta y seis",
+      "catorce",
+      "cincuenta y dos",
+      "sesenta y siete",
+      "setenta y seis",
+      "ciento dos",
+      "dieciocho",
+      "ciento cuarenta y cinco",
+      "doscientos sesenta y nueve",
+      "doce",
+      "trescientos trece"
+    ],
+    "ex2": [
+      "treinta y ocho",
+      "cuarenta y seis ",
+      "once",
+      "venticinco",
+      "sesenta y tres ",
+      "ochenta y siete",
+      "setenta y nueve ",
+      "ciento cinco",
+      "doscientos sesenta y dos ",
+      "mil trescientos cuatro ",
+      "quinientos veintiuno ",
+      "treinta y cuatro ",
+      "ciento treinta y tres",
+      "noventa y seis",
+      "novecientos ocho "
+    ],
+    "ex2A": [
+      "38",
+      "46",
+      "11",
+      "25",
+      "63",
+      "87",
+      "79",
+      "105",
+      "262",
+      "1.304",
+      "521",
+      "34",
+      "136",
+      "96",
+      "908"
+    ],
+    "ex3": [
+      "27-4-1978",
+      "13-3-2004",
+      "25-5-1964",
+      "14-2-2000",
+      "30-1-1856",
+      "15-11-2006",
+      "11-6-2003",
+      "22-10-1999",
+      "3-8-1992",
+      "10-8-2002",
+      "16-9-2002",
+      "1-12-1987"
+    ],
+    "ex3A": [
+      "veintisiete de abril de mil novecientos setenta y ocho",
+      "trece de marzo de dos mil cuatro",
+      "veinticinco de mayo de mil novecientos sesenta y cuatro",
+      "catorce de febrero de dos mil",
+      "treinta de enero de mil ochocientos cincuenta y seis",
+      "quince de noviembre de dos mil seis",
+      "once de junio de dos mil tres",
+      "veintidós de octubre de mil novecientos noventa y nueve",
+      "tres de agosto de mil novecientos noventa y dos",
+      "diez de agosto de dos mil uno",
+      "dieciséis de setiembre/septiembre de dos mil dos",
+      "uno de diciembre de mil novecientos ochenta y siete"
+    ],
+    "ex4": [
+      "13:15",
+      "02:10",
+      "17:45",
+      "04:30",
+      "15:20",
+      "12:35",
+      "07:50",
+      "14:05",
+      "01:55",
+      "16:35"
+    ],
+    "ex4A": [
+      "las trece quince",
+      "las dos diez",
+      "las diecisiete cuarenta y cinco",
+      "las cuatro treinta",
+      "las quince veinte",
+      "las doce treinta y cinco",
+      "las siete cincuenta",
+      "las catorce cinco",
+      "la una cincuenta y cinco",
+      "las dieciséis treinta y cinco"
+    ],
+    "ex5": [
+      "quarter past six",
+      "ten past eight ",
+      "twenty past eleven",
+      "quarter to two",
+      "five past seven",
+      "twenty-five past three",
+      "half past one",
+      "ten to twelve ",
+      "twenty-five to four",
+      "five to ten"
+    ],
+    "ex5A": [
+      "las seis y cuarto",
+      "las ocho y diez",
+      "las once y veinte",
+      "las dos menos cuarto",
+      "las siete y cinco",
+      "las tres y veinticinco",
+      "la una y media",
+      "las doce menos diez",
+      "las cuatro menos veinticinco",
+      "las diez menos cinco"
+    ],
+
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Días de fiesta en España", "Key vocabulary for Unit 1"],
+    "bContent": [
+      "En España hay muchos días especiales durante el año. En estos días los españoles normalmente no trabajan. Los más importantes son:",
+      "• 1 de enero",
+      "día de Año Nuevo. Fiesta en toda España.",
+      "• 6 de enero",
+      "• 19 de marzo",
+      "día de San José. Es el día del padre. En la Comunidad Valenciana también son Las Fallas, sus fiestas regionales. En algunas comunidades autónomas, como Andalucía, Asturias y Baleares no es fiesta, aunque celebran el día del padre.",
+      "• 1 de mayo",
+      "día del trabajo. Fiesta en toda España. ",
+      "• primer domingo de mayo",
+      "día de la madre. Fiesta en toda España. ",
+      "• 25 de julio",
+      "día de Santiago Apóstol, patrón de España. Fiesta en toda España.",
+      "• 15 de agosto",
+      "día de la Ascensión de la Virgen. En muchos pueblos y ciudades de España se organizan muchas actividades este día.",
+      "• 12 de octubre",
+      "día del Pilar, patrona de España. Fiesta en toda España. ",
+      "• 1 de noviembre",
+      "día de Todos los Santos. Fiesta en toda España. ",
+      "• 6 de diciembre",
+      "día de la Constitución. Fiesta en toda España.",
+      "• 8 de diciembre",
+      "día de la Inmaculada Concepción. Fiesta en toda España. ",
+      "• 25 de diciembre",
+      "dia de Navidad. Fiesta en toda España. ",
+      "Además de estos días también son fiesta el Jueves Santo y Viernes Santo. En algunas comunidades autónomas cambian el Jueves Santo por el Lunes de Pascua. Cada Comunidad Autónoma tiene también su propio día de fiesta. "
+    ],
+    "vocabulary": [
+      "actividad (f.)",
+      "algún/a",
+      "aunque ",
+      "celebrar",
+      "Comunidad [Autónoma] (f.) ",
+      "durante",
+      "fecha (f.) ",
+      "fiesta (f.) ",
+      "navidad (f.) ",
+      "normalmente",
+      "organizar",
+      "patrón/a",
+      "regalo (m.) ",
+      "Reyes [Magos] (m.)",
+      "trabajar",
+      "vienen ",
+      "Festivities",
+      "día de Año Nuevo",
+      "día de la Ascensión de la Virgen ",
+      "día de la Constitución ",
+      "día de la Inmaculada Concepción ",
+      "día de la madre",
+      "dia de Navidad",
+      "día del padre",
+      "día de Reyes",
+      "día de Santiago Apóstol",
+      "día de Todos los Santos ",
+      "día del trabajo ",
+      "Jueves Santo",
+      "Lunes de Pascua",
+      "Viernes Santo"
+    ],
+    "vocabularyE": [
+      "activity",
+      "some ",
+      "although",
+      "celebrate",
+      "Autonomous Community (regional division in Spain) ",
+      "during",
+      "date",
+      "holiday (as in día de fiesta), otherwise means 'party'",
+      "Christmas",
+      "normally",
+      "organize",
+      "patron saint",
+      "present",
+      "the Three Wise Men, the Magi",
+      "to work ",
+      "[they] come ",
+      "The festivities",
+      "New Year's Day",
+      "Ascension Day ",
+      "Constitution Day ",
+      "Immaculate Conception Day",
+      "Mother's Day",
+      "Christmas Day",
+      "Father's Day",
+      "Epiphany",
+      "St James' Day",
+      "All Saints Day ",
+      "International workers' Day",
+      "Good Thursday ",
+      "Easter Monday ",
+      "Good Friday "
+    ]
+  }
+]

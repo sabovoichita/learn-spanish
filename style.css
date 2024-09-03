@@ -3,25 +3,21 @@ html {
   margin: 0;
 }
 h1 {
-  color: rgb(154, 50, 12);
+  color: rgb(138, 61, 189);
   text-align: center;
 }
 .h2Design {
   color: rgb(106, 13, 13);
 }
-.pDesign {
-  color: rgb(189, 109, 109);
-}
-p {
-  font-size: 1.2rem;
-}
+
 .displayContent {
-  border: 2px solid rgb(81, 81, 112);
+  /* border: 2px solid rgb(81, 81, 112); */
   border-radius: 4px;
   padding: 10px;
-  display: flex;
+  /* display: flex; */
   color: rgb(140, 104, 104);
   align-items: left;
+  margin-bottom: 10px;
 }
 .displayLesson {
   display: inline;
@@ -40,12 +36,13 @@ p {
 .notes {
   color: rgb(223, 98, 26);
 }
-.type {
+.text {
   color: black;
-  font-weight: bolder;
 }
-.subChapter {
+.subchapter {
   text-decoration: underline;
+  font-weight: bolder;
+  color: green;
 }
 .exerciseInput {
   margin: 5px;
@@ -62,8 +59,8 @@ p {
 .cultural {
   color: rgb(224, 22, 147);
 }
-#t1 {
-  border: 2px solid black;
+table {
+  border: 2px solid rgb(197, 192, 192);
 }
 #vocabularyTable {
   width: 100%;
@@ -79,4 +76,13 @@ p {
 #vocabularyTable th {
   background-color: #f4f4f4;
   text-align: left;
+}
+hr {
+  border-bottom: 2px solid blue;
+}
+hr:not(:last-of-type) {
+  display: block; /* or your desired display style */
+}
+hr:last-of-type {
+  display: none;
 }

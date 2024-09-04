@@ -86,3 +86,9 @@ hr:not(:last-of-type) {
 hr:last-of-type {
   display: none;
 }
+.exercise-item {
+  color: rgb(172, 62, 157);
+}
+.exercise-text {
+  color: darkviolet;
+}

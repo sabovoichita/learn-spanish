@@ -24,7 +24,7 @@ function renderDivs(lessonNumber) {
 }
 
 // Generate lesson content
-function generateLessonContent(lessons) {
+function generateLessonContent(lessons, lessonNumber) {
   return lessons
     .map(
       (lesson) => `
@@ -34,7 +34,10 @@ function generateLessonContent(lessons) {
     </section>
     <section class="exerciseArea displayContent">
       <h3 class="subchapter">${lesson.exercises}</h3>
-      ${generateExercises(lesson)}
+      ${generateExercises(
+        lesson,
+        lessonNumber
+      )}  <!-- Passing lessonNumber here -->
     </section>
     <section class="culturalBrief displayContent">
       ${generateCulturalBrief(lesson)}
@@ -81,13 +84,53 @@ function generateSubChapter(title, content) {
   `;
 }
 
-// Generate exercise sections, passing the lesson for answers
-function generateExercises(lesson) {
+function createExSection(lessonNumber, exIdPrefix, placeholder, ex, answers) {
+  if (!Array.isArray(ex)) {
+    console.error("Expected 'ex' to be an array of exercise items.");
+    return "";
+  }
+
+  // Ensure lessonNumber is being used correctly here
+  const uniqueExIdPrefix = `l${lessonNumber}-${exIdPrefix}`;
+
+  // Check if the answers object has the expected prefix
+  const expectedAnswer = answers[exIdPrefix]; // e.g., answers['ex1']
+  if (!expectedAnswer) {
+    console.warn(
+      `Expected answers for prefix ${exIdPrefix} not found in answers object.`
+    );
+  }
+
+  const exerciseHtml = ex
+    .map(
+      (example, index) => `
+      <span class="exercise-item">
+        <span class="exercise-text">${example}</span> ${index + 1}
+        <input class="exerciseInput" 
+               id="${uniqueExIdPrefix}-${index}" 
+               placeholder="${placeholder}" 
+               aria-label="Exercise input for ${example}" />
+      </span>
+    `
+    )
+    .join("");
+
+  return `
+    <div class="ex-section" data-prefix="${uniqueExIdPrefix}">
+      ${exerciseHtml}
+      <br>
+      <button class="check-answers-btn" data-prefix="${uniqueExIdPrefix}">Check Answers</button>
+    </div>
+  `;
+}
+
+function generateExercises(lesson, lessonNumber) {
   return lesson.lessonEx
     .map(
       (text, index) => `
       <p class="notes">${text}</p>
       ${createExSection(
+        lessonNumber, // Ensure lessonNumber is correctly passed here
         `ex${index + 1}`,
         lesson.placeholder,
         lesson[`ex${index + 1}`],
@@ -96,30 +139,6 @@ function generateExercises(lesson) {
     `
     )
     .join("");
-}
-
-function createExSection(exIdPrefix, placeholder, ex, answers) {
-  // Create exercise input fields with a common class and unique IDs
-  const exerciseHtml = ex
-    .map(
-      (example, index) => `
-      <span style="display: inline; margin-right: 10px; text-align: justify;">
-        <span class="ws" style="display: inline;">${example}</span> ${index + 1}
-        <input class="exerciseInput" style="display: inline-block; margin-left: 5px;" 
-        id="${exIdPrefix}-${index}" placeholder="${placeholder}" />
-      </span>
-    `
-    )
-    .join("");
-
-  // Return exercise HTML with a button
-  return `
-    <div class="ex-section" data-prefix="${exIdPrefix}">
-      ${exerciseHtml}
-      <br>
-      <button class="check-answers-btn" data-prefix="${exIdPrefix}">Check Answers</button>
-    </div>
-  `;
 }
 
 // Generate cultural brief section
@@ -192,7 +211,12 @@ function verifyAnswers(exIdPrefix, answers) {
     return;
   }
 
-  const exerciseAnswers = answers[exIdPrefix];
+  // Split to get the specific exercise part
+  const exercisePart = exIdPrefix.split("-")[1]; // e.g., 'ex2' from 'l1-ex2'
+  const exerciseAnswers = answers[exercisePart];
+
+  console.log(`Expected answers for ${exercisePart}:`, exerciseAnswers); // Check the expected answers
+
   if (!Array.isArray(exerciseAnswers) || !exerciseAnswers.length) {
     console.error(
       `No answers found or invalid answers for exercise ID: ${exIdPrefix}`
@@ -230,10 +254,12 @@ function showLesson(lessonNumber, lessons) {
     console.error(`Lesson #l${lessonNumber} not found.`);
     return;
   }
-  lessonDiv.innerHTML = generateLessonContent(lessons);
+
+  // Pass lessonNumber correctly to generateLessonContent
+  lessonDiv.innerHTML = generateLessonContent(lessons, lessonNumber);
 }
 
-let globalLessons = []; // Declare a global variable for lessons
+let globalLessons = {}; // Use an object for better key-based access
 
 function loadLesson(lessonNumber) {
   fetch(`./data/lesson_${lessonNumber}.json`)
@@ -248,11 +274,15 @@ function loadLesson(lessonNumber) {
         throw new Error("Expected JSON to be an array of lessons.");
       }
 
-      // Store lessons in global variable
+      // Store lessons in the global variable
       globalLessons[lessonNumber] = lessons;
 
-      // Update lesson objects with answers
+      // Debugging: Log the entire lessons array
+      console.log(`Lesson ${lessonNumber} loaded:`, lessons);
+
+      // Populate answers and validate them
       lessons.forEach((lesson, index) => {
+        // Populate the answers
         lesson.answers = {
           ex1: lesson.ex1A || [],
           ex2: lesson.ex2A || [],
@@ -261,10 +291,21 @@ function loadLesson(lessonNumber) {
           ex5: lesson.ex5A || [],
         };
 
-        // Debugging
-        console.log(`Lesson ${index + 1} answers: `, lesson.answers);
+        // Debugging: Log the answers object specifically
+        console.log(
+          `Lesson ${lessonNumber} - Lesson ${index + 1} answers:`,
+          lesson.answers
+        );
+
+        // Cross-check the exercise prefixes
+        const expectedPrefixes = Object.keys(lesson.answers); // Expected: ['ex1', 'ex2', ...]
+        console.log(
+          `Expected prefixes for lesson ${lessonNumber} - Lesson ${index + 1}:`,
+          expectedPrefixes
+        );
       });
 
+      // Render the lesson content
       showLesson(lessonNumber, lessons);
     })
     .catch((error) => {
@@ -295,65 +336,77 @@ function validateGlobalLessons() {
   }
 }
 
-// Call this function after loading lessons
-function initEvents() {
-  createStructure();
-  const numberOfLessons = 2;
-  renderDivs(numberOfLessons);
-  for (let i = 1; i <= numberOfLessons; i++) {
-    loadLesson(i);
-  }
-  validateGlobalLessons(); // Validate after loading
-}
+// Improved getLessonData function to correctly identify the lesson by exercise prefix
+function getLessonData(uniqueExIdPrefix) {
+  const [lessonMatch, lessonNumber, exercisePrefix] =
+    uniqueExIdPrefix.match(/l(\d+)-(ex\d+)/) || []; // Adjusted regex for clarity
 
-function getLessonData(exIdPrefix) {
-  // Extract lesson number from the exercise ID prefix
-  const lessonNumberMatch = exIdPrefix.match(/\d+/);
-  if (!lessonNumberMatch) {
-    console.error(`Invalid exercise ID prefix: ${exIdPrefix}`);
+  if (!lessonMatch) {
+    console.error(`Invalid exercise ID prefix: ${uniqueExIdPrefix}`);
     return null;
   }
-  const lessonNumber = parseInt(lessonNumberMatch[0], 10);
 
-  // Check if lesson data is available for this number
-  if (globalLessons[lessonNumber]) {
-    const lessons = globalLessons[lessonNumber];
-    for (const lesson of lessons) {
-      if (lesson.answers && lesson.answers[exIdPrefix]) {
-        return lesson;
-      }
+  // Find the corresponding lessons array using the lesson number
+  const lessons = globalLessons[lessonNumber];
+  if (!lessons) {
+    console.error(`No lessons found for lesson number: ${lessonNumber}`);
+    return null;
+  }
+
+  // Iterate through the lessons to find the correct exercise answers
+  for (const lesson of lessons) {
+    if (lesson.answers && lesson.answers[exercisePrefix]) {
+      return lesson; // Return the full lesson object
     }
   }
+
+  console.error(
+    `No matching lesson found for exercise ID prefix: ${uniqueExIdPrefix}`
+  );
   return null;
 }
 
-// Initialize events and load lessons
 function initEvents() {
   createStructure();
-  const numberOfLessons = 2;
-  renderDivs(numberOfLessons);
+  const numberOfLessons = 2; // Define the number of lessons
+  renderDivs(numberOfLessons); // Render the divs for all lessons
+
   for (let i = 1; i <= numberOfLessons; i++) {
-    loadLesson(i);
+    loadLesson(i); // Pass lesson number correctly
   }
+
   validateGlobalLessons(); // Validate after loading
-}
 
-// Add event listeners for answer check buttons
-document.body.addEventListener("click", function (event) {
-  if (event.target && event.target.classList.contains("check-answers-btn")) {
-    const exIdPrefix = event.target.getAttribute("data-prefix");
-    console.log(
-      `Check Answers button clicked for exercise ID prefix: ${exIdPrefix}`
-    );
+  // Add event listeners for answer check buttons
+  document.body.addEventListener("click", function (event) {
+    if (event.target && event.target.classList.contains("check-answers-btn")) {
+      const exIdPrefix = event.target.getAttribute("data-prefix");
+      console.log(
+        `Check Answers button clicked for exercise ID prefix: ${exIdPrefix}`
+      );
 
-    // Retrieve the lesson data from the button's data-prefix
-    const lessonData = getLessonData(exIdPrefix); // Function to retrieve lesson data
-    if (lessonData) {
-      verifyAnswers(exIdPrefix, lessonData.answers);
-    } else {
-      console.error(`No data found for exercise ID prefix: ${exIdPrefix}`);
+      // Extract lesson number from the exercise ID prefix
+      const lessonNumberMatch = exIdPrefix.match(/^l(\d+)-ex/); // Adjust the regex to match the lesson number
+      const lessonNumber = lessonNumberMatch
+        ? parseInt(lessonNumberMatch[1], 10)
+        : null;
+
+      if (!lessonNumber) {
+        console.error(
+          `Invalid lesson number extracted from exercise ID prefix: ${exIdPrefix}`
+        );
+        return;
+      }
+
+      // Retrieve the lesson data using the extracted lesson number
+      const lessonData = getLessonData(exIdPrefix, lessonNumber);
+      if (lessonData) {
+        verifyAnswers(exIdPrefix, lessonData.answers);
+      } else {
+        console.error(`No data found for exercise ID prefix: ${exIdPrefix}`);
+      }
     }
-  }
-});
+  });
+}
 
 initEvents();

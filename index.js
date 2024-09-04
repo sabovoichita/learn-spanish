@@ -230,9 +230,9 @@ function verifyAnswers(exIdPrefix, answers) {
       const userAnswer = inputElement.value.trim().toLowerCase();
       const expectedAnswer = correctAnswer.trim().toLowerCase();
 
-      console.log(
-        `Answer ${index}: User input = "${userAnswer}", Expected = "${expectedAnswer}"`
-      );
+      // console.log(
+      //   `Answer ${index}: User input = "${userAnswer}", Expected = "${expectedAnswer}"`
+      // );
 
       if (userAnswer === expectedAnswer) {
         inputElement.style.backgroundColor = "green";
@@ -278,7 +278,7 @@ function loadLesson(lessonNumber) {
       globalLessons[lessonNumber] = lessons;
 
       // Debugging: Log the entire lessons array
-      console.log(`Lesson ${lessonNumber} loaded:`, lessons);
+      // console.log(`Lesson ${lessonNumber} loaded:`, lessons);
 
       // Populate answers and validate them
       lessons.forEach((lesson, index) => {
@@ -292,17 +292,17 @@ function loadLesson(lessonNumber) {
         };
 
         // Debugging: Log the answers object specifically
-        console.log(
-          `Lesson ${lessonNumber} - Lesson ${index + 1} answers:`,
-          lesson.answers
-        );
+        // console.log(
+        //   `Lesson ${lessonNumber} - Lesson ${index + 1} answers:`,
+        //   lesson.answers
+        // );
 
         // Cross-check the exercise prefixes
-        const expectedPrefixes = Object.keys(lesson.answers); // Expected: ['ex1', 'ex2', ...]
-        console.log(
-          `Expected prefixes for lesson ${lessonNumber} - Lesson ${index + 1}:`,
-          expectedPrefixes
-        );
+        // const expectedPrefixes = Object.keys(lesson.answers); // Expected: ['ex1', 'ex2', ...]
+        // console.log(
+        //   `Expected prefixes for lesson ${lessonNumber} - Lesson ${index + 1}:`,
+        //   expectedPrefixes
+        // );
       });
 
       // Render the lesson content

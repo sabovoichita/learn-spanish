@@ -191,11 +191,11 @@ function generateVocabularyTable(vocabulary, vocabularyE) {
 function createWSection(label1, label2, ws1, ws2) {
   return ws1 && ws1.length
     ? `
-    <p class="text">${label1} => ${label2}</p>
+    <p class="text">${label1} | ${label2}</p>
     ${ws1
       .map(
         (item, index) => `
-      <p class="ws">${item} <span class="black"> => </span> <span class="wEnglish">${
+      <p class="ws">${item} <span class="black"> | </span> <span class="wEnglish">${
           ws2 ? ws2[index] : ""
         }</span></p>
     `
@@ -372,7 +372,7 @@ function getLessonData(uniqueExIdPrefix) {
 
 function initEvents() {
   createStructure();
-  const numberOfLessons = 3; // Define the number of lessons
+  const numberOfLessons = 4; // Define the number of lessons
   renderDivs(numberOfLessons); // Render the divs for all lessons
 
   for (let i = 1; i <= numberOfLessons; i++) {

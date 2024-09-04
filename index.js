@@ -86,15 +86,16 @@ function generateSubChapter(title, content) {
 
 function createExSection(lessonNumber, exIdPrefix, placeholder, ex, answers) {
   if (!Array.isArray(ex)) {
-    console.error("Expected 'ex' to be an array of exercise items.");
+    console.error(
+      `Expected 'ex' to be an array of exercise items for ${exIdPrefix}.`
+    );
     return "";
   }
 
-  // Ensure lessonNumber is being used correctly here
   const uniqueExIdPrefix = `l${lessonNumber}-${exIdPrefix}`;
 
   // Check if the answers object has the expected prefix
-  const expectedAnswer = answers[exIdPrefix]; // e.g., answers['ex1']
+  const expectedAnswer = answers[exIdPrefix]; // Should work correctly for ex7
   if (!expectedAnswer) {
     console.warn(
       `Expected answers for prefix ${exIdPrefix} not found in answers object.`
@@ -104,14 +105,14 @@ function createExSection(lessonNumber, exIdPrefix, placeholder, ex, answers) {
   const exerciseHtml = ex
     .map(
       (example, index) => `
-      <span class="exercise-item">
-        <span class="exercise-text">${example}</span> ${index + 1}
-        <input class="exerciseInput" 
-               id="${uniqueExIdPrefix}-${index}" 
-               placeholder="${placeholder}" 
-               aria-label="Exercise input for ${example}" />
-      </span>
-    `
+        <span class="exercise-item">
+          <span class="exercise-text">${example}</span> ${index + 1}
+          <input class="exerciseInput" 
+                 id="${uniqueExIdPrefix}-${index}" 
+                 placeholder="${placeholder}" 
+                 aria-label="Exercise input for ${example}" />
+        </span>
+      `
     )
     .join("");
 
@@ -126,18 +127,19 @@ function createExSection(lessonNumber, exIdPrefix, placeholder, ex, answers) {
 
 function generateExercises(lesson, lessonNumber) {
   return lesson.lessonEx
-    .map(
-      (text, index) => `
-      <p class="notes">${text}</p>
-      ${createExSection(
-        lessonNumber, // Ensure lessonNumber is correctly passed here
-        `ex${index + 1}`,
-        lesson.placeholder,
-        lesson[`ex${index + 1}`],
-        lesson.answers
-      )}
-    `
-    )
+    .map((text, index) => {
+      const exPrefix = `ex${index + 1}`; // Dynamically handles ex1 to ex7
+      return `
+        <p class="notes">${text}</p>
+        ${createExSection(
+          lessonNumber,
+          exPrefix, // Automatically sets ex7
+          lesson.placeholder,
+          lesson[exPrefix], // Accesses ex7 properly
+          lesson.answers
+        )}
+      `;
+    })
     .join("");
 }
 
@@ -255,7 +257,7 @@ function showLesson(lessonNumber, lessons) {
     return;
   }
 
-  // Pass lessonNumber correctly to generateLessonContent
+  // Ensure that lesson content is generated with all exercises including ex7
   lessonDiv.innerHTML = generateLessonContent(lessons, lessonNumber);
 }
 
@@ -289,6 +291,8 @@ function loadLesson(lessonNumber) {
           ex3: lesson.ex3A || [],
           ex4: lesson.ex4A || [],
           ex5: lesson.ex5A || [],
+          ex6: lesson.ex6A || [],
+          ex7: lesson.ex7A || [],
         };
 
         // Debugging: Log the answers object specifically
@@ -368,7 +372,7 @@ function getLessonData(uniqueExIdPrefix) {
 
 function initEvents() {
   createStructure();
-  const numberOfLessons = 2; // Define the number of lessons
+  const numberOfLessons = 3; // Define the number of lessons
   renderDivs(numberOfLessons); // Render the divs for all lessons
 
   for (let i = 1; i <= numberOfLessons; i++) {

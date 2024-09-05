@@ -1,0 +1,301 @@
+[
+  {
+    "ch": "6",
+    "title": "Negatives",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "Negatives are formed by putting no in front of the verb:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["No trabajamos", "No estoy contento."],
+        "words2": ["We do not work", "I am not happy."]
+      },
+      {
+        "type": "paragraph",
+        "text": "More complex negative ideas can be expressed by using the negative words:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["nada ", "¿nadie", "nunca", "ninguno"],
+        "words2": ["nothing", "nobody", "never", "no, none"]
+      }
+    ],
+    "subCh2": "Interrogative words",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "nadie, meaning 'nobody', can be used as the subject or the object of the verb. When it is used as the subject it is normally placed after the verb with no in front. Alternatively nadie can be placed in front of the verb without no:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["no trabaja nadie", "nadie trabaja"],
+        "words2": ["nobody works ", "nobody works "]
+      },
+      {
+        "type": "paragraph",
+        "text": "nada 'nothing', can be used in the same way, although the second version is never used in everyday language:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["no tengo nada", "nada tengo"],
+        "words2": ["I have nothing", "I have nothing"]
+      },
+      {
+        "type": "paragraph",
+        "text": "When nada is being used as direct object of the verb it is also normally placed after the verb with no in front:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["No oigo nada.", "No dice nada."],
+        "words2": ["I don't hear anything.", "He doesn't say anything."]
+      },
+      {
+        "type": "paragraph",
+        "text": "However, the sentence could possibly be ambiguous if nadie were used in the same way:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["No ve nadie."],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "This could mean 'Nobody can see' or 'S/he can't see anyone' if we simply used it in the same way as nada. In order to avoid this ambiguity, nadie is preceded by the personal awhen it functions as the direct object of a verb - just as we saw with the interrogative word ¿quién? in Unit 5. This applies whether or not there is potential ambiguity. "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["No ve nadie.", "No miro a nadie."],
+        "words2": ["She can't see anyone.", "I'm not looking at anyone."]
+      }
+    ],
+
+    "subCh3": "nunca",
+    "lessonContentSubCh3": [
+      {
+        "type": "paragraph",
+        "text": "nunca, meaning 'never', can be placed after the verb with no preceding the verb, or it can precede the verb and be used in its own:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "no trabaja nunca/nunca trabaja ",
+          "no salgo nunca/nunca salgo "
+        ],
+        "words2": ["he never works ", "I never go out"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Placing the nunca before the verb tends to give it slightly more emphasis, but this is not a hard and fast rule."
+      }
+    ],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Answer the following questions with nadie, nunca or nada (e.g. ¿Qué tienes? No tengo nada.):",
+      "2 Answer these questions with ninguno/ninguna:",
+      "3 Respond to the following questions with nadie, nunca, ninguno/a or nada:",
+      "4 Make these sentences negative, using more than one negative word: Example: Siempre compro regalos a mi familia en Navidad.No compro nada a nadie nunca.Nunca compro nada a nadie."
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 ¿A quién quieres?",
+      "2 ¿Qué tienes ahí?",
+      "3 ¿Con quién hablas?",
+      "4 ¿Cuándo vas al cine?",
+      "5 ¿Para quién es eso?",
+      "6 ¿Trabajas los sábados?",
+      "7 ¿Con qué limpias?",
+      "8 ¿Qué lees?",
+      "9 ¿Trabajas mucho?",
+      "10 ¿Tienes cambio?",
+      "11 ¿Para quién trabajas?",
+      "12 ¿Qué comes?",
+      "13 ¿Cuándo estudias?",
+      "14 ¿A quién llamas?",
+      "15 ¿Qué compras?"
+    ],
+    "ex1A": [
+      "No quiero a nadie.",
+      "No tengo nada.",
+      "No hablo con nadie.",
+      "No voy al cine nunca./Nunca voy al cine.",
+      "Eso no es para nadie.",
+      "No trabajo nunca los sábados./Nunca trabajo los sábados.",
+      "No limpio con nada.",
+      "No leo nada.",
+      "No trabajo nada. ",
+      "No tengo nada./No tengo nunca.",
+      "No trabajo para nadie.",
+      "No como nada.",
+      "No estudio nunca/nunca estudio.",
+      "No llamo a nadie.",
+      "No compro nada."
+    ],
+    "ex2": [
+      "¿Tienes hermanas?",
+      "¿Ves la llave?",
+      "¿Usas perfume?",
+      "¿Quieres un pastel?",
+      "¿Necesitas una moneda?",
+      "¿Esperas un regalo?",
+      "¿Llevas un bolígrafo?",
+      "¿Tienes un pañuelo?",
+      "¿Necesitas dos bolsas o una?",
+      "¿Quieres tres manzanas "
+    ],
+    "ex2A": [
+      "No tengo ninguna.",
+      "No veo ninguna.",
+      "No uso ninguno.",
+      "No quiero ninguno.",
+      "No necesito ninguna.",
+      "No espero ninguno.",
+      "No llevo ninguno.",
+      "No tengo ninguno.",
+      "No necesito ninguna.",
+      "No quiero ninguna."
+    ],
+    "ex3": [
+      "1 Tengo un hermano ¿y tú?",
+      "2 Estudio mucho ¿y tú?",
+      "3 Tengo un billete de 5€ ¿y tú?",
+      "4 Voy a la playa en verano ¿y tú?",
+      "5 Vivo con mi padres ¿y tú?",
+      "6 Tengo monedas ¿y tú?",
+      "7 Pinto cuadros ¿y tú?",
+      "8 Colecciono sellos ¿y tú?",
+      "9 Admiro a Nelson Mandela ¿y tú?",
+      "10 Compro ahí todos los días ¿y tú"
+    ],
+    "ex3A": [
+      "No tengo ninguno.",
+      "No estudio nada.",
+      "No tengo ninguno.",
+      "No voy nunca a la playa.",
+      "No vivo con nadie.",
+      "No tengo ninguna./ No tengo nunca.",
+      "No pinto nada/nunca.",
+      "No colecciono nada.",
+      "No admiro a nadie.",
+      "No compro ahí nunca./No compro ahí nada. "
+    ],
+    "ex4": [
+      "1 Siempre leen una novela.",
+      "2 Doy siempre ropa a mi hermana.",
+      "3 Compramos el pan a menudo en esa tienda.",
+      "4 Llevo a mi madre al cine los domingos.",
+      "5 Viajan siempre con mi hermana.",
+      "6 Leen el periódico todas las mañanas.",
+      "7 Trabajan siempre mucho.",
+      "8 Siempre cocinan para nosotros.",
+      "9 A veces hablan con vosotros.",
+      "10 Entiendo todo siempre."
+    ],
+    "ex4A": [
+      "Nunca leen nada./No leen nada nunca./No leen nunca nada.",
+      "Nunca doy nada a nadie./No doy nada a nadie nunca./No doy nunca nada a nadie.",
+      "Nunca compramos nada en esa tienda./No compramos nunca nada en esa tienda./No compramos nada nunca en esa tienda.",
+      "Nunca llevo a nadie al cine./No llevo nunca a nadie al cine./No llevo a nadie nunca al cine.",
+      "Nunca viajan con nadie./No viajan con nadie nunca./ No viajan nunca con nadie.",
+      "Nunca leen nada./No leen nada nunca./No leen nunca nada. ",
+      "Nunca trabajan nada./No trabajan nada nunca./No trabajan nunca nada.",
+      "Nunca cocinan para nadie./ No cocinan para nadie nunca./No cocinan nunca para nadie.",
+      "Nunca hablan con nadie./No hablan con nadie nunca./No hablan nunca con nadie. ",
+      "Nunca entiendo nada./No entiendo nunca nada./No entiendo nada nunca.      "
+    ],
+    "ex5": [],
+    "ex5A": [],
+    "ex6": [],
+    "ex6A": [],
+    "ex7": [],
+    "ex7A": [],
+
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Algunos estereotipos españoles", "Key vocabulary"],
+    "bContent": [
+      "Dicen que los españoles siempre hacen la siesta pero no es verdad. Algunos españoles hacen la siesta, especialmente en verano porque la temperatura es muy alta, pero la mayoría de los españoles que trabajan nunca tienen tiempo para la siesta. ",
+      "La gente cree que todos los españoles bailan flamenco pero no es verdad. El flamenco es típico de Andalucía y no de otras regiones de España. Muchos españoles nunca bailan flamenco o escuchan ese tipo de música y ¡nadie va por la calle normalmente con un traje de faralaes a no ser cuando están en fiestas!",
+      "Dicen que los españoles hablan alto … es verdad ¡algunas veces! cuando hay mucho ruido en el ambiente. "
+    ],
+    "vocabulary": [
+      "alto ",
+      "alguno/a/os/as",
+      "ambiente (m.)",
+      "a menudo",
+      "a veces",
+      "bolsa (f.)",
+      "cambio (m.)",
+      "cine (m.)",
+      "coleccionar",
+      "cuadro (m.)",
+      "estereotipo (m.)",
+      "gente (f.)",
+      "hay",
+      "manzana (f.)",
+      "moneda (f.)",
+      "mucho",
+      "novela (f.)",
+      "pañuelo (m.)",
+      "pastel (m.)",
+      "Basic Spanish:",
+      "perfume (m.)",
+      "periódico (m.)",
+      "pintar",
+      "ropa (f.)",
+      "ruido (m.)",
+      "sello (m.)",
+      "traje de faralaes (m.)",
+      "verano (m.)"
+    ],
+    "vocabularyE": [
+      "loud (sound)",
+      "some ",
+      "environment ",
+      "often",
+      "sometimes",
+      "bag ",
+      "change (money) ",
+      "cinema ",
+      "cook",
+      "to collect",
+      "picture ",
+      "stereotype ",
+      "people ",
+      "there is",
+      "apple ",
+      "coin ",
+      "much, a lot ",
+      "novel ",
+      "handkerchief ",
+      "cake ",
+      "perfume ",
+      "paper ",
+      "to paint, draw ",
+      "clothes ",
+      "noise ",
+      "stamp ",
+      "'flamenco dress' ",
+      "everything ",
+      "summer"
+    ]
+  }
+]

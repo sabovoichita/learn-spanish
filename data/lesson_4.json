@@ -8,7 +8,6 @@
         "type": "paragraph",
         "text": "Not all verbs follow the same pattern as those explained in Chapter 3 and unfortunately there is no short cut - you simply have to learn these as you come across them. Many of these verbs are in common use, so you will soon become familiar with them. "
       },
-
       {
         "type": "wordSection",
         "label1": "ir",
@@ -43,7 +42,6 @@
         "type": "paragraph",
         "text": "*The difference between these two verbs is explained later in this unit and more fully in Unit 8"
       },
-
       {
         "type": "paragraph",
         "text": "The following verbs are only irregular in the first person singular, and after that they follow the same pattern as regular verbs:"
@@ -99,13 +97,12 @@
           "conoeís",
           "conocen"
         ],
-        "words2": []
+        "words2": ["", "", "", "", "", "", ""]
       },
       {
         "type": "paragraph",
         "text": "*The difference between these two verbs is explained later in this unit. "
       },
-
       {
         "type": "paragraph",
         "text": "Other verbs ending in -cer and -cir follow the same pattern as conocer in the first person singular: "
@@ -130,12 +127,10 @@
         "type": "subchapter",
         "text": "ser and estar"
       },
-
       {
         "type": "paragraph",
         "text": "These two verbs meaning 'to be' have quite distinct uses in Spanish, some of which are obvious and some of which are less so to the non-native speaker. They will be dealt with in greater depth in a later unit, but for the moment we will look at some of the most basic differences between them that you will need to be aware of from an early stage. "
       },
-
       {
         "type": "paragraph",
         "text": "ser is used to express permanent characteristics of a person or object: "
@@ -181,17 +176,14 @@
         "type": "paragraph",
         "text": "See Unit 8 for a fuller explanation of the differences between ser and estar. "
       },
-
       {
         "type": "subchapter",
         "text": "saber and conocer"
       },
-
       {
         "type": "paragraph",
         "text": "The verb saber means 'to know' in the sense of 'to know a fact': "
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -203,7 +195,6 @@
         "type": "paragraph",
         "text": "It also means 'to know how to':"
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -218,7 +209,6 @@
         "type": "paragraph",
         "text": "The verb conocer means 'to know' in the sense of 'to be acquainted with' or 'to be familiar with':"
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -240,7 +230,6 @@
       "6 Fill in the gaps with the appropriate verb (some of these verbs are needed more than once): Tener hacer vivir ser conocer ir estar"
     ],
     "placeholder": "Type Here",
-
     "ex1": [
       "1 Barcelona _____ en la costa mediterránea.",
       "2 Londres _____ la capital del Reino Unido.",
@@ -253,7 +242,6 @@
       "9 Yo _____ de Madrid.",
       "10 Tú _____ un poco deprimido, ¿verdad? "
     ],
-
     "ex1A": [
       "está",
       "es",
@@ -366,7 +354,6 @@
       "sabe",
       "conoce"
     ],
-
     "ex6": [
       "Yo",
       "muy bien a la familia de Luis. Luis",

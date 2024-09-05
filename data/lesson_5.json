@@ -8,7 +8,6 @@
         "type": "paragraph",
         "text": "Forming a question in Spanish is quite straightforward. If a subject is expressed it is often placed after the verb:"
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -27,17 +26,14 @@
         "words1": ["¿Tú tienes las llaves?", "¿Ustedes van a la fiesta?"],
         "words2": []
       },
-
       {
         "type": "paragraph",
         "text": "In the above examples the question looks just like a statement in the written form, but with the addition of the question marks. However, when spoken, the intonation indicates that a question is being asked. "
       },
-
       {
         "type": "paragraph",
         "text": "When there is no subject mentioned the fact that it is a question will be indicated by intonation alone: "
       },
-
       {
         "type": "wordSection",
         "label1": "dar",
@@ -64,7 +60,6 @@
         "type": "paragraph",
         "text": "The main interrogative words in Spanish are as follows: "
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -134,14 +129,12 @@
       },
       {
         "type": "paragraph",
-        "text": "In this sentence, 'you' is the subject - i.e. the person who is doing the action of the verb - and ‘who(m)’ is the direct object – i.e. the person who receives the action of the verb. "
+        "text": "In this sentence, 'you' is the subject - i.e. the person who is doing the action of the verb - and ‘who(m)' is the direct object – i.e. the person who receives the action of the verb. "
       },
-
       {
         "type": "paragraph",
         "text": "No a is required before ¿quién? if it is the subject of the verb: "
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -153,7 +146,6 @@
         "type": "paragraph",
         "text": "In English the distinction between 'who? and 'whom?' should really indicate when the personal a needs to be used, but current English usage is tending towards always using 'who?' when referring to either the subject or the object. "
       },
-
       {
         "type": "subchapter",
         "text": "Some differences between ¿qué? and ¿cuál? "
@@ -166,7 +158,6 @@
         "type": "paragraph",
         "text": "¿qué? can be used both as an adjective and a pronoun. This means it can be used with or without a following noun:"
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -174,12 +165,10 @@
         "words1": ["¿Qué hora es? ", "¿Qué quieres? "],
         "words2": ["What time (lit. 'hour') is it? ", "What do you want?"]
       },
-
       {
         "type": "paragraph",
         "text": "¿cuál(es)? can only be used as a pronoun, i.e. it must not be followed directly by a noun:"
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -203,7 +192,6 @@
         "type": "paragraph",
         "text": "What is the problem? "
       },
-
       {
         "type": "paragraph",
         "text": "In this type of sentence the translation of 'what' is always ¿cuál? and never ¿qué?"
@@ -214,7 +202,7 @@
       },
       {
         "type": "paragraph",
-        "text": "¿qué? is only used in this type of sentence if the question is asking for a definition of something rather than being equivalent to the question ‘what sort of …?’:"
+        "text": "¿qué? is only used in this type of sentence if the question is asking for a definition of something rather than being equivalent to the question ‘what sort of …?':"
       },
       {
         "type": "wordSection",
@@ -237,7 +225,6 @@
       "5 Complete the following dialogues with the missing interrogative words: "
     ],
     "placeholder": "Type Here",
-
     "ex1": [
       "1 ¿_____ está el libro? (está en la mesa)",
       "2 ¿_____ son los estudiantes de español? (Peter y Paul)",
@@ -250,7 +237,6 @@
       "9 ¿_____ van a la fiesta? (Elena y Jesús)",
       "10 ¿_____ escucha Angela en la radio? (el fútbol)"
     ],
-
     "ex1A": [
       "dónde",
       "quiénes",
@@ -381,7 +367,6 @@
       "cuál",
       ""
     ],
-
     "ex6": [],
     "ex6A": [],
     "ex7": [],

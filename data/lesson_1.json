@@ -49,7 +49,6 @@
         "type": "paragraph",
         "text": "There are two types of articles: definite and indefinite"
       },
-
       {
         "type": "subchapter",
         "text": "The definite article"
@@ -203,6 +202,7 @@
         ]
       }
     ],
+
     "subCh3": " ",
     "lessonContentSubCh3": [],
     "exercises": "Exercises",
@@ -378,7 +378,7 @@
       "ANA: Venga, nos vemos."
     ],
     "vocabulary": [
-      "¿a cuánto están …? ",
+      "¿a cuánto están …?",
       "academia (f.)",
       "adiós",
       "aquí",
@@ -428,7 +428,7 @@
       "vale"
     ],
     "vocabularyE": [
-      "how much are ",
+      "how much are",
       "evening school",
       "goodbye",
       "here",

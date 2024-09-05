@@ -109,12 +109,10 @@
         "words1": ["veinte y dos", "veinte y ocho"],
         "words2": ["", ""]
       },
-
       {
         "type": "paragraph",
         "text": "A hundred is either cien or ciento depending on the context in which it is used.When it is followed by a plural noun,it is cien: "
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -122,12 +120,10 @@
         "words1": ["cien hombres", "cien casas"],
         "words2": ["100 men", "100 houses "]
       },
-
       {
         "type": "paragraph",
         "text": "When it is followed by another number, it is ciento: "
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -135,7 +131,6 @@
         "words1": ["ciento veintiocho"],
         "words2": ["", ""]
       },
-
       {
         "type": "paragraph",
         "text": "The exception to this rule is 100,000,which is cien mil."
@@ -204,7 +199,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Note: In numbers a full stop is used to mark off thousands or millions, when in English we would use a comma. The comma is used where we would use the decimal point in English (e.g. 12,6% el doce coma seis por ciento – ‘twelve point six per cent’). "
+        "text": "Note: In numbers a full stop is used to mark off thousands or millions, when in English we would use a comma. The comma is used where we would use the decimal point in English (e.g. 12,6% el doce coma seis por ciento – ‘twelve point six per cent'). "
       }
     ],
 
@@ -222,14 +217,13 @@
         "words2": [
           "It's one o'clock.",
           "It's two o'clock.",
-          "It’s three o’clock, etc. "
+          "It's three o'clock, etc."
         ]
       },
       {
         "type": "paragraph",
-        "text": "Note the use of es in the case of one o’clock and son in all other cases. "
+        "text": "Note the use of es in the case of one o'clock and son in all other cases."
       },
-
       {
         "type": "paragraph",
         "text": "To express a number of minutes past the hour y is added to the above, followed by the appropriate number:"
@@ -253,7 +247,6 @@
         "type": "paragraph",
         "text": "As in English 'quarter past' and 'half past' are usually expressed with words rather than with the numbers themselves: "
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -287,7 +280,6 @@
         "type": "paragraph",
         "text": "Instead of son las doce de la noche you can say es medianoche and instead of son las doce de la mañana you can say es mediodia. "
       },
-
       {
         "type": "paragraph",
         "text": "You cannot add fractions to midnight or midday like you do in English: 'half past midnight' = las doce y cuarto de la noche (not *medianoche y cuarto)."
@@ -390,7 +382,6 @@
         "type": "subchapter",
         "text": "Months of the year"
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -469,7 +460,6 @@
         "type": "paragraph",
         "text": "Or you could say:"
       },
-
       {
         "type": "wordSection",
         "label1": "",
@@ -477,7 +467,6 @@
         "words1": ["¿A qué estamos?"],
         "words2": [""]
       },
-
       {
         "type": "paragraph",
         "text": "In this case the answer would be:"
@@ -489,7 +478,6 @@
         "words1": ["Estamos a dos de mayo."],
         "words2": ["It is the second of May."]
       },
-
       {
         "type": "paragraph",
         "text": "The first of the month is commonly expressed by el uno de, but el primero is also found. "
@@ -501,7 +489,6 @@
         "words1": ["El uno de diciembre.", "El primero de diciembre."],
         "words2": [""]
       },
-
       {
         "type": "paragraph",
         "text": "If you want to add the year to the date, it is normally joined to the date by de:"
@@ -523,7 +510,6 @@
       "5 Write the following times in Spanish in full using the 12-hour clock (e.g. 'twelve minutes past one' la una y doce): "
     ],
     "placeholder": "Type Here",
-
     "ex1": [
       "5",
       "10",
@@ -541,7 +527,6 @@
       "12",
       "313"
     ],
-
     "ex1A": [
       "cinco",
       "diez",

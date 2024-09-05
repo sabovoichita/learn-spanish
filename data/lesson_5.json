@@ -1,0 +1,475 @@
+[
+  {
+    "ch": "5",
+    "title": "Interrogatives",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "Forming a question in Spanish is quite straightforward. If a subject is expressed it is often placed after the verb:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿Tienes tú las llaves?", "¿Van ustedes a la fiesta?"],
+        "words2": ["Do you have the keys? ", "Are you going to the party?"]
+      },
+      {
+        "type": "paragraph",
+        "text": "This is by no means obligatory, however, and you could also say:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿Tú tienes las llaves?", "¿Ustedes van a la fiesta?"],
+        "words2": []
+      },
+
+      {
+        "type": "paragraph",
+        "text": "In the above examples the question looks just like a statement in the written form, but with the addition of the question marks. However, when spoken, the intonation indicates that a question is being asked. "
+      },
+
+      {
+        "type": "paragraph",
+        "text": "When there is no subject mentioned the fact that it is a question will be indicated by intonation alone: "
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "dar",
+        "label2": "hacer",
+        "words1": ["¿Estudias mucho?", "¿Estamos en el centro?"],
+        "words2": ["Do you study a lot?", "Are we in the centre?"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that an inverted question mark is put at the beginning of a question in written Spanish, even if the question is not the start of the sentence: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Hoy es sábado, ¿quieres ir al cine?"],
+        "words2": ["Today is Saturday, do you want to go to the cinema? "]
+      }
+    ],
+
+    "subCh2": "Interrogative words",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "The main interrogative words in Spanish are as follows: "
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "¿cuál(es)?",
+          "¿cómo?",
+          "¿cuándo?",
+          "¿cuánto(s)?",
+          "¿dónde?",
+          "¿por qué?",
+          "¿para qué?",
+          "¿qué?",
+          "¿quién(es)?"
+        ],
+        "words2": [
+          "which?/what? ",
+          "how? ",
+          "when?",
+          "how much/how many?",
+          "where? ",
+          "why?",
+          "what for?",
+          "what?",
+          "who?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: These words always have a written accent when used as question words.  "
+      },
+      {
+        "type": "paragraph",
+        "text": "You will have noticed that some of these words have feminine and plural forms, which means that they have to agree with the noun to which they refer:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "¿Cuáles de los libros son tuyos?",
+          "¿Cuántos hermanos tienes?",
+          "¿Cuántas casas hay en la calle?",
+          "¿Quiénes son los autores?"
+        ],
+        "words2": [
+          "Which of the books are yours?",
+          "How many brothers and sisters do you have?",
+          "How many houses are there in the street?",
+          "Who are the authors?"
+        ]
+      }
+    ],
+
+    "subCh3": "The personal a with ¿quién? ",
+    "lessonContentSubCh3": [
+      {
+        "type": "paragraph",
+        "text": "When ¿quién? is used as the direct object (see 'Glossary of grammatical terms') of a verb, you must always put a before it, i.e. ¿a quién?:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿A quién esperas?"],
+        "words2": ["Who(m) are you waiting for? "]
+      },
+      {
+        "type": "paragraph",
+        "text": "In this sentence, 'you' is the subject - i.e. the person who is doing the action of the verb - and ‘who(m)’ is the direct object – i.e. the person who receives the action of the verb. "
+      },
+
+      {
+        "type": "paragraph",
+        "text": "No a is required before ¿quién? if it is the subject of the verb: "
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿Quién tiene el dinero?"],
+        "words2": ["Who has the money? "]
+      },
+      {
+        "type": "paragraph",
+        "text": "In English the distinction between 'who? and 'whom?' should really indicate when the personal a needs to be used, but current English usage is tending towards always using 'who?' when referring to either the subject or the object. "
+      },
+
+      {
+        "type": "subchapter",
+        "text": "Some differences between ¿qué? and ¿cuál? "
+      },
+      {
+        "type": "paragraph",
+        "text": "The differences between ¿qué? and ¿cuál? can be quite problematic for non-native Spanish speakers, but a few basic rules will help you to avoid mistakes. "
+      },
+      {
+        "type": "paragraph",
+        "text": "¿qué? can be used both as an adjective and a pronoun. This means it can be used with or without a following noun:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿Qué hora es? ", "¿Qué quieres? "],
+        "words2": ["What time (lit. 'hour') is it? ", "What do you want?"]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "¿cuál(es)? can only be used as a pronoun, i.e. it must not be followed directly by a noun:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "¿Cuál prefieres? ",
+          "¿Cuáles de las canciones prefieres?",
+          "¿Cuál de ellos tienes ya?"
+        ],
+        "words2": [
+          "Which (one) do you prefer?",
+          "Which (of the) songs do you prefer?",
+          "Which of them do you already have? "
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "So you can see that ¿qué? usually corresponds to English 'what' and ¿cuál? to English 'which'. However, you need to be particularly careful when translating the following type of sentence: "
+      },
+      {
+        "type": "paragraph",
+        "text": "What is the problem? "
+      },
+
+      {
+        "type": "paragraph",
+        "text": "In this type of sentence the translation of 'what' is always ¿cuál? and never ¿qué?"
+      },
+      {
+        "type": "paragraph",
+        "text": "¿Cuál es el problema?"
+      },
+      {
+        "type": "paragraph",
+        "text": "¿qué? is only used in this type of sentence if the question is asking for a definition of something rather than being equivalent to the question ‘what sort of …?’:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿Qué es esto?", "¿Cuál es la explicación?"],
+        "words2": [
+          "What is this? (asking for a definition) ",
+          "What is the explanation? (asking which of many possible explanations will do "
+        ]
+      }
+    ],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Taking into account the answer (given in parentheses), what is the question? ¿quién? ¿quiénes? ¿cómo? ¿dónde? ¿qué?",
+      "2 You would like to know some personal information about a person you have just met socially in Madrid. In Spanish (use the tú form) ask him/her:",
+      "3 You are going on a business trip to Spain. How would you express the following in Spanish? (Use the Ud. form when necessary.)",
+      "4 Ask a question so that the answer is the underlined information in each sentence. (Use tú when necessary.)",
+      "5 Complete the following dialogues with the missing interrogative words: "
+    ],
+    "placeholder": "Type Here",
+
+    "ex1": [
+      "1 ¿_____ está el libro? (está en la mesa)",
+      "2 ¿_____ son los estudiantes de español? (Peter y Paul)",
+      "3 ¿_____ está enfermo? (el amigo de Juan) ",
+      "4 ¿_____ es Barcelona? (es muy bonita)",
+      "5 ¿_____ está Mario? (está en Madrid)",
+      "6 ¿_____ tiene Lola en la mano? (tiene las llaves)",
+      "7 ¿_____ sabe la respuesta? (¡yo sé la respuesta!)",
+      "8 ¿_____ es Rocío? (es alta y rubia)",
+      "9 ¿_____ van a la fiesta? (Elena y Jesús)",
+      "10 ¿_____ escucha Angela en la radio? (el fútbol)"
+    ],
+
+    "ex1A": [
+      "dónde",
+      "quiénes",
+      "quién",
+      "cómo",
+      "dónde",
+      "qué",
+      "quién",
+      "cómo",
+      "quiénes",
+      "qué"
+    ],
+    "ex2": [
+      "1 If they have brothers/sisters. ",
+      "2 Where s/he works. ",
+      "3 If s/he is married.",
+      "4 How many children s/he has.",
+      "5 If he lives in Madrid.",
+      "6 How old s/he is.",
+      "7 If s/he speaks English.",
+      "8 If s/he knows England.",
+      "9 What car s/he has.",
+      "10 Where s/he comes from."
+    ],
+    "ex2A": [
+      "¿Tienes hermanos?",
+      "¿Dónde trabajas?",
+      "¿Estás casado/casada?",
+      "¿Cuántos hijos/niños tienes?",
+      "¿Vives en Madrid?",
+      "¿Cuántos años tienes?",
+      "¿Hablas inglés?",
+      "¿Conoces Inglaterra?",
+      "¿Qué coche tienes?",
+      "¿De dónde eres?"
+    ],
+    "ex3": [
+      "1 Is Mr Pérez in the office?",
+      "2 Do you know Mr Eagling? ",
+      "3 Where is the train station?",
+      "4 What time is the train to Barcelona?",
+      "5 When is the meeting?",
+      "6 How are you?",
+      "7 Why is Mr Serrano not there?",
+      "8 What is the meeting for? ",
+      "9 Who chairs the meeting?",
+      "10 What is the problem?"
+    ],
+    "ex3A": [
+      "¿Está el Sr Pérez en la oficina?",
+      "¿Conoce Ud. al Sr Eagling?",
+      "¿Dónde está la estación de trenes?",
+      "¿A qué hora es el tren a Barcelona?",
+      "¿Cuándo es la reunión?",
+      "¿Cómo está?",
+      "¿Por qué no está el Sr Serrano allí?",
+      "¿Para qué es la reunión?",
+      "¿Quién preside la reunión?",
+      " ¿Cuál es el problema?"
+    ],
+    "ex4": [
+      "1 Ese chico es Juan. ",
+      "2 Las llaves están en el coche.",
+      "3 Saludo a Marisol.",
+      "4 Bailo salsa muy bien.",
+      "5 Prefiero el vino tinto. ",
+      "6 La paella está muy buena.",
+      "7 Mario y Juan venden esas casas.",
+      "8 Tengo tres hermanos.",
+      "9 Mandan la carta a Julia",
+      "10 La boda de Juanjo y Marta es en Madrid."
+    ],
+    "ex4A": [
+      "¿Quién es ese chico?",
+      "¿Dónde están las llaves?",
+      "¿A quién saludas?",
+      "¿Qué bailas muy bien?",
+      " ¿Qué vino prefieres?/¿Cuál prefieres?",
+      "¿Cómo está la paella?",
+      "¿Quiénes venden casas?",
+      "¿Cuántos hermanos tienes?",
+      "¿A quién mandan la carta?",
+      "¿Dónde es la boda de Juanjo y Marta?"
+    ],
+    "ex5": [
+      "MAITE: ¡Hola Ana! ¿_____ (1) tal?",
+      "ANA: ¡Hola Maite! Oye, ¿sabes a _____ (2) hora es el examen?",
+      "MAITE: Es a las diez y media pero ¿_____ (3) es?",
+      "ANA: Es en el aula 23. ",
+      "ROSA: Buenos días, ¿_____ (4) cuestan ese jersey rojo y el azul? ",
+      "LOLA: El rojo cuesta 40€ y el azul 37€. ¿_____ (5) prefiere?",
+      "ROSA: Prefiero el rojo. ¿_____ (6) están los probadores?",
+      "LOLA: Están allí a la derecha",
+      "PEPE: Perdone, ¿_____ (7) está la calle Serrano?",
+      "JUAN: Está lejos de aquí pero puede ir en autobús.",
+      "PEPE: ¿_____ (8) autobús me lleva?",
+      "JUAN: El 70 La parada está allí.",
+      "LORETO: ¡Hola! Me llamo Loreto y tú ¿_____ (9) te llamas?",
+      "MAR: Me llamo Mar, ¿_____ (10) eres?",
+      "LORETO: Soy de Cuenca ¿y tú? ",
+      "MAR: Yo de Zaragoza.",
+      "LORETO: ¿_____ (11) curso haces?",
+      "MAR: Hago inglés ¿y tú?",
+      "LORETO: Yo también. ¿_____ es tu profesor? (12) Mi profesor es Mr White. ",
+      "MAR: Mr White también, ¿sabes _____ (13) es nuestro aula?",
+      "LORETO: Sí, la 42"
+    ],
+    "ex5A": [
+      "qué",
+      "a qué",
+      "dónde",
+      "",
+      "cuánto",
+      "cuál",
+      "dónde",
+      "",
+      "dónde",
+      "",
+      "qué",
+      "",
+      "cómo",
+      "de dónde",
+      "",
+      "",
+      "qué",
+      "",
+      "quién/cuál",
+      "cuál",
+      ""
+    ],
+
+    "ex6": [],
+    "ex6A": [],
+    "ex7": [],
+    "ex7A": [],
+
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Los horarios españoles", "Key vocabulary"],
+    "bContent": [
+      " Los horarios españoles son diferentes a los horarios de muchos países europeos. Las tiendas, por ejemplo, abren a las nueve y media o a las diez de la mañana y muchas cierran a mediodía para comer, normalmente a la una y media o a las dos de la tarde y abren de nuevo a las cinco y media o a las seis y cierran a las ocho y media o nueve de la noche. En invierno abren antes por la mañana y cierran antes por la noche. En verano, por el calor, los horarios cambian y abren y cierran más tarde. En las oficinas también cambian los horarios en verano y mucha gente trabaja sólo por la mañana. ",
+      "Los horarios de comidas también son diferentes porque los españoles comen más tarde. La comida es entre las dos y las tres y media de la tarde y la cena es normalmente después de las nueve de la noche."
+    ],
+    "vocabulary": [
+      "a la derecha",
+      "allí",
+      "alta",
+      "antes",
+      "aquí",
+      "aula (f.)",
+      "boda (f.)",
+      "calor (m.)",
+      "calle (f.)",
+      "cambiar",
+      "carta (f.)",
+      "cerrar (cierran)",
+      "costar (cuesta)",
+      "curso (m.)",
+      "de nuevo",
+      "estación de tren (f.)",
+      "gente (f.)",
+      "horario (m.)",
+      "invierno (m.)",
+      "llave (f.)",
+      "llevar",
+      "más tarde",
+      "mano (f.)",
+      "mucho",
+      "oficina (f.)",
+      "perdone",
+      "por ejemplo",
+      "presidir",
+      "probador (m.)",
+      "reunión (f.)",
+      "rubio",
+      "saber",
+      "saludar",
+      "tienda (f.)",
+      "tinto",
+      "verano (m.)",
+      "vino (m.)"
+    ],
+    "vocabularyE": [
+      "on the right ",
+      "there",
+      "tall",
+      "before, earlier",
+      "here",
+      "classroom (el because the first a is stressed)",
+      "wedding",
+      "heat",
+      "street",
+      "to change",
+      "letter",
+      "to close",
+      "to cost ",
+      "course",
+      "again",
+      "train station",
+      "people",
+      "timetable",
+      "winter",
+      "key",
+      "to take ",
+      "later",
+      "hand",
+      "many",
+      "office",
+      "excuse me (Ud.)",
+      "for example",
+      "to chair",
+      "changing room",
+      "meeting",
+      "blond",
+      "to know",
+      "to greet",
+      "shop",
+      "red (only when referring to wine)",
+      "summer",
+      "wine"
+    ]
+  }
+]

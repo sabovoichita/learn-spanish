@@ -1,0 +1,670 @@
+[
+  {
+    "ch": "7",
+    "title": "Adjectives and adverbs",
+    "subCh1": "Adjectives",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "An adjective is a word which describes attributes or characteristics of a person, place or thing (i.e. a noun) for example: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["a black dog", "an aggressive person", "an exciting city "],
+        "words2": [
+          "('dog' is the noun, 'black' is the adjective describing the noun)",
+          "('person' is the noun, 'aggressive' is the adjective describing the noun)",
+          "('city' is the noun, 'exciting' is the adjective describing the noun) "
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Adjectives in Spanish usually change their endings to match the number and gender of the noun they are describing."
+      },
+      {
+        "type": "paragraph",
+        "text": "Adjectives ending in -o in the masculine singular normally have three other forms:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["masc. sing.", "masc. pl.", "fem. sing.", "fem. pl."],
+        "words2": [
+          "rojo | un coche rojo",
+          "rojos | unos coches rojos",
+          "roja | una rosa roja",
+          "rojas |unas rosas rojas"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Adjectives ending in -e have no separate feminine form in the singular of plural: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["masc. sing.", "fem. sing.", "masc. pl.", "fem. pl."],
+        "words2": [
+          "inteligente |un niño inteligente",
+          "inteligente |una niña inteligente",
+          "inteligentes |unos niños inteligentes",
+          "inteligentes |unas niñas inteligentes"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Similarly adjectives that end in a consonant usually have no separate feminine form in the singular or plural: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["masc. sing.", "fem. sing.", "masc. pl.", "fem. pl."],
+        "words2": [
+          "gris |  un gato gris",
+          "gris | una silla gris",
+          "grises | unos zapatos grises",
+          "grises | unas cortinas grises"
+        ]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "Note: There is a small group of adjectives that end in a consonant but which have a feminine form.This form is produced by adding -a to the masculine singular form.This small group of adjectives are those that end in -án, -ón or -or:"
+      },
+      {
+        "type": "wordSection",
+        "label1": " Masculine/Feminine",
+        "label2": "English",
+        "words1": [
+          "hablador/ habladora",
+          "prometedor/ prometedora",
+          "dormilón/ dormilona",
+          "holgazán/ holgazana"
+        ],
+        "words2": ["talkative", "promising", "sleepy", "lazy"]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "The plurals of these adjectives are formed in the normal way - i.e. by adding -s or -es as appropriate. Notice the disappearance of stress marks in some of the feminine forms when the extra syllable brings them into line with the normal rules of stress (see p. xi.) "
+      },
+      {
+        "type": "paragraph",
+        "text": "This rule, however, does not apply to comparatives ('better', 'bigger', 'higher', etc.) even though they end in -or: "
+      },
+      {
+        "type": "wordSection",
+        "label1": " Masculine/Feminine",
+        "label2": "English",
+        "words1": [
+          "mejor",
+          "peor",
+          "superior",
+          "inferior",
+          "interior",
+          "exterior",
+          "a better house",
+          "a higher profession "
+        ],
+        "words2": [
+          "better",
+          "worse",
+          "higher",
+          "lower",
+          "inner",
+          "outer",
+          "una casa mejor",
+          "una profesión superior"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Any adjective that indicates geographical origin or location will have a feminine singular form in -a even if it ends in a consonant, and a feminine plural form in -as:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "un chico español",
+          "una chica española",
+          "unos señores españoles",
+          "unas señoras españolas"
+        ],
+        "words2": [
+          "a Spanish boy",
+          "a Spanish girl",
+          "some Spanish men",
+          "some Spanish ladies"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Similarly:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "francés/francesa/franceses/francesas ",
+          "catalán/catalana/catalanes/catalanas ",
+          "andaluz/andaluza/andaluces*/andaluzas etc. "
+        ],
+        "words2": ["French ", "Catalan ", "Andalousian"]
+      }
+    ],
+
+    "subCh2": "The position of adjectives",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "The most common position of adjectives is after the noun but they are sometimes found in front"
+      },
+      {
+        "type": "paragraph",
+        "text": "Unfortunately there are no rigid rules governing the position of adjectives but some general guidelines can be given."
+      },
+      {
+        "type": "paragraph",
+        "text": "The most common function of adjectives is to distinguish one or more things from others that belong to the same class but are different in respect of the adjective being used. For example, 'the blue car' distinguishes this car from other cars that are not blue; 'excellent ideas' distinguishes one set of ideas from others that are not excellent. These are called 'restrictive' adjectives."
+      },
+      {
+        "type": "paragraph",
+        "text": "In Spanish these 'restrictive' adjectives are generally placed after the noun: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["el coche azul", "ideas excelentes "],
+        "words2": ["", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "Sometimes the adjective is used to describe the class of noun as a whole rather than distinguish between nouns in the same class - i.e. it is seen as an inherent characteristic of the noun rather than something that distinguishes it from other nouns in its class – e.g.'white snow' (snow is always white, therefore the adjective 'white' is not distinguishing it from other types of snow)."
+      },
+      {
+        "type": "paragraph",
+        "text": "These 'non-restrictive' adjectives are often placed in front of the noun, although this is not obligatory:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["la blanca nieve ", "los fríos días de invierno"],
+        "words2": ["the white snow", "the cold winter days"]
+      },
+      {
+        "type": "paragraph",
+        "text": "As a general rule it can be said that the more important the adjective the more likely it is to come after the noun, and the more redundant, the more likely it is to come in front"
+      },
+      {
+        "type": "paragraph",
+        "text": "Some adjectives, when used before the noun, may express the speaker's judgement rather than an established fact. This is often the case with bueno (good), malo (bad), nuevo (new), viejo (old) and pequeño (small):"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "nuevas ideas ",
+          "un coche nuevo",
+          "una pequeña diferencia",
+          "una casa pequeña"
+        ],
+        "words2": [
+          "new ideas (ones you judge to be new)",
+          "a new car (brand new - a fact, not a judgement)",
+          "a slight difference  (in your judgement)",
+          "a small house (a fact  the house is small)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The rules about the position of adjectives are not clear cut, but observation of their use by native speakers will help."
+      },
+      {
+        "type": "paragraph",
+        "text": "A few adjectives have different meanings depending on their positions. The most common is grande. This adjective can mean 'big' in either position but when it means 'great' it is normally found in front of the noun:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["un gran* hombre", "un hombre grande"],
+        "words2": ["a great man", "a big man"]
+      },
+      {
+        "type": "paragraph",
+        "text": "*Note that grande is shortened to gran when it comes immediately before a singular noun"
+      },
+      {
+        "type": "paragraph",
+        "text": "Other adjectives whose meaning varies according to their position are:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "viejo",
+        "label2": "",
+        "words1": ["un viejo amigo", "un amigo viejo"],
+        "words2": ["a former friend", "an old friend (i.e. advanced in years)"]
+      },
+      {
+        "type": "wordSection",
+        "label1": "pobre",
+        "label2": "",
+        "words1": ["un pobre hombre", "un hombre pobre"],
+        "words2": [
+          "a poor man (i.e. to be pitied) ",
+          "a poor man (i.e. he has no money) "
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": "cierto",
+        "label2": "",
+        "words1": ["en cierta ocasión", "un hecho cierto"],
+        "words2": [
+          "on a certain occasion (i.e. particular)",
+          "a certain fact (i.e. beyond doubt)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A few common adjectives behave like grande and lose their final vowel when used before a masculine singular noun:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "bueno",
+        "label2": "",
+        "words1": ["un buen chico"],
+        "words2": ["una buena idea"]
+      },
+      {
+        "type": "wordSection",
+        "label1": "malo ",
+        "label2": "",
+        "words1": ["un mal asunto"],
+        "words2": ["una mala idea"]
+      },
+      {
+        "type": "wordSection",
+        "label1": "primero",
+        "label2": "",
+        "words1": ["el primer libro "],
+        "words2": ["la primera vez"]
+      },
+      {
+        "type": "wordSection",
+        "label1": "tercero",
+        "label2": "",
+        "words1": ["el tercer capítulo"],
+        "words2": ["la tercera semana"]
+      },
+      {
+        "type": "wordSection",
+        "label1": "alguno",
+        "label2": "",
+        "words1": ["algún día"],
+        "words2": ["alguna vez"]
+      },
+      {
+        "type": "wordSection",
+        "label1": "ninguno",
+        "label2": "",
+        "words1": ["ningún dinero"],
+        "words2": ["de ninguna manera"]
+      }
+    ],
+    "subCh3": "Adverbs",
+    "lessonContentSubCh3": [
+      {
+        "type": "paragraph",
+        "text": "Adverbs are words that describe the action of the verb, i.e. they give further information about how, when or why the action is being done. The most common type of adverbs are circumstance adverbs, which answer the question how?:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["John ran quickly down the road"],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "'Quickly' tells us how John ran and so it is an adverb (in this case a 'circumstance' adverb). Other examples of circumstance adverbs are: 'slowly', 'well', 'badly', 'easily', etc."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some adverbs refer to the whole sentence rather than just to the verb:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Fortunately John could swim"],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "'Fortunately' does not tell us anything about how John could swim, rather it refers to the whole sentence 'John could swim'. This type of adverb is called a sentence adverb."
+      },
+      {
+        "type": "paragraph",
+        "text": "Adverbs can generally be formed in Spanish from their corresponding adjective by simply adding -mente to the feminine singular form of the adjective:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "adjective",
+        "label2": "adverb",
+        "words1": ["rápido", "quick", "afortunado", "fortunate"],
+        "words2": ["rápidamente", "quickly", "afortunadamente", "fortunately"]
+      },
+      {
+        "type": "paragraph",
+        "text": "If the adjective does not have a distinctive feminine form, the -mente is added to the common singular form:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "adjective",
+        "label2": "adverb",
+        "words1": ["fuerte", "strong"],
+        "words2": ["fuertemente", "strongly"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Some adverbs do not follow this rule and you will just have to learn them as you come across them. The most common irregular adverbs are:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["bien", "mal"],
+        "words2": ["well", "badly"]
+      }
+    ],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 The adjectives at the end of the sentence are all in the masculine singular form. Insert them in the sentence and change them (if necessary) into the appropriate form:",
+      "2 Put the colour adjective next to the noun and make the appropriate agreement:",
+      "3 Change the sentences so that you use an adjective of nationality as in the example:Example: María es de Francia. María es francesa.",
+      "4 Put the following adjectives in front of the noun, as in the example: Example: un chico simpático un simpático chico",
+      "5 Here is a description of Mario. Give a description of Lola by saying the opposite: Example: Mario es grande. Lola es pequeña.",
+      "6 Form adverbs from the following adjectives:",
+      "7 Rewrite these sentences using an adverb, as in this example: Example: Lee de manera lenta. Lee lentamente."
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 La niña es _____ . (guapo)",
+      "2 El perro es _____ . (negro)",
+      "3 Los profesores son _____ . (alto)",
+      "4 La casa es _____ . (pequeño)",
+      "Adjectives and adverbs 5",
+      "5 Los coches son _____ . (rápido)",
+      "6 Las chicas son _____ . (moreno)",
+      "7 Los ordenadores están _____ . (estropeado)",
+      "8 Carmen es _____ . (vago)",
+      "9 Pedro y María son _____ . (simpático)",
+      "10 Carmen y María son _____ . (delgado)",
+      "11 Los gatos de María están _____ . (gordo)",
+      "12 Las manzanas del mercado son _____ . (barato)",
+      "13 Los pantalones de cuero son _____ . (caro)",
+      "14 La casa de mi hermano está _____ . (limpio)",
+      "15 El piso de mi hermana está _____ . (sucio"
+    ],
+    "ex1A": [
+      "guapa.",
+      "negro.",
+      "altos.",
+      "pequeña.",
+      "rápidos.",
+      "morenas.",
+      "estropeados.",
+      "vaga.",
+      "simpáticos.",
+      "delgadas.",
+      "gordos.",
+      "baratas.",
+      "caros.",
+      "limpia.",
+      "sucio."
+    ],
+    "ex2": [
+      "1 la casa (white)",
+      "2 el jersey (brown)",
+      "3 los pantalones (blue)",
+      "4 el coche (red)",
+      "5 las faldas (yellow)",
+      "6 los calcetines (green)",
+      "7 la bufanda (blue)",
+      "8 los guantes (grey)",
+      "9 el bañador (green)",
+      "10 la chaqueta (black)"
+    ],
+    "ex2A": [
+      "blanca",
+      "marrón",
+      "azules",
+      "rojo",
+      "amarillas",
+      "verdes",
+      "azul",
+      "grises",
+      "verde",
+      "negra"
+    ],
+    "ex3": [
+      "1 Ese chico es de Japón.",
+      "2 Anne es de Inglaterra.",
+      "3 Juanjo es de España.",
+      "4 Rocío y Macarena son de Andalucía.",
+      "5 Felix es de Alemania.",
+      "6 Los coches son de Italia.",
+      "7 Los vinos son de Navarra.",
+      "8 Josep y Ana son de Cataluña.",
+      "Basic Spanish: A grammar and workbook 5",
+      "9 John y Kate son de Irlanda.",
+      "10 Liz es de América.",
+      "11 Las naranjas son de Valencia.",
+      "12 La niña es de China.",
+      "13 El Sr Pérez es de Argentina.",
+      "14 La Sra Vásquez es de Perú.",
+      "15 Los Sres de Torres son de Colombia."
+    ],
+    "ex3A": [
+      "japonés",
+      "inglesa",
+      "español",
+      "andaluzas",
+      "alemán",
+      "italianos",
+      "navarros",
+      "catalanes",
+      "irlandeses",
+      "americana",
+      "valencianas",
+      "china",
+      "argentino",
+      "peruana",
+      "colombiano"
+    ],
+    "ex4": [
+      "1 un hombre bueno",
+      "2 un coche potente",
+      "3 una idea buena",
+      "4 un paso malo",
+      "5 una película original",
+      "6 un piso primero",
+      "7 una mujer buena",
+      "8 el episodio tercero",
+      "9 la fila cuarta",
+      "10 no tengo interés ningun"
+    ],
+    "ex4A": [
+      "un buen hombre",
+      "un potente coche",
+      "una buena idea",
+      "un mal paso",
+      "una original película",
+      "un primer piso",
+      "una buena mujer",
+      "el tercer episodio",
+      "la cuarta fila",
+      "no tengo ningún interés"
+    ],
+    "ex5": [
+      "1 Mario es gordo.",
+      "2 Mario es rubio.",
+      "3 Mario es bajo.",
+      "4 Mario es casado.",
+      "5 Mario es pobre.",
+      "6 Mario es simpático.",
+      "7 Mario es vago.",
+      "8 Mario es limpio.",
+      "9 Mario es hablador.",
+      "10 Mario es viejo."
+    ],
+    "ex5A": [
+      "Lola es delgada.",
+      "Lola es morena.",
+      "Lola es alta.",
+      "Lola es soltera.",
+      "Lola es rica.",
+      "Lola es antipática.",
+      "Lola es trabajadora.",
+      "Lola es sucia.",
+      "Lola es callada.",
+      "Lola es joven."
+    ],
+    "ex6": [
+      "1 lento",
+      "2 suave",
+      "3 malo",
+      "4 probable",
+      "5 desorganizado",
+      "6 supuesto",
+      "7 claro",
+      "8 tranquilo",
+      "9 rápido",
+      "10 seguro",
+      "11 callado",
+      "12 paciente",
+      "13 detallado",
+      "14 inútil",
+      "15 especial"
+    ],
+    "ex6A": [
+      "lentamente",
+      "suavemente",
+      "mal",
+      "probablemente",
+      "desorganizadamente",
+      "supuestamente",
+      "claramente",
+      "tranquilamente",
+      "rápidamente",
+      "seguramente",
+      "calladamente",
+      "pacientemente",
+      "detalladamente",
+      "inútilmente",
+      "especialmente"
+    ],
+    "ex7": [
+      "1 Conduzco de manera rápida.",
+      "2 Comemos de un modo pausado.",
+      "3 Esperan de manera paciente.",
+      "4 Discute de manera tonta.",
+      "5 Cantan de un modo fenomenal.",
+      "6 Aprendéis de manera lenta.",
+      "7 Explican de manera detallada.",
+      "8 Escribo de modo complicado."
+    ],
+    "ex7A": [
+      "Conduzco rápidamente.",
+      "Comemos pausadamente.",
+      "Esperan pacientemente.",
+      "Discute tontamente.",
+      "Cantan fenomenalmente.",
+      "Aprendéis lentamente.",
+      "Explican detalladamente.",
+      "Escribo complicadamente."
+    ],
+
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Barcelona", "Key vocabulary"],
+    "bContent": [
+      "Barcelona es una ciudad muy grande en el noreste de España. Es una ciudad muy bonita. En el centro están el Barrio Gótico y las Ramblas. El Barrio Gótico es la parte más antigua de la ciudad, donde está la catedral. Las Ramblas son grandes avenidas donde la gente pasea y toma algo por las tardes. Las Ramblas son una de las zonas más turísticas de Barcelona porque están llenas de tiendas, bares y restaurantes.",
+      "Barcelona es la ciudad de Gaudí, un arquitecto catalán famoso en el mundo entero. Sus obras más conocidas son La Pedrera, el Parque Guell y la Sagrada Familia, un templo todavía inacabado y una de las maravillas del modernismo catalán."
+    ],
+    "vocabulary": [
+      "arquitecto",
+      "bañador (m.)",
+      "barato",
+      "bufanda (f.)",
+      "calcetín (m.)",
+      "capítulo (m.)",
+      "caro",
+      "catedral (f.)",
+      "chaqueta (f.)",
+      "cuero (m.)",
+      "delgado",
+      "episodio (m.)",
+      "estropeado",
+      "fila (f.)",
+      "gordo",
+      "guante (m.)",
+      "inacabado",
+      "inútil",
+      "limpio",
+      "maravilla (f.)",
+      "ordenador (m.)",
+      "pantalón (m.)",
+      "paso (m.)",
+      "paciente",
+      "película (f.)",
+      "piso (m.)",
+      "sucio",
+      "templo (m.)",
+      "vago"
+    ],
+    "vocabularyE": [
+      "architect",
+      "swimsuit",
+      "cheap",
+      "scarf",
+      "sock",
+      "chapter",
+      "expensive",
+      "cathedral",
+      "jacket",
+      "leather",
+      "thin",
+      "episode",
+      "broken",
+      "row",
+      "fat",
+      "glove",
+      "unfinished",
+      "useless",
+      "clean",
+      "marvel",
+      "computer",
+      "trousers",
+      "step",
+      "patient",
+      "film",
+      "floor (in a building)",
+      "dirty",
+      "temple",
+      "lazy"
+    ]
+  }
+]

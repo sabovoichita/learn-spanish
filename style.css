@@ -1,94 +1,243 @@
-html {
-  height: 100%;
+/* General Reset */
+* {
+  box-sizing: border-box;
   margin: 0;
-}
-h1 {
-  color: rgb(138, 61, 189);
-  text-align: center;
-}
-.h2Design {
-  color: rgb(106, 13, 13);
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
+/* Body and Container */
+body {
+  background: linear-gradient(135deg, #f0f0f0, #e0f7fa);
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  font-size: 16px;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #ff4081, #f50057);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+/* Section and Content Styles */
 .displayContent {
-  /* border: 2px solid rgb(81, 81, 112); */
-  border-radius: 4px;
-  padding: 10px;
-  /* display: flex; */
-  color: rgb(140, 104, 104);
-  align-items: left;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.displayContent:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.h2Design {
+  font-size: 1.8rem;
+  color: #303f9f;
   margin-bottom: 10px;
 }
-.displayLesson {
-  display: inline;
-}
-.ws {
-  color: blue;
-}
-.ws .wEnglish {
-  color: green;
-  /* display: none; */
-}
-.ws .black {
-  color: black;
-  font-weight: 900;
-}
-.notes {
-  color: rgb(223, 98, 26);
-}
-.text {
-  color: black;
-}
+
 .subchapter {
+  color: #009688;
+  font-weight: bold;
   text-decoration: underline;
-  font-weight: bolder;
-  color: green;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.exerciseInput {
-  margin: 5px;
-  width: 70px;
-  color: red;
+
+.text,
+.cultural,
+.notes {
+  margin-bottom: 10px;
 }
-.exerciseInput::placeholder {
-  color: red;
-  color: rgba(0, 0, 0, 0.3);
-  opacity: 0.5;
-  font-style: italic;
-  padding: 5px;
+
+.notes {
+  color: #ff9800;
 }
-.cultural {
-  color: rgb(224, 22, 147);
-}
-table {
-  border: 2px solid rgb(197, 192, 192);
-}
+
+/* Vocabulary Table */
 #vocabularyTable {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #ddd;
 }
 
 #vocabularyTable th,
 #vocabularyTable td {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 12px;
+  font-size: 1rem;
+  text-align: center;
 }
 
 #vocabularyTable th {
-  background-color: #f4f4f4;
-  text-align: left;
+  background-color: #ffeb3b;
+  color: #303f9f;
+  text-align: center;
+  font-weight: bold;
 }
+
+/* Exercise Input and Feedback */
+.exerciseInput {
+  padding: 8px;
+  margin: 5px 0;
+  border: 2px solid #009688;
+  border-radius: 8px;
+  width: calc(100% - 20px);
+  max-width: 200px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.exerciseInput:focus {
+  border-color: #f50057;
+  outline: none;
+  box-shadow: 0 0 8px rgba(245, 0, 87, 0.5);
+}
+
+.check-answers-btn {
+  background-color: #03a9f4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.check-answers-btn:hover {
+  background-color: #0288d1;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* HR Line */
 hr {
-  border-bottom: 2px solid blue;
+  border: 0;
+  border-top: 2px solid #03a9f4;
+  margin: 20px 0;
 }
-hr:not(:last-of-type) {
-  display: block; /* or your desired display style */
-}
-hr:last-of-type {
-  display: none;
-}
+
+/* Additional Styling for Hover and Interaction */
 .exercise-item {
-  color: rgb(172, 62, 157);
+  color: #9c27b0;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
+
 .exercise-text {
-  color: darkviolet;
+  color: #673ab7;
+  font-weight: bold;
+}
+
+.ws {
+  color: #5e35b1;
+  margin: 10px 0;
+}
+
+.ws .wEnglish {
+  color: #7e57c2;
+  font-style: italic;
+}
+
+.ws .black {
+  color: black;
+  font-weight: 900;
+}
+
+.cultural {
+  color: #d500f9;
+}
+
+.collapsible-section {
+  margin: 15px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.collapsible-btn {
+  width: 100%;
+  background-color: #03a9f4;
+  color: white;
+  padding: 15px;
+  text-align: left;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapsible-btn:hover {
+  background-color: #0288d1;
+}
+
+.collapsible-btn::after {
+  content: "▼"; /* Down arrow */
+  font-size: 1rem;
+  transition: transform 0.3s;
+}
+
+.collapsible-btn.active::after {
+  transform: rotate(180deg); /* Rotate arrow when active */
+}
+
+.collapsible-content {
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  background-color: white;
+}
+
+.collapsible-content p {
+  margin: 0;
+}
+
+.collapsible-btn.active + .collapsible-content {
+  max-height: 300px; /* Adjust this value based on the expected content size */
+  padding: 15px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .h2Design {
+    font-size: 1.5rem;
+  }
+
+  .check-answers-btn {
+    width: 100%;
+  }
 }

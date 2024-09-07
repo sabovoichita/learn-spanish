@@ -29,20 +29,42 @@ function generateLessonContent(lessons, lessonNumber) {
     .map(
       (lesson) => `
     <section id="sectionArea" class="displayContent">
-      <h2 class="h2Design">Chapter: ${lesson.ch}. ${lesson.title}</h2>
-      ${generateLessonSections(lesson)}
+      <!-- Collapsible Section for Introduction -->
+      <div class="collapsible-section">
+        <button class="collapsible-btn">Chapter: ${lesson.ch}. ${
+        lesson.title
+      }</button>
+        <div class="collapsible-content">
+          ${generateLessonSections(lesson)}
+        </div>
+      </div>
+
+      <!-- Collapsible Section for Vocabulary -->
+      <div class="collapsible-section">
+        <button class="collapsible-btn">Vocabulary</button>
+        <div class="collapsible-content">
+          ${generateVocabularyTable(lesson.vocabulary, lesson.vocabularyE)}
+        </div>
+      </div>
+
+      <!-- Collapsible Section for Exercises -->
+      <div class="collapsible-section">
+        <button class="collapsible-btn">Exercises: ${lesson.exercises}</button>
+        <div class="collapsible-content">
+          ${generateExercises(lesson, lessonNumber)}
+        </div>
+      </div>
+
+      <!-- Collapsible Section for Cultural Brief -->
+      <div class="collapsible-section">
+        <button class="collapsible-btn">Cultural Brief</button>
+        <div class="collapsible-content">
+          ${generateCulturalBrief(lesson)}
+        </div>
+      </div>
+      
+      <hr>
     </section>
-    <section class="exerciseArea displayContent">
-      <h3 class="subchapter">${lesson.exercises}</h3>
-      ${generateExercises(
-        lesson,
-        lessonNumber
-      )}  <!-- Passing lessonNumber here -->
-    </section>
-    <section class="culturalBrief displayContent">
-      ${generateCulturalBrief(lesson)}
-    </section> 
-    <hr>
   `
     )
     .join("");
@@ -369,6 +391,28 @@ function getLessonData(uniqueExIdPrefix) {
   );
   return null;
 }
+// Function to enable collapsible sections
+function setupCollapsibleSections() {
+  // Add event listener to handle click events on collapsible buttons
+  document.body.addEventListener("click", function (event) {
+    if (event.target && event.target.classList.contains("collapsible-btn")) {
+      // Toggle the active class on the clicked button
+      event.target.classList.toggle("active");
+
+      // Find the next sibling element which is the collapsible content
+      const content = event.target.nextElementSibling;
+
+      // Toggle the display of the content section using max-height for smooth transition
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null; // Collapse the content
+        content.style.padding = "0 15px"; // Adjust padding when collapsing
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px"; // Expand the content
+        content.style.padding = "15px"; // Adjust padding when expanding
+      }
+    }
+  });
+}
 
 function initEvents() {
   createStructure();
@@ -380,6 +424,8 @@ function initEvents() {
   }
 
   validateGlobalLessons(); // Validate after loading
+
+  document.addEventListener("DOMContentLoaded", setupCollapsibleSections);
 
   // Add event listeners for answer check buttons
   document.body.addEventListener("click", function (event) {

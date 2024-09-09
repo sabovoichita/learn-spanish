@@ -4,23 +4,52 @@ function $(selector) {
 }
 
 // Create basic page structure
-function createStructure() {
-  $("body").innerHTML = `
-    <header>
+function createStructure(chapters) {
+  const body = $("body");
+  // console.log("Body element:", body); // Check if body exists
+
+  body.innerHTML = `
+    <header class="fixed-header">
       <h1>Learn Spanish</h1>
+      ${createNav(chapters)}
     </header>
     <div id="container"></div>
+  `;
+
+  // console.log("Structure created.");
+}
+
+// Function to create the navigation bar
+function createNav(chapters) {
+  const navItems = chapters
+    .map(
+      (chapter, index) =>
+        `<li><a href="#" class="chapter-link" data-lesson="${
+          index + 1
+        }">Lesson ${index + 1}: ${chapter.title}</a></li>`
+    )
+    .join("");
+
+  return `
+    <nav class="nav-container">
+      <div class="dropdown">
+        <button class="dropdown-btn">Lessons</button>
+        <ul class="dropdown-menu">
+          ${navItems}
+        </ul>
+      </div>
+    </nav>
   `;
 }
 
 // Render divs for lessons
-function renderDivs(lessonNumber) {
+function renderDivs() {
   const container = $("#container");
-  for (let i = 1; i <= lessonNumber; i++) {
-    const lessonDiv = document.createElement("div");
-    lessonDiv.id = `l${i}`;
-    container.appendChild(lessonDiv);
-  }
+  container.innerHTML = ""; // Clear any existing content
+  // You don't need multiple divs here. A single div will be used to show one lesson at a time.
+  const lessonDiv = document.createElement("div");
+  lessonDiv.id = "lesson-content"; // This is the main div where lesson content will be shown
+  container.appendChild(lessonDiv);
 }
 
 // Generate lesson content
@@ -39,17 +68,11 @@ function generateLessonContent(lessons, lessonNumber) {
         </div>
       </div>
 
-      <!-- Collapsible Section for Vocabulary -->
-      <div class="collapsible-section">
-        <button class="collapsible-btn">Vocabulary</button>
-        <div class="collapsible-content">
-          ${generateVocabularyTable(lesson.vocabulary, lesson.vocabularyE)}
-        </div>
-      </div>
+      
 
       <!-- Collapsible Section for Exercises -->
       <div class="collapsible-section">
-        <button class="collapsible-btn">Exercises: ${lesson.exercises}</button>
+        <button class="collapsible-btn"> ${lesson.exercises}</button>
         <div class="collapsible-content">
           ${generateExercises(lesson, lessonNumber)}
         </div>
@@ -63,6 +86,14 @@ function generateLessonContent(lessons, lessonNumber) {
         </div>
       </div>
       
+
+      <!-- Collapsible Section for Vocabulary -->
+      <div class="collapsible-section">
+        <button class="collapsible-btn">Vocabulary</button>
+        <div class="collapsible-content">
+          ${generateVocabularyTable(lesson.vocabulary, lesson.vocabularyE)}
+        </div>
+      </div>
       <hr>
     </section>
   `
@@ -107,22 +138,16 @@ function generateSubChapter(title, content) {
 }
 
 function createExSection(lessonNumber, exIdPrefix, placeholder, ex, answers) {
+  // Check if the exercise array exists and is valid
   if (!Array.isArray(ex)) {
     console.error(
-      `Expected 'ex' to be an array of exercise items for ${exIdPrefix}.`
+      `Expected 'ex' to be an array for exercise ${exIdPrefix}, but got:`,
+      ex
     );
-    return "";
+    return ""; // Return an empty string to prevent errors
   }
 
   const uniqueExIdPrefix = `l${lessonNumber}-${exIdPrefix}`;
-
-  // Check if the answers object has the expected prefix
-  const expectedAnswer = answers[exIdPrefix]; // Should work correctly for ex7
-  if (!expectedAnswer) {
-    console.warn(
-      `Expected answers for prefix ${exIdPrefix} not found in answers object.`
-    );
-  }
 
   const exerciseHtml = ex
     .map(
@@ -151,6 +176,15 @@ function generateExercises(lesson, lessonNumber) {
   return lesson.lessonEx
     .map((text, index) => {
       const exPrefix = `ex${index + 1}`; // Dynamically handles ex1 to ex7
+
+      // Check if the exercise data exists for this prefix
+      if (!lesson[exPrefix]) {
+        console.warn(
+          `Exercise ${exPrefix} is missing in lesson ${lessonNumber}`
+        );
+        return ""; // Return an empty string if exercise is missing
+      }
+
       return `
         <p class="notes">${text}</p>
         ${createExSection(
@@ -271,21 +305,16 @@ function verifyAnswers(exIdPrefix, answers) {
   });
 }
 
-// Show the selected lesson
-function showLesson(lessonNumber, lessons) {
-  const lessonDiv = $(`#l${lessonNumber}`);
-  if (!lessonDiv) {
-    console.error(`Lesson #l${lessonNumber} not found.`);
-    return;
-  }
-
-  // Ensure that lesson content is generated with all exercises including ex7
-  lessonDiv.innerHTML = generateLessonContent(lessons, lessonNumber);
-}
-
 let globalLessons = {}; // Use an object for better key-based access
 
 function loadLesson(lessonNumber) {
+  // Check if the lesson is already loaded
+  if (globalLessons[lessonNumber]) {
+    showLesson(lessonNumber, globalLessons[lessonNumber]);
+    return; // If it's already loaded, display it and return
+  }
+
+  // If the lesson is not loaded yet, fetch it
   fetch(`./data/lesson_${lessonNumber}.json`)
     .then((response) => {
       if (!response.ok) {
@@ -298,38 +327,19 @@ function loadLesson(lessonNumber) {
         throw new Error("Expected JSON to be an array of lessons.");
       }
 
-      // Store lessons in the global variable
-      globalLessons[lessonNumber] = lessons;
-
-      // Debugging: Log the entire lessons array
-      // console.log(`Lesson ${lessonNumber} loaded:`, lessons);
-
-      // Populate answers and validate them
+      // Validate the lesson data before using it
       lessons.forEach((lesson, index) => {
-        // Populate the answers
-        lesson.answers = {
-          ex1: lesson.ex1A || [],
-          ex2: lesson.ex2A || [],
-          ex3: lesson.ex3A || [],
-          ex4: lesson.ex4A || [],
-          ex5: lesson.ex5A || [],
-          ex6: lesson.ex6A || [],
-          ex7: lesson.ex7A || [],
-        };
-
-        // Debugging: Log the answers object specifically
-        // console.log(
-        //   `Lesson ${lessonNumber} - Lesson ${index + 1} answers:`,
-        //   lesson.answers
-        // );
-
-        // Cross-check the exercise prefixes
-        // const expectedPrefixes = Object.keys(lesson.answers); // Expected: ['ex1', 'ex2', ...]
-        // console.log(
-        //   `Expected prefixes for lesson ${lessonNumber} - Lesson ${index + 1}:`,
-        //   expectedPrefixes
-        // );
+        if (!lesson.lessonEx || !lesson.answers) {
+          console.error(
+            `Lesson ${
+              index + 1
+            } in lesson ${lessonNumber} is missing exercises or answers.`
+          );
+        }
       });
+
+      // Store the lessons in the global variable
+      globalLessons[lessonNumber] = lessons;
 
       // Render the lesson content
       showLesson(lessonNumber, lessons);
@@ -337,6 +347,28 @@ function loadLesson(lessonNumber) {
     .catch((error) => {
       console.error("Error loading lesson:", error.message, error);
     });
+}
+
+// Show the selected lesson in the same div, replacing any existing content
+function showLesson(lessonNumber, lessons) {
+  const container = $("#container"); // Use the container element
+  if (!container) {
+    console.error(`Container not found.`);
+    return;
+  }
+
+  // Clear the existing lesson content
+  container.innerHTML = "";
+
+  // Create a new div for the selected lesson content
+  const lessonDiv = document.createElement("div");
+  lessonDiv.id = `l${lessonNumber}`;
+
+  // Ensure that lesson content is generated with all exercises including ex7
+  lessonDiv.innerHTML = generateLessonContent(lessons, lessonNumber);
+
+  // Append the new lesson div to the container
+  container.appendChild(lessonDiv);
 }
 
 function validateGlobalLessons() {
@@ -391,74 +423,94 @@ function getLessonData(uniqueExIdPrefix) {
   );
   return null;
 }
+
+function setupDropdown() {
+  const dropdownBtn = document.querySelector(".dropdown-btn");
+  const dropdown = document.querySelector(".dropdown");
+
+  if (dropdownBtn && dropdown) {
+    // Toggle the dropdown menu when clicking the button
+    dropdownBtn.addEventListener("click", () => {
+      dropdown.classList.toggle("active");
+    });
+
+    // Close the dropdown when clicking outside of it
+    document.addEventListener("click", (event) => {
+      if (!dropdown.contains(event.target) && event.target !== dropdownBtn) {
+        dropdown.classList.remove("active"); // Close the dropdown
+      }
+    });
+
+    // Listen for clicks on lesson links inside the dropdown
+    const chapterLinks = document.querySelectorAll(".chapter-link");
+    chapterLinks.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        const lessonNumber = event.target.getAttribute("data-lesson");
+        console.log("Lesson clicked:", lessonNumber); // Check if link click is detected
+        loadLesson(parseInt(lessonNumber, 10));
+
+        // Close the dropdown after clicking a lesson
+        dropdown.classList.remove("active");
+      });
+    });
+  } else {
+    console.error("Dropdown button or dropdown container not found.");
+  }
+}
+
 // Function to enable collapsible sections
 function setupCollapsibleSections() {
-  // Add event listener to handle click events on collapsible buttons
   document.body.addEventListener("click", function (event) {
     if (event.target && event.target.classList.contains("collapsible-btn")) {
-      // Toggle the active class on the clicked button
       event.target.classList.toggle("active");
 
-      // Find the next sibling element which is the collapsible content
       const content = event.target.nextElementSibling;
 
-      // Toggle the display of the content section using max-height for smooth transition
+      // Toggle the max-height for smooth collapse/expand
       if (content.style.maxHeight) {
         content.style.maxHeight = null; // Collapse the content
-        content.style.padding = "0 15px"; // Adjust padding when collapsing
       } else {
         content.style.maxHeight = content.scrollHeight + "px"; // Expand the content
-        content.style.padding = "15px"; // Adjust padding when expanding
       }
     }
   });
 }
 
 function initEvents() {
-  createStructure();
   const numberOfLessons = 7; // Define the number of lessons
-  renderDivs(numberOfLessons); // Render the divs for all lessons
+  const chapters = []; // Array to hold chapter data
 
+  // Fetch chapter titles dynamically
+  const chapterPromises = [];
   for (let i = 1; i <= numberOfLessons; i++) {
-    loadLesson(i); // Pass lesson number correctly
+    chapterPromises.push(
+      fetch(`./data/lesson_${i}.json`)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(
+              `Failed to load chapter ${i}: ${response.statusText}`
+            );
+          }
+          return response.json();
+        })
+        .then((lessons) => {
+          if (lessons.length > 0) {
+            chapters.push({ title: lessons[0].title }); // Correct indexing for title
+          }
+        })
+        .catch((error) => console.error("Error loading chapters:", error))
+    );
   }
 
-  validateGlobalLessons(); // Validate after loading
+  // Wait for all chapters to be loaded before creating the structure
+  Promise.all(chapterPromises).then(() => {
+    createStructure(chapters);
+    renderDivs();
 
-  document.addEventListener("DOMContentLoaded", setupCollapsibleSections);
-
-  // Add event listeners for answer check buttons
-  document.body.addEventListener("click", function (event) {
-    if (event.target && event.target.classList.contains("check-answers-btn")) {
-      const exIdPrefix = event.target.getAttribute("data-prefix");
-      console.log(
-        `Check Answers button clicked for exercise ID prefix: ${exIdPrefix}`
-      );
-
-      // Extract lesson number from the exercise ID prefix
-      const lessonNumberMatch = exIdPrefix.match(/^l(\d+)-ex/); // Adjust the regex to match the lesson number
-      const lessonNumber = lessonNumberMatch
-        ? parseInt(lessonNumberMatch[1], 10)
-        : null;
-
-      if (!lessonNumber) {
-        console.error(
-          `Invalid lesson number extracted from exercise ID prefix: ${exIdPrefix}`
-        );
-        return;
-      }
-
-      // Retrieve the lesson data using the extracted lesson number
-      const lessonData = getLessonData(exIdPrefix, lessonNumber);
-      if (lessonData) {
-        verifyAnswers(exIdPrefix, lessonData.answers);
-      } else {
-        console.error(`No data found for exercise ID prefix: ${exIdPrefix}`);
-      }
-    }
+    setupDropdown();
+    setupCollapsibleSections();
   });
+  // console.log("initEvents called");
 }
-
 initEvents();
-// ’
-// ‘

@@ -230,6 +230,97 @@ hr {
   max-height: 300px; /* Adjust this value based on the expected content size */
   padding: 15px;
 }
+/* Style for the fixed header */
+.fixed-header {
+  /* position: fixed; */
+  /* top: 0; */
+  width: 100%;
+  background-color: #03a9f4;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensures the header stays above other content */
+}
+
+/* Nav container to wrap the dropdown */
+.nav-container {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the dropdown button */
+.dropdown-btn {
+  background-color: #0288d1;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the dropdown button */
+.dropdown-btn:hover {
+  background-color: #0277bd;
+}
+
+/* Style for the dropdown menu */
+.dropdown {
+  position: relative;
+}
+
+/* Hide the dropdown menu by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  z-index: 1001;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+/* Style for dropdown menu items */
+.dropdown-menu li {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none;
+}
+
+/* Style for dropdown links */
+.dropdown-menu li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-menu li a:hover {
+  background-color: #f5f5f5;
+}
+/* dropdown.active .dropdown-menu {
+  display: block;
+} */
+
+/* Display the dropdown menu when the button is active */
+/* .dropdown-btn.active + .dropdown-menu {
+  display: block;
+} */
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
@@ -240,4 +331,22 @@ hr {
   .check-answers-btn {
     width: 100%;
   }
+}
+
+/* Show dropdown when active */
+.dropdown.active .dropdown-menu {
+  display: block;
+  max-height: 500px; /* Adjust according to your content height */
+  transition: max-height 0.3s ease;
+}
+/* Collapsible content */
+.collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+/* Expand when active */
+.collapsible-btn.active + .collapsible-content {
+  max-height: 1000px; /* Adjust based on content */
+  padding: 15px;
 }

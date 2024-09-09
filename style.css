@@ -336,7 +336,7 @@ hr {
 /* Show dropdown when active */
 .dropdown.active .dropdown-menu {
   display: block;
-  max-height: 500px; /* Adjust according to your content height */
+  max-height: 600px; /* Adjust according to your content height */
   transition: max-height 0.3s ease;
 }
 /* Collapsible content */

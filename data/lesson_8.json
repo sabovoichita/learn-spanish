@@ -1,0 +1,461 @@
+[
+  {
+    "ch": "8",
+    "title": "ser and estar",
+    "subCh1": "Adjectives",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "ser is used to express permanent characteristics of a person or object: "
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "Susana es inteligente.",
+          "Soy ingles.",
+          "La casa es grande."
+        ],
+        "words2": [
+          "Susana is intelligent.",
+          "I am English.",
+          "The house is big."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "estar is used to express temporary states:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿Cómo estás?", "No estoy bien."],
+        "words2": ["How are you?", "I am not very well."]
+      },
+      {
+        "type": "paragraph",
+        "text": "estar is used for positions and locations, whether they are temporary or permanent:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Madrid está en España", "Los libros están en la mesa."],
+        "words2": ["Madrid is in Spain. ", "The books are on the table."]
+      },
+      {
+        "type": "paragraph",
+        "text": "Sometimes the choice of verb might be related to the speaker's perception of the situation and not to an objective reality:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["María está muy guapa. "],
+        "words2": ["Maria is (looks) very pretty."]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "In this sentence the speaker is referring to how s/he sees Maria at this moment, not necessarily to the reality of Maria's appearance."
+      },
+      {
+        "type": "paragraph",
+        "text": "estar can never be followed directly by a noun as ser can, but both verbs can be followed by an adjective, and this is where difficulties may arise."
+      }
+    ],
+
+    "subCh2": "ser and estar with adjectives",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "It is possible to give some guidelines about the use of ser and estar with adjectives, but it must be borne in mind that only an understanding of the underlying principles and in some cases the context will guarantee accurate use of the appropriate verb."
+      },
+
+      {
+        "type": "paragraph",
+        "text": "1 If the adjective indicates a quality that is felt by the speaker to be an inherent characteristic of the person or thing referred to, the verb used is likely to be ser. This type of use refers to something that is objectively verifiable"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["La nieve es blanca.", "Pedro es andaluz."],
+        "words2": [
+          "Snow is white. (i.e. it is a characteristic of it)",
+          "Snow is white. (i.e. it is a characteristic of it)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "2 If the adjective refers to something that the speaker considers to be accidental or temporary then estar is used"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "Estoy muy cansada.",
+          "Mi madre está enferma.",
+          "Mi sopa está fría."
+        ],
+        "words2": [
+          "I am tired. (i.e. at the moment, not permanently) ",
+          "My mother is ill. (i.e. at the moment, not permanently)",
+          "My soup is cold. (i.e. this is not a normal characteristic of soup, it refers to the state of my soup at the moment)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "In these sentences the adjectives describe qualities that are true at the time referred to but which are not seen as inherent characteristics"
+      },
+
+      {
+        "type": "paragraph",
+        "text": "3 estar is used to express something which may or may not always be true but which the speaker wants to stress at the time of speaking:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "¡Qué guapa estás!",
+          "Este café está muy rico.",
+          "¡Qué simpático está el jefe hoy!"
+        ],
+        "words2": [
+          "How pretty you are! (i.e. at the moment)",
+          "This coffee is delicious. (i.e. it is not always delicious) ",
+          "How nice the boss is today! (i.e. he is not usually so nice)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "These are all subjective statements."
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice the difference between these two questions:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["¿Cómo está Juan? and ¿Cómo es Juan?"],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "The first is asking about how Juan is feeling at the moment, the second is asking what Juan is like as a person."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some adjectives change their meaning according to whether they are used with ser or estar and these will be indicated in the dictionary. The most common examples are:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "viejo",
+        "label2": "",
+        "words1": [
+          "ser aburrido",
+          "estar aburrido",
+          "ser consciente",
+          "estar consciente",
+          "ser inconsciente",
+          "estar inconsciente",
+          "ser listo",
+          "estar listo"
+        ],
+        "words2": [
+          "to be boring",
+          "to be bored",
+          "to be aware",
+          "to be conscious",
+          "to be irresponsible",
+          "to be unconscious",
+          "to be clever",
+          "to be ready"
+        ]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "These examples illustrate again the general principle that ser is used for characteristics that are more or less permanent, while estar is used for temporary states."
+      },
+      {
+        "type": "paragraph",
+        "text": "As you continue with your study of Spanish you will come across more uses of serand estar, e.g. the use of estar in continuous tenses and the use of ser to form the passive, but the above distinctions should help you to avoid too many pitfalls in the early stages."
+      }
+    ],
+    "subCh3": "",
+    "lessonContentSubCh3": [],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Complete the following sentences with the appropriate form of ser:",
+      "2 Complete the following sentences with the appropriate form of estar:",
+      "3 Complete the following sentences with the appropriate form of ser or estar:",
+      "4 Complete the following sentences with the appropriate form of ser or estar:",
+      "5 Complete the following sentences with the appropriate form of ser or estar:",
+      "6 Complete the following dialogues with ser or estar:"
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 Ella _____ estudiante de francés.",
+      "2 Uds. _____ estudiantes de ingeniería ¿verdad?",
+      "3 Nosotros _____ estudiantes de español.",
+      "4 Yo _____ de Madrid.",
+      "Basic Spanish: A grammar and workbook 6",
+      "5 ¿Tú _____ de Madrid también?",
+      "6 Vosotros no _____ de Madrid ¿no?",
+      "7 Nosotros _____ de Barcelona.",
+      "8 Ud. _____ estudiante de alemán.",
+      "9 Él _____ estudiante de inglés.",
+      "10 María y tú _____ de Sevilla ¿verdad?"
+    ],
+    "ex1A": [
+      "1 1 es",
+      "2 son",
+      "3 somos",
+      "4 soy",
+      "5 eres",
+      "6 sois",
+      "7 somos",
+      "8 es",
+      "9 es",
+      "10 sois"
+    ],
+    "ex2": [
+      "1 Uds. _____ en el hotel Meliá ¿no?",
+      "2 Yo _____ en el hotel Miguel Angel.",
+      "3 ¿Vosotros _____ en una casa rural?",
+      "4 Ella _____ en el Parador.",
+      "5 Ud. _____ en una pensión ¿verdad?",
+      "6 Nosotros _____ en un apartamento.",
+      "7 Él _____ en un piso alquilado.",
+      "8 Ellos _____ en un chalet.",
+      "9 Tú _____ en un camping.",
+      "10 Rocío y yo _____ en una residencia de estudiantes."
+    ],
+    "ex2A": [
+      "1 están",
+      "2 estoy",
+      "3 estáis",
+      "4 está",
+      "5 está",
+      "6 estamos",
+      "7 está",
+      "8 están",
+      "9 estás",
+      "10 estamos"
+    ],
+    "ex3": [
+      "1 (Yo) _____ muy aburrida ¿por qué no vamos al cine?",
+      "2 (Ellos) _____ inconscientes tras el accidente.",
+      "3 ¿_____ listos (vosotros)? Tenemos que salir ahora mismo.",
+      "4 (Ella) _____ consciente a pesar de la caída.",
+      "5 Las películas de guerra _____ aburridas.",
+      "6 ¿Ud. _____ consciente del problema?",
+      "7 (Nosotros) _____ listos para salir en este momento.",
+      "8 (Vosotros) _____ unos inconscientes ¿sabéis el peligro que tiene?",
+      "9 (Ellos) no _____ muy listos si piensan que eso es así.",
+      "10 Odio a Juan, _____ un hombre muy aburrido."
+    ],
+    "ex3A": [
+      "1 estoy",
+      "2 están",
+      "3 estáis",
+      "4 está",
+      "5 son",
+      "6 es",
+      "7 estamos",
+      "8 sois",
+      "9 son",
+      "10 es"
+    ],
+    "ex4": [
+      "1 Peter _____ alemán.",
+      "2 Zaragoza _____ en España.",
+      "3 Guadalajara _____ una ciudad de Méjico.",
+      "4 Mario no _____ en Panamá.",
+      "5 Elena y Rocío _____ en una clase de inglés.",
+      "6 Lola y Jesús _____ de Navarra.",
+      "7 Angela y yo _____ colombianas.",
+      "8 Ana _____ en Cataluña.",
+      "9 ¿(Tú) _____ inglés o irlandés?",
+      "10 Uds. _____ sevillanos ¿no?"
+    ],
+    "ex4A": [
+      "1 es",
+      "2 está",
+      "3 es",
+      "4 está",
+      "5 están",
+      "6 son",
+      "7 somos",
+      "8 está",
+      "9 eres",
+      "10 son"
+    ],
+    "ex5": [
+      "1 Pepe _____ alto y delgado.",
+      "2 Cristina _____ en Barcelona.",
+      "3 La paella _____ fría.",
+      "4 Loreto _____ periodista.",
+      "5 Iciar y Juan _____ enfermos.",
+      "6 Arancha _____ muy elegante hoy.",
+      "7 Mayte y Begoña _____ asturianas.",
+      "8 Elena y yo _____ contentas.",
+      "9 El café _____ demasiado caliente.",
+      "10 El coche _____ sucio. Tienes que lavarlo."
+    ],
+    "ex5A": [
+      "1 es",
+      "2 está",
+      "3 está",
+      "4 es",
+      "5 están",
+      "6 está",
+      "7 son",
+      "8 estamos",
+      "9 está",
+      "10 está"
+    ],
+    "ex6": [
+      "MAR: ¡Hola! _____ (1)",
+      "Mar ¿y tú? ",
+      "ANA: Yo _____ (2)",
+      "Ana ¿Cómo _____ (3)? ",
+      "MAR: Bien, gracias ¿y tú? ",
+      "ANA: Bien también ¿Y ese chico tan guapo, quién _____ (4)? ",
+      "MAR: _____ (5)",
+      "Jordi. _____ (6)",
+      "un chico catalán pero _____ ",
+      "(7) aquí en Salamanca en ",
+      "un curso de posgrado. ",
+      "ANA: Yo también _____ (8)",
+      "en un curso de posgrado. _____ (9)",
+      "médica ¿y tú? ",
+      "MAR: _____ (10) ",
+      "abogada y _____ (11) ",
+      "la profesora de un curso de posgrado. ",
+      "JOSÉ: ¿_____ (12)",
+      "Ud. el Sr Serrano? ",
+      "JUAN: Sí, Ud. _____ (13)",
+      "el Sr Font ¿verdad? ",
+      "JOSÉ: Sí. _____ (14)",
+      "un placer conocerle. ",
+      "JUAN: El placer _____ (15)",
+      "mío. ",
+      "JOSÉ: Hoy tenemos una reunión con la Sra Abad después de comer. _____ (16)",
+      "la presidenta de la empresa. La Sra Abad no _____ (17)",
+      "aquí ahora, _____ (18)",
+      "en otra reunión. Esta mañana nos reunimos con el Sr Herrero, que sí _____ (19)",
+      "aquí. El Sr Herrero _____ (20)",
+      "el contable de la empresa. "
+    ],
+    "ex6A": [
+      "1 soy",
+      "2 soy",
+      "",
+      "3 estás",
+      "",
+      "4 es",
+      "5 es",
+      "6 es",
+      "",
+      "7 está",
+      "",
+      "8 estoy",
+      "9 soy",
+      "",
+      "10 soy",
+      "11 soy",
+      "",
+      "12 es",
+      "",
+      "13 es",
+      "",
+      "14 es",
+      "",
+      "15 es",
+      "",
+      "16 es",
+      "17 está",
+      "18 está",
+      "",
+      "19 está",
+      "20 es",
+      ""
+    ],
+    "ex7": [],
+    "ex7A": [],
+
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Extremadura", "Key vocabulary"],
+    "bContent": [
+      "La comunidad de Extremadura está compuesta de dos provincias: Cáceres y Badajoz. Está en el suroeste de España, en la frontera con Portugal. Cáceres es una de las ciudades más desconocidas y más bonitas de España. El centro de la ciudad es medieval y cuando entras en él parece que vuelves a la época de la conquista de América, a los siglos Basic Spanish: A grammar and workbook 64 dieciséis y diecisiete. En la provincia de Cáceres está también Trujillo, que es un pueblo medieval famoso por ser la cuna de los conquistadores",
+      "En Extremadura está también Mérida. Mérida es uno de los enclaves romanos más importantes de España y está en la provincia de Badajoz. Entre sus principales monumentos están el circo y el teatro romano."
+    ],
+    "vocabulary": [
+      "ahora mismo",
+      "alquilado",
+      "a pesar de ",
+      "asturiana",
+      "caída (f.)",
+      "chalet (m.)",
+      "conquista (f.)",
+      "contable",
+      "cuna (f.)",
+      "desconocido",
+      "empresa (f.)",
+      "época (f.)",
+      "frontera (f.)",
+      "guapo",
+      "médico",
+      "mío",
+      "odiar",
+      "parecer",
+      "placer ",
+      "posgrado",
+      "residencia",
+      "rural",
+      "sevillanos",
+      "siglo (m.)",
+      "tras"
+    ],
+    "vocabularyE": [
+      "right now",
+      "rented",
+      "in spite of, despite",
+      "from Asturias",
+      "fall",
+      "detached house",
+      "conquest",
+      "accountant",
+      "birthplace (formal)",
+      "unknown, little known",
+      "company",
+      "time",
+      "border",
+      "beautiful, handsome",
+      "doctor",
+      "mine",
+      "hate",
+      "to seem",
+      "pleasure",
+      "postgraduate",
+      "hall",
+      "rural, in the countryside",
+      "from Seville",
+      "century",
+      "after"
+    ]
+  }
+]

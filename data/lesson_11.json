@@ -1,0 +1,603 @@
+[
+  {
+    "ch": "11",
+    "title": "Object pronouns",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "In Spanish, as in English, there are two types of object pronouns – direct and indirect. In a sentence such as:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["My brother sent a letter to his girlfriend."],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "'My brother' is the subject of the verb, i.e. the person who carried out the action of the verb; 'a letter' is the direct object, i.e. the thing which directly received the effect of the verb; and 'his girlfriend' is the indirect object, i.e. she benefits from the act of sending and therefore plays an indirect role in the process."
+      },
+      {
+        "type": "paragraph",
+        "text": "In English the indirect object is often introduced by 'to' or 'for', but sometimes a change in word order leads to the 'to' or 'for' being omitted:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["My brother sent his girlfriend a letter."],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      }
+    ],
+
+    "subCh2": "Direct objects and direct object pronouns",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "When the direct object of a verb is a person, it must always be preceded by a in Spanish – this is called the personal a:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["John sees the children."],
+        "words2": ["Juan ve a los niños."]
+      },
+      {
+        "type": "paragraph",
+        "text": "but"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["John sees the cars."],
+        "words2": ["Juan ve los coches."]
+      },
+      {
+        "type": "paragraph",
+        "text": "As we have seen before, pronouns are used to replace a noun, so instead of saying:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["John sees the cars. "],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "Assuming that both the speaker and the listener know what is being referred to, we can use the direct object pronoun to replace 'the cars' and say:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["John sees them."],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "The direct object pronouns in Spanish correspond to the six persons of the verb and are as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "1st person sing.",
+          "me",
+          "2nd person sing.",
+          "te",
+          "3rd person sing.",
+          "lo",
+          "la",
+          "1st person pl.",
+          "nos",
+          "2nd person pl.",
+          "os",
+          "3rd person pl.",
+          "los",
+          "las"
+        ],
+        "words2": [
+          "",
+          "me",
+          "",
+          "you (familiar sing.)",
+          "",
+          "him/it/you (polite sing., masc.)",
+          "her/it/you (polite sing., fem.)",
+          "",
+          "us",
+          "",
+          "you (familiar pl.)",
+          "",
+          "them (masc. people or objects) or you (polite pl., masc.)",
+          "them (fem. people or objects) or you (polite pl., fem.)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Direct object pronouns are generally placed before the verb, for example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "John sees me.",
+          "I see you. (familiar sing.)",
+          "We see him./We see it. (masc. sing.)/We see you. (polite sing. masc.)",
+          "They see her./We see it. (fem. sing.)/We see you. (polite sing. fem.)",
+          "They see us",
+          "We see you. (familiar pl.)",
+          "We see them. (masc.)/We see you. (polite pl. masc.)",
+          "We see them. (fem.)/We see you. (polite pl. fem.)"
+        ],
+        "words2": [
+          "Juan me ve.",
+          "(Yo) te veo.",
+          "Lo vemos.",
+          "La ven.",
+          "Nos ven.",
+          "Os vemos.",
+          "Los vemos.",
+          "Las vemos."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The third person pronouns lo and la are often replaced by le when the direct object is a person rather than a thing:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["John sees it."],
+        "words2": ["Juan lo ve."]
+      },
+      {
+        "type": "paragraph",
+        "text": "but"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["John sees him."],
+        "words2": ["Juan le (or lo) ve."]
+      },
+      {
+        "type": "paragraph",
+        "text": "Similarly in the plural:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["John sees them. (e.g. the cars)"],
+        "words2": ["Juan los ve."]
+      },
+      {
+        "type": "paragraph",
+        "text": "but"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["John sees them. (e.g. the children)"],
+        "words2": ["Juan les ve."]
+      },
+      {
+        "type": "paragraph",
+        "text": "This is known as leísmo and is more common in Spain, particularly central Spain, than in Latin America."
+      },
+      {
+        "type": "paragraph",
+        "text": "We have seen that the direct object pronoun generally comes before the main verb, but there are some cases where the pronoun is added to the end of the verb form – notably the infinitive:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "I am going to buy it.",
+          "We are going to visit you tomorrow."
+        ],
+        "words2": ["Voy a comprarlo.*", "Vamos a visitarte mañana.*"]
+      },
+      {
+        "type": "paragraph",
+        "text": "*There is an alternative position for the pronoun in these sentences – i.e. Lo voy a comprar/Te vamos a visitar mañana – but at this stage it is better to add it to the infinitive."
+      }
+    ],
+    "subCh3": "Indirect objects and indirect object pronouns",
+    "lessonContentSubCh3": [
+      {
+        "type": "paragraph",
+        "text": "In Spanish the indirect object is always preceded by the preposition a:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Juan escribe una carta a su novia."],
+        "words2": [
+          "John writes a letter to his girlfriend./ John writes his girlfriend a letter. "
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Remember that in Spanish an a may also introduce the direct object of a verb when the direct object is a person (the personal a – see above). So in the case of a sentence such as "
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Juan ve a María"],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "the a does not mean 'to' and is simply introducing the direct object, since María is the person directly affected by the verb – she is seen. Therefore a María would be replaced by a direct object pronoun and not an indirect one:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Juan la ve."],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "As we have just seen with direct objects, indirect object can be replaced by a pronoun. These pronouns are called indirect object pronouns:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [""],
+        "words2": ["John gave the letter to her."]
+      },
+      {
+        "type": "paragraph",
+        "text": "or"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [""],
+        "words2": ["John gave her the letter."]
+      },
+      {
+        "type": "paragraph",
+        "text": "Once again, in Spanish the six pronouns correspond to the six persons of the verb:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "1st person sing.",
+          "me",
+          "2nd person sing.",
+          "te",
+          "3rd person sing.",
+          "le",
+          "1st person pl.",
+          "nos",
+          "2nd person pl.",
+          "los",
+          "3rd person pl.",
+          "les"
+        ],
+        "words2": [
+          "",
+          "to me",
+          "",
+          "to you (familiar sing.)",
+          "",
+          "him/her/it/you (polite sing.)",
+          "",
+          "to us",
+          "",
+          "to you (familiar pl.)",
+          "",
+          "to them/ to you  (polite pl.)"
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["He sends me a letter.", "We give you the news."],
+        "words2": ["Me envía una carta.", "Os damos las noticias."]
+      },
+      {
+        "type": "paragraph",
+        "text": "You will see that le can mean 'to him', 'to her', 'to it' and 'to you'. Similarly, les can mean 'to them', 'to you'. If there is any uncertainty about the meaning of the pronoun it is possible to use the forms: a él, a ella, a Vd., a ellos, a ellas and a Vds. after the verb for clarification, but these forms can never replace the indirect object pronouns, le and les:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Le doy el regalo (a él).",
+          "Les envío la carta (a ellas).",
+          "Le digo la verdad (a Ud.).",
+          "Les damos el mensaje (a Uds.)."
+        ],
+        "words2": [
+          "I give him the present.",
+          "I send them the letter.",
+          "I tell you the truth.",
+          "We give you the message."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "As with the direct object pronoun, the indirect object pronoun comes in front of the verb. If the verb is in the infinitive, the best thing at this stage is to add the pronoun directly to the infinitive:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Voy a darle el libro (a él)."],
+        "words2": ["I am going to give him the book. "]
+      },
+      {
+        "type": "paragraph",
+        "text": "If both a direct object pronoun and an indirect object pronoun occur in the same sentence, the indirect pronoun is placed before the direct pronoun:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Juan me lo envía.", "Mis padres te lo dan."],
+        "words2": ["John sends it to me.", "My parents give it to you."]
+      },
+      {
+        "type": "paragraph",
+        "text": "This also applies if the pronouns are added to the end of the infinitive:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Voy a dártelo.*"],
+        "words2": ["I am going to give it to you."]
+      },
+      {
+        "type": "paragraph",
+        "text": "*Note that a stress mark now becomes necessary – see introductory section on 'Pronunciation'"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is one further detail that you need to be aware of and this is what happens when there are two pronouns together, both beginning with l … (e.g. le for 'to him' and lo for 'it'). In such cases the first of the two pronouns is replaced by se, whether it is singular or plural:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Juan se lo da. "],
+        "words2": ["John gives it to him/her/you. "]
+      },
+      {
+        "type": "paragraph",
+        "text": "If there is any possible ambiguity, a él, a ella, a usted, etc. can be added for clarity (see above)."
+      }
+    ],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 How would you express the following in Spanish? ",
+      "2 Complete the following comparisons using the information given at the end of the sentence:",
+      "3 Rewrite the following sentences replacing the words in bold by the appropriate indirect object pronoun:",
+      "4 Translate the following sentences into Spanish using the indirect object pronouns:",
+      "5 Rewrite the following sentences replacing the words in bold with the appropriate object pronouns:",
+      "6 Answer the following questions in the negative using the object pronouns as in the example: Example: ¿Nos va a mandar Pepe un paquete? No, no va a mandárnoslo. No, no nos lo va a mandar."
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 Lola escribe unas postales desde París.(unas postales)",
+      "2 Mario come un bocadillo todas las mañanas.(un bocadillo)",
+      "3 Rocío y Jaime compran una casa en Sevilla.(una casa)",
+      "4 Ves un partido en la televisión.(un partido)",
+      "5 Elena vende unos pendientes.(e unos pendientes)",
+      "6 Marisol habla inglés y francés muy bien.(inglés y francés)",
+      "7 Juan y Pepe beben café con leche.(café)",
+      "8 Loreto alquila bicicletas en verano.(bicicletas)",
+      "9 Mi empresa regala plumas en Navidad.(plumas)",
+      "10 ¿Cantas canciones en la ducha?(canciones)"
+    ],
+    "ex1A": [
+      "Lola las escribe desde París.",
+      "Mario lo come todas las mañanas.",
+      "Rocío y Jaime la compran en Sevilla.",
+      "Lo ves en la televisión.",
+      "Elena los vende.",
+      "Marisol los habla muy bien.",
+      "Juan y Pepe lo beben con leche.",
+      "Loreto las alquila en verano.",
+      "Mi empresa las regala en Navidad",
+      "¿Las cantas en la ducha?"
+    ],
+    "ex2": [
+      "1 ¿Entiendes alemán?",
+      "2 ¿Vendéis sellos?",
+      "3 ¿Cantan ópera? (Uds.)",
+      "4 ¿Comen carne? (ellos)",
+      "5 ¿Mandan postales? (Uds.)",
+      "6 ¿Abren las tiendas? (ellos)",
+      "7 ¿Bebéis café?",
+      "8 ¿Compra pasteles? (ella)",
+      "9 ¿Tienes nuestras entradas?",
+      "10 ¿Hace hoy la paella? (Ud.)"
+    ],
+    "ex2A": [
+      "No, no lo entiendo.",
+      "No, no los vendemos.",
+      "No, no la cantamos.",
+      "No, no la comen.",
+      "No, no las mandamos.",
+      "No, no las abren.",
+      "No, no lo bebemos.",
+      "No, no los compra.",
+      "No, no las tengo.",
+      "No, no la hago hoy./No, hoy no la hago."
+    ],
+    "ex3": [
+      "1 Son más _____ veinte estudiantes en esa clase.",
+      "2 Esperan menos _____ quince millones de premio.",
+      "3 Tienen más dinero _____ Pedro.",
+      "4 No quiero más _____ trece euros para esta tarde.",
+      "5 Necesito menos _____ trece euros para esta tarde.",
+      "6 Ganan menos sueldo _____ esas secretarias.",
+      "7 No tienen más _____ seis cervezas en la nevera.",
+      "8 Leen más _____ dos libros a la semana.",
+      "9 Esperamos menos problemas _____ el año pasado.",
+      "10 Bebéis más _____ ocho cafés al día."
+    ],
+    "ex3A": [
+      "El director nos escribe una carta.",
+      "Mi madre le lee un cuento todas las noches.",
+      "Los niños les pintan un dibujo para su cumpleaños.",
+      "Pedro le regala flores todas las semanas.",
+      "¿Os comunican las noticias?",
+      "El profesor me explica la gramática.",
+      "Pablo le manda un paquete.",
+      "¿Les cantamos una canción?",
+      "Lola nos compra regalos para Navidad.",
+      "Le presto a Juan un libro."
+    ],
+    "ex4": [
+      "1 We don't give you the dictionary. (tú)",
+      "2 They don't explain the film to them.",
+      "3 I don't buy you (Ud) a coffee. (Note: The verb here is invitar and not comprar.)",
+      "4 He doesn't sing Mary a song.",
+      "5 She doesn't tell you (Vds.) the news.",
+      "6 You (vosotros) don't send him a present.",
+      "7 You (Ud.) don't lend me money.",
+      "8 Don't you (Vds.) give me a book?",
+      "9 They don't explain this to him.",
+      "10 Doesn't she buy you presents?"
+    ],
+    "ex4A": [
+      "No te damos el diccionario.",
+      "No les explican la película.",
+      "No te invito a un café.",
+      "No le canta una canción a María.",
+      "No les dice/cuenta las noticias.",
+      "No le mandáis un regalo.",
+      "No me deja dinero.",
+      "¿No me dan un libro?",
+      "No le explican esto.",
+      "¿No te compra regalos?"
+    ],
+    "ex5": [
+      "1 María escribe una postal a nosotros.(una postal a nosotros)",
+      "2 Loreto lee un cuento a los niños todas las noches.(un cuento a los niños)",
+      "3 Los niños pintan un dibujo a su abuela para su cumpleaños.(un dibujo a su abuela)",
+      "4 Luis regala a su novia claveles todas las semanas.(a su novia claveles)",
+      "5 ¿Comunican a vosotros las noticias(a vosotros las noticias)?",
+      "6 El profesor explica a mí el tema.(a mí el tema)",
+      "7 Pablo manda un regalo a Vd.(a un regalo a Vd.)",
+      "8 ¿Cantamos ópera a Vds.( ópera a Vds.)?",
+      "9 Pedro compra a mí y a Angela un pavo para Navidad.(a mí y a Angela un pavo)",
+      "10 Presto a Juan un bolígrafo.(a Juan un bolígrafo)"
+    ],
+    "ex5A": [
+      "1 María nos la escribe.",
+      "2 Loreto se lo lee todas las noches.",
+      "3 Los niños se lo pintan para su cumpleaños.",
+      "4 Luis se los regala todas las semanas.",
+      "5 ¿Os las comunican?",
+      "6 El profesor me lo explica.",
+      "7 Pablo se lo manda.",
+      "8 ¿Se la cantamos?",
+      "9 Pedro nos lo compra para Navidad.",
+      "1 Se lo presto."
+    ],
+    "ex6": [
+      "1 ¿Quiere comprar Juan un regalo a María del Mar?",
+      "2 ¿Van a alquilar a Juan el apartamento?",
+      "3 ¿Quieres vender tu coche a Maite?",
+      "4 ¿Vamos a pintar un retrato a Angela?",
+      "5 ¿Queréis explicar a Pepe las matemáticas?",
+      "6 ¿Vamos a prestar a Arancha y a Rafa los libros?",
+      "7 ¿Quieren vender a los alemanes las patentes?",
+      "8 ¿Vamos a dar el paquete a los niños?",
+      "9 ¿Quiere explicar el problema a los clientes?",
+      "10 ¿Vamos a mandar una carta a Luis?"
+    ],
+    "ex6A": [
+      "No, no se lo quiere comprar/no quiere comprárselo.",
+      "No, no se lo van a alquilar/no van a alquilárselo.",
+      "No, no se lo quiero vender/no quiero vendérselo.",
+      "No, no se lo vamos a pintar/no vamos a pintárselo.",
+      "No, no se las queremos explicar/no queremos explicárselas.",
+      "No, no se los vamos a prestar/no vamos a prestárselos.",
+      "No, no se las quieren vender/no quieren vendérselas.",
+      "No, no se lo vamos a dar/no vamos a dárselo.",
+      "No, no se lo quiero explicar/no quiero explicárselo.",
+      "No, no se la vamos a mandar/no vamos a mandársela."
+    ],
+    "ex7": [],
+    "ex7A": [],
+
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Argentina"],
+    "bContent": [
+      "Argentina es uno de los países más grandes del mundo y está situada en América del Sur. Tiene muchos contrastes geográficos y climáticos debido a su extensión: los glaciares y altas montañas (en la Tierra de Fuego y la Patagonia), las Pampas y la región de bosques de las cataratas de Iguazú. Buenos Aires es la capital. Es una ciudad con grandes influencias europeas, sobre todo en su arquitectura. Además de los españoles, Argentina también tiene una gran población de descendientes de inmigrantes italianos.",
+      "Culturalmente, Argentina es también un país muy rico: el tango es conocido en el mundo entero y nadie lo baila ni lo canta como los argentinos. En literatura encontramos autores tan importantes como Jorge Luis Borges o Julio Cortázar."
+    ],
+    "vocabulary": [
+      "además",
+      "arquitectura (f.)",
+      "autor (m.)",
+      "bocadillo (m.)",
+      "bosque (m.)",
+      "carne (f.)",
+      "cataratas (f.)",
+      "clavel (m.)",
+      "derecho (m.)",
+      "descendiente (m.)",
+      "glaciar (m.)",
+      "inmigrante (m.)",
+      "literatura (f.)",
+      "pastel (m.)",
+      "patente (f.)",
+      "pavo (m.)",
+      "pluma (f.) "
+    ],
+    "vocabularyE": [
+      "besides",
+      "architecture",
+      "author",
+      "sandwich",
+      "forest",
+      "meat",
+      "waterfalls",
+      "carnation",
+      "law",
+      "descendant",
+      "glacier",
+      "immigrants",
+      "literature",
+      "cake",
+      "patent",
+      "turkey",
+      "fountain pen"
+    ]
+  }
+]

@@ -136,7 +136,6 @@ function generateSubChapter(title, content) {
 }
 
 function createExSection(lessonNumber, exIdPrefix, placeholder, ex, answers) {
-  // Check if the exercise array exists and is valid
   if (!Array.isArray(ex)) {
     console.error(
       `Expected 'ex' to be an array for exercise ${exIdPrefix}, but got:`,
@@ -276,24 +275,15 @@ function createWSection(label1, label2, ws1, ws2) {
     : "";
 }
 
+// Function to verify answers
 function verifyAnswers(exIdPrefix, answers) {
   console.log(`Verifying answers for exercise ID prefix: ${exIdPrefix}`);
 
-  if (!answers || typeof answers !== "object") {
-    console.error(`Invalid answers object provided: ${answers}`);
-    return;
-  }
-
-  // Split to get the specific exercise part
-  const exercisePart = exIdPrefix.split("-")[1]; // e.g., 'ex2' from 'l1-ex2'
+  const exercisePart = exIdPrefix.split("-")[1]; // Get exercise (e.g., 'ex1', 'ex2')
   const exerciseAnswers = answers[exercisePart];
 
-  console.log(`Expected answers for ${exercisePart}:`, exerciseAnswers); // Check the expected answers
-
-  if (!Array.isArray(exerciseAnswers) || !exerciseAnswers.length) {
-    console.error(
-      `No answers found or invalid answers for exercise ID: ${exIdPrefix}`
-    );
+  if (!exerciseAnswers) {
+    console.error(`No answers found for exercise: ${exercisePart}`);
     return;
   }
 
@@ -302,10 +292,6 @@ function verifyAnswers(exIdPrefix, answers) {
     if (inputElement) {
       const userAnswer = inputElement.value.trim().toLowerCase();
       const expectedAnswer = correctAnswer.trim().toLowerCase();
-
-      // console.log(
-      //   `Answer ${index}: User input = "${userAnswer}", Expected = "${expectedAnswer}"`
-      // );
 
       if (userAnswer === expectedAnswer) {
         inputElement.style.backgroundColor = "green";
@@ -411,13 +397,15 @@ function validateGlobalLessons() {
 
 // Improved getLessonData function to correctly identify the lesson by exercise prefix
 function getLessonData(uniqueExIdPrefix) {
-  const [lessonMatch, lessonNumber, exercisePrefix] =
-    uniqueExIdPrefix.match(/l(\d+)-(ex\d+)/) || []; // Adjusted regex for clarity
+  const match = uniqueExIdPrefix.match(/l(\d+)-ex(\d+)/);
 
-  if (!lessonMatch) {
+  if (!match) {
     console.error(`Invalid exercise ID prefix: ${uniqueExIdPrefix}`);
     return null;
   }
+
+  const lessonNumber = match[1];
+  const exercisePrefix = `ex${match[2]}`;
 
   // Find the corresponding lessons array using the lesson number
   const lessons = globalLessons[lessonNumber];
@@ -426,17 +414,15 @@ function getLessonData(uniqueExIdPrefix) {
     return null;
   }
 
-  // Iterate through the lessons to find the correct exercise answers
-  for (const lesson of lessons) {
-    if (lesson.answers && lesson.answers[exercisePrefix]) {
-      return lesson; // Return the full lesson object
-    }
-  }
+  // Find the correct lesson that contains the matching exercise
+  const lesson = lessons.find((l) => l.answers && l.answers[exercisePrefix]);
 
-  console.error(
-    `No matching lesson found for exercise ID prefix: ${uniqueExIdPrefix}`
-  );
-  return null;
+  if (lesson) {
+    return lesson; // Return the full lesson object if found
+  } else {
+    console.error(`No matching lesson found for exercise: ${exercisePrefix}`);
+    return null;
+  }
 }
 
 function setupDropdown() {
@@ -527,5 +513,19 @@ function initEvents() {
     setupCollapsibleSections();
   });
   // console.log("initEvents called");
+
+  // Attach event listener to handle button clicks
+  document.addEventListener("click", function (event) {
+    if (event.target && event.target.classList.contains("check-answers-btn")) {
+      const prefix = event.target.getAttribute("data-prefix");
+      const lessonData = getLessonData(prefix); // Use the function to get the correct lesson data
+
+      if (lessonData && lessonData.answers) {
+        verifyAnswers(prefix, lessonData.answers); // Pass the correct answers to the verification function
+      } else {
+        console.error(`Answers not found for prefix: ${prefix}`);
+      }
+    }
+  });
 }
 initEvents();

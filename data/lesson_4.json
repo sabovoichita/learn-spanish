@@ -242,18 +242,7 @@
       "9 Yo _____ de Madrid.",
       "10 Tú _____ un poco deprimido, ¿verdad? "
     ],
-    "ex1A": [
-      "está",
-      "es",
-      "somos",
-      "estáis",
-      "son",
-      "es",
-      "está",
-      "son",
-      "soy",
-      "estás"
-    ],
+
     "ex2": [
       "Madrid",
       "la capital de España. Madrid",
@@ -267,19 +256,7 @@
       "uno de los museos de pintura más importantes del mundo. En Madrid además",
       "el Museo Reina Sofía (de arte contemporáneo) y el Museo Thyssen."
     ],
-    "ex2A": [
-      "es",
-      "está",
-      "es",
-      "es",
-      "está",
-      "es",
-      "está",
-      "es",
-      "es",
-      "es",
-      "están"
-    ],
+
     "ex3": [
       "Este chico de la fotografía",
       "mi hermano Mario. Mi hermano",
@@ -293,19 +270,7 @@
       "una casa en L'Ampolla para el verano. L'Ampolla",
       "en Tarragona."
     ],
-    "ex3A": [
-      "es",
-      "está",
-      "tienen",
-      "es",
-      "es",
-      "tiene",
-      "es",
-      "tiene",
-      "tienen",
-      "está",
-      ""
-    ],
+
     "ex4": [
       "1 Das a María un regalo. (yo)",
       "2 Ud. Hace mucho deporte. (ellos)",
@@ -318,18 +283,7 @@
       "9 Ponemos siempre demasiada sal en la comida. (Vds.)",
       "10 Vamos al cine esta noche. (ella)"
     ],
-    "ex4A": [
-      "doy",
-      "hacen",
-      "vas",
-      "da",
-      "pongo",
-      "damos",
-      "hacéis",
-      "va",
-      "ponen",
-      "va"
-    ],
+
     "ex5": [
       "1 ¿_____ nadar? (tú) ",
       "2 ¿_____ a mi padre? (vosotros)",
@@ -342,18 +296,7 @@
       "9 _____ cuándo es el examen. (María)",
       "10 _____ España muy bien. (Ud.) "
     ],
-    "ex5A": [
-      "sabes",
-      "conocéis",
-      "sé",
-      "conocen",
-      "conozco",
-      "conocen",
-      "sabe",
-      "conocemos",
-      "sabe",
-      "conoce"
-    ],
+
     "ex6": [
       "Yo",
       "muy bien a la familia de Luis. Luis",
@@ -372,25 +315,90 @@
       "Valladolid, Madrid y Granada muy bien. Luis",
       "muchos negocios en Madrid. "
     ],
-    "ex6A": [
-      "conozco",
-      "vive",
-      "ésta",
-      "tienen",
-      "tiene",
-      "hace",
-      "tiene",
-      "está",
-      "es",
-      "es",
-      "van",
-      "conocen",
-      "tienen",
-      "conocen",
-      "hace/tiene"
-    ],
+
     "ex7": [],
-    "ex7A": [],
+    "answers": {
+      "ex1": [
+        "está",
+        "es",
+        "somos",
+        "estáis",
+        "son",
+        "es",
+        "está",
+        "son",
+        "soy",
+        "estás"
+      ],
+      "ex2": [
+        "es",
+        "está",
+        "es",
+        "es",
+        "está",
+        "es",
+        "está",
+        "es",
+        "es",
+        "es",
+        "están"
+      ],
+      "ex3": [
+        "es",
+        "está",
+        "tienen",
+        "es",
+        "es",
+        "tiene",
+        "es",
+        "tiene",
+        "tienen",
+        "está",
+        ""
+      ],
+      "ex4": [
+        "doy",
+        "hacen",
+        "vas",
+        "da",
+        "pongo",
+        "damos",
+        "hacéis",
+        "va",
+        "ponen",
+        "va"
+      ],
+      "ex5": [
+        "sabes",
+        "conocéis",
+        "sé",
+        "conocen",
+        "conozco",
+        "conocen",
+        "sabe",
+        "conocemos",
+        "sabe",
+        "conoce"
+      ],
+      "ex6": [
+        "conozco",
+        "vive",
+        "ésta",
+        "tienen",
+        "tiene",
+        "hace",
+        "tiene",
+        "está",
+        "es",
+        "es",
+        "van",
+        "conocen",
+        "tienen",
+        "conocen",
+        "hace/tiene"
+      ],
+      "ex7": []
+    },
 
     "culturalBrief": "Cultural Brief",
     "bTitle": ["Las comunidades autónomas"],

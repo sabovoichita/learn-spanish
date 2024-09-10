@@ -214,6 +214,7 @@
       "5. Complete this text by filling in the gaps with the singular or plural form of the definite/indefinte article where appropriate:"
     ],
     "placeholder": "Type Here",
+
     "ex1": [
       "problema",
       "niños",
@@ -227,20 +228,6 @@
       "perro",
       "nacion",
       "casas"
-    ],
-    "ex1A": [
-      "el",
-      "los",
-      "los",
-      "el",
-      "la",
-      "el",
-      "los",
-      "los",
-      "la",
-      "el",
-      "la",
-      "las"
     ],
     "ex2": [
       "hermana",
@@ -256,20 +243,6 @@
       "tren",
       "tapa"
     ],
-    "ex2A": [
-      "una",
-      "una",
-      "un",
-      "un",
-      "unas",
-      "unas",
-      "un",
-      "un",
-      "unos",
-      "unos",
-      "un",
-      "una"
-    ],
     "ex3": [
       "el maestro",
       "un camion",
@@ -283,20 +256,6 @@
       "la canción",
       "un hotel",
       "una habitación"
-    ],
-    "ex3A": [
-      "los maestros",
-      "unos camiones",
-      "las madres",
-      "unas hachas",
-      "los hermanos",
-      "las pensiones",
-      "unas manos",
-      "las mapas",
-      "los abuelos",
-      "las canciones",
-      "unos hoteles",
-      "unas habitaciones"
     ],
     "ex4": [
       "María es",
@@ -312,7 +271,6 @@
       "coro con",
       "amiga. "
     ],
-    "ex4A": ["", "", "un", "el", "El", "", "una", "el", "", "una", "un", "una"],
     "ex5": [
       "Marisol es",
       "colombiana. Marisol vive en",
@@ -331,27 +289,86 @@
       "Marisol aunque primero terminan",
       "deberes del colegio."
     ],
-    "ex5A": [
-      "",
-      "una",
-      "una",
-      "un",
-      "unos",
-      "un",
-      "un",
-      "los",
-      "el",
-      "las",
-      "la",
-      "la",
-      "los",
-      "a",
-      "los"
-    ],
+
     "ex6": [],
-    "ex6A": [],
     "ex7": [],
-    "ex7A": [],
+    "answers": {
+      "ex1": [
+        "el",
+        "los",
+        "los",
+        "el",
+        "la",
+        "el",
+        "los",
+        "los",
+        "la",
+        "el",
+        "la",
+        "las"
+      ],
+      "ex2": [
+        "una",
+        "una",
+        "un",
+        "un",
+        "unas",
+        "unas",
+        "un",
+        "un",
+        "unos",
+        "unos",
+        "un",
+        "una"
+      ],
+      "ex3": [
+        "los maestros",
+        "unos camiones",
+        "las madres",
+        "unas hachas",
+        "los hermanos",
+        "las pensiones",
+        "unas manos",
+        "las mapas",
+        "los abuelos",
+        "las canciones",
+        "unos hoteles",
+        "unas habitaciones"
+      ],
+      "ex4": [
+        "",
+        "",
+        "un",
+        "el",
+        "El",
+        "",
+        "una",
+        "el",
+        "",
+        "una",
+        "un",
+        "una"
+      ],
+      "ex5": [
+        "",
+        "una",
+        "una",
+        "un",
+        "unos",
+        "un",
+        "un",
+        "los",
+        "el",
+        "las",
+        "la",
+        "la",
+        "los",
+        "a",
+        "los"
+      ],
+      "ex6": [],
+      "ex7": []
+    },
 
     "culturalBrief": "Cultural Brief",
     "bTitle": ["Greetings and farewells"],

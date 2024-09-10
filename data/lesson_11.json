@@ -420,18 +420,6 @@
       "9 Mi empresa regala plumas en Navidad.(plumas)",
       "10 ¿Cantas canciones en la ducha?(canciones)"
     ],
-    "ex1A": [
-      "Lola las escribe desde París.",
-      "Mario lo come todas las mañanas.",
-      "Rocío y Jaime la compran en Sevilla.",
-      "Lo ves en la televisión.",
-      "Elena los vende.",
-      "Marisol los habla muy bien.",
-      "Juan y Pepe lo beben con leche.",
-      "Loreto las alquila en verano.",
-      "Mi empresa las regala en Navidad",
-      "¿Las cantas en la ducha?"
-    ],
     "ex2": [
       "1 ¿Entiendes alemán?",
       "2 ¿Vendéis sellos?",
@@ -443,18 +431,6 @@
       "8 ¿Compra pasteles? (ella)",
       "9 ¿Tienes nuestras entradas?",
       "10 ¿Hace hoy la paella? (Ud.)"
-    ],
-    "ex2A": [
-      "No, no lo entiendo.",
-      "No, no los vendemos.",
-      "No, no la cantamos.",
-      "No, no la comen.",
-      "No, no las mandamos.",
-      "No, no las abren.",
-      "No, no lo bebemos.",
-      "No, no los compra.",
-      "No, no las tengo.",
-      "No, no la hago hoy./No, hoy no la hago."
     ],
     "ex3": [
       "1 Son más _____ veinte estudiantes en esa clase.",
@@ -468,18 +444,6 @@
       "9 Esperamos menos problemas _____ el año pasado.",
       "10 Bebéis más _____ ocho cafés al día."
     ],
-    "ex3A": [
-      "El director nos escribe una carta.",
-      "Mi madre le lee un cuento todas las noches.",
-      "Los niños les pintan un dibujo para su cumpleaños.",
-      "Pedro le regala flores todas las semanas.",
-      "¿Os comunican las noticias?",
-      "El profesor me explica la gramática.",
-      "Pablo le manda un paquete.",
-      "¿Les cantamos una canción?",
-      "Lola nos compra regalos para Navidad.",
-      "Le presto a Juan un libro."
-    ],
     "ex4": [
       "1 We don't give you the dictionary. (tú)",
       "2 They don't explain the film to them.",
@@ -491,18 +455,6 @@
       "8 Don't you (Vds.) give me a book?",
       "9 They don't explain this to him.",
       "10 Doesn't she buy you presents?"
-    ],
-    "ex4A": [
-      "No te damos el diccionario.",
-      "No les explican la película.",
-      "No te invito a un café.",
-      "No le canta una canción a María.",
-      "No les dice/cuenta las noticias.",
-      "No le mandáis un regalo.",
-      "No me deja dinero.",
-      "¿No me dan un libro?",
-      "No le explican esto.",
-      "¿No te compra regalos?"
     ],
     "ex5": [
       "1 María escribe una postal a nosotros.(una postal a nosotros)",
@@ -516,18 +468,6 @@
       "9 Pedro compra a mí y a Angela un pavo para Navidad.(a mí y a Angela un pavo)",
       "10 Presto a Juan un bolígrafo.(a Juan un bolígrafo)"
     ],
-    "ex5A": [
-      "1 María nos la escribe.",
-      "2 Loreto se lo lee todas las noches.",
-      "3 Los niños se lo pintan para su cumpleaños.",
-      "4 Luis se los regala todas las semanas.",
-      "5 ¿Os las comunican?",
-      "6 El profesor me lo explica.",
-      "7 Pablo se lo manda.",
-      "8 ¿Se la cantamos?",
-      "9 Pedro nos lo compra para Navidad.",
-      "1 Se lo presto."
-    ],
     "ex6": [
       "1 ¿Quiere comprar Juan un regalo a María del Mar?",
       "2 ¿Van a alquilar a Juan el apartamento?",
@@ -540,21 +480,83 @@
       "9 ¿Quiere explicar el problema a los clientes?",
       "10 ¿Vamos a mandar una carta a Luis?"
     ],
-    "ex6A": [
-      "No, no se lo quiere comprar/no quiere comprárselo.",
-      "No, no se lo van a alquilar/no van a alquilárselo.",
-      "No, no se lo quiero vender/no quiero vendérselo.",
-      "No, no se lo vamos a pintar/no vamos a pintárselo.",
-      "No, no se las queremos explicar/no queremos explicárselas.",
-      "No, no se los vamos a prestar/no vamos a prestárselos.",
-      "No, no se las quieren vender/no quieren vendérselas.",
-      "No, no se lo vamos a dar/no vamos a dárselo.",
-      "No, no se lo quiero explicar/no quiero explicárselo.",
-      "No, no se la vamos a mandar/no vamos a mandársela."
-    ],
     "ex7": [],
-    "ex7A": [],
 
+    "answers": {
+      "ex1": [
+        "Lola las escribe desde París.",
+        "Mario lo come todas las mañanas.",
+        "Rocío y Jaime la compran en Sevilla.",
+        "Lo ves en la televisión.",
+        "Elena los vende.",
+        "Marisol los habla muy bien.",
+        "Juan y Pepe lo beben con leche.",
+        "Loreto las alquila en verano.",
+        "Mi empresa las regala en Navidad",
+        "¿Las cantas en la ducha?"
+      ],
+      "ex2": [
+        "No, no lo entiendo.",
+        "No, no los vendemos.",
+        "No, no la cantamos.",
+        "No, no la comen.",
+        "No, no las mandamos.",
+        "No, no las abren.",
+        "No, no lo bebemos.",
+        "No, no los compra.",
+        "No, no las tengo.",
+        "No, no la hago hoy./No, hoy no la hago."
+      ],
+      "ex3": [
+        "El director nos escribe una carta.",
+        "Mi madre le lee un cuento todas las noches.",
+        "Los niños les pintan un dibujo para su cumpleaños.",
+        "Pedro le regala flores todas las semanas.",
+        "¿Os comunican las noticias?",
+        "El profesor me explica la gramática.",
+        "Pablo le manda un paquete.",
+        "¿Les cantamos una canción?",
+        "Lola nos compra regalos para Navidad.",
+        "Le presto a Juan un libro."
+      ],
+      "ex4": [
+        "No te damos el diccionario.",
+        "No les explican la película.",
+        "No te invito a un café.",
+        "No le canta una canción a María.",
+        "No les dice/cuenta las noticias.",
+        "No le mandáis un regalo.",
+        "No me deja dinero.",
+        "¿No me dan un libro?",
+        "No le explican esto.",
+        "¿No te compra regalos?"
+      ],
+      "ex5": [
+        "María nos la escribe.",
+        "Loreto se lo lee todas las noches.",
+        "Los niños se lo pintan para su cumpleaños.",
+        "Luis se los regala todas las semanas.",
+        "¿Os las comunican?",
+        "El profesor me lo explica.",
+        "Pablo se lo manda.",
+        "¿Se la cantamos?",
+        "Pedro nos lo compra para Navidad.",
+        "Se lo presto."
+      ],
+      "ex6": [
+        "No, no se lo quiere comprar/no quiere comprárselo.",
+        "No, no se lo van a alquilar/no van a alquilárselo.",
+        "No, no se lo quiero vender/no quiero vendérselo.",
+        "No, no se lo vamos a pintar/no vamos a pintárselo.",
+        "No, no se las queremos explicar/no queremos explicárselas.",
+        "No, no se los vamos a prestar/no vamos a prestárselos.",
+        "No, no se las quieren vender/no quieren vendérselas.",
+        "No, no se lo vamos a dar/no vamos a dárselo.",
+        "No, no se lo quiero explicar/no quiero explicárselo.",
+        "No, no se la vamos a mandar/no vamos a mandársela."
+      ],
+      "ex7": []
+    },
     "culturalBrief": "Cultural Brief",
     "bTitle": ["Argentina"],
     "bContent": [

@@ -510,6 +510,85 @@
       "5 Write the following times in Spanish in full using the 12-hour clock (e.g. 'twelve minutes past one' la una y doce): "
     ],
     "placeholder": "Type Here",
+    "answers": {
+      "ex1": [
+        "cinco",
+        "diez",
+        "veintisiete",
+        "treinta",
+        "cuarenta y seis",
+        "catorce",
+        "cincuenta y dos",
+        "sesenta y siete",
+        "setenta y seis",
+        "ciento dos",
+        "dieciocho",
+        "ciento cuarenta y cinco",
+        "doscientos sesenta y nueve",
+        "doce",
+        "trescientos trece"
+      ],
+
+      "ex2": [
+        "38",
+        "46",
+        "11",
+        "25",
+        "63",
+        "87",
+        "79",
+        "105",
+        "262",
+        "1.304",
+        "521",
+        "34",
+        "136",
+        "96",
+        "908"
+      ],
+
+      "ex3": [
+        "veintisiete de abril de mil novecientos setenta y ocho",
+        "trece de marzo de dos mil cuatro",
+        "veinticinco de mayo de mil novecientos sesenta y cuatro",
+        "catorce de febrero de dos mil",
+        "treinta de enero de mil ochocientos cincuenta y seis",
+        "quince de noviembre de dos mil seis",
+        "once de junio de dos mil tres",
+        "veintidós de octubre de mil novecientos noventa y nueve",
+        "tres de agosto de mil novecientos noventa y dos",
+        "diez de agosto de dos mil uno",
+        "dieciséis de setiembre/septiembre de dos mil dos",
+        "uno de diciembre de mil novecientos ochenta y siete"
+      ],
+
+      "ex4": [
+        "las trece quince",
+        "las dos diez",
+        "las diecisiete cuarenta y cinco",
+        "las cuatro treinta",
+        "las quince veinte",
+        "las doce treinta y cinco",
+        "las siete cincuenta",
+        "las catorce cinco",
+        "la una cincuenta y cinco",
+        "las dieciséis treinta y cinco"
+      ],
+      "ex5": [
+        "las seis y cuarto",
+        "las ocho y diez",
+        "las once y veinte",
+        "las dos menos cuarto",
+        "las siete y cinco",
+        "las tres y veinticinco",
+        "la una y media",
+        "las doce menos diez",
+        "las cuatro menos veinticinco",
+        "las diez menos cinco"
+      ],
+      "ex6": [],
+      "ex7": []
+    },
     "ex1": [
       "5",
       "10",
@@ -526,23 +605,6 @@
       "269",
       "12",
       "313"
-    ],
-    "ex1A": [
-      "cinco",
-      "diez",
-      "veintisiete",
-      "treinta",
-      "cuarenta y seis",
-      "catorce",
-      "cincuenta y dos",
-      "sesenta y siete",
-      "setenta y seis",
-      "ciento dos",
-      "dieciocho",
-      "ciento cuarenta y cinco",
-      "doscientos sesenta y nueve",
-      "doce",
-      "trescientos trece"
     ],
     "ex2": [
       "treinta y ocho",
@@ -561,23 +623,6 @@
       "noventa y seis",
       "novecientos ocho "
     ],
-    "ex2A": [
-      "38",
-      "46",
-      "11",
-      "25",
-      "63",
-      "87",
-      "79",
-      "105",
-      "262",
-      "1.304",
-      "521",
-      "34",
-      "136",
-      "96",
-      "908"
-    ],
     "ex3": [
       "27-4-1978",
       "13-3-2004",
@@ -592,20 +637,6 @@
       "16-9-2002",
       "1-12-1987"
     ],
-    "ex3A": [
-      "veintisiete de abril de mil novecientos setenta y ocho",
-      "trece de marzo de dos mil cuatro",
-      "veinticinco de mayo de mil novecientos sesenta y cuatro",
-      "catorce de febrero de dos mil",
-      "treinta de enero de mil ochocientos cincuenta y seis",
-      "quince de noviembre de dos mil seis",
-      "once de junio de dos mil tres",
-      "veintidós de octubre de mil novecientos noventa y nueve",
-      "tres de agosto de mil novecientos noventa y dos",
-      "diez de agosto de dos mil uno",
-      "dieciséis de setiembre/septiembre de dos mil dos",
-      "uno de diciembre de mil novecientos ochenta y siete"
-    ],
     "ex4": [
       "13:15",
       "02:10",
@@ -617,18 +648,6 @@
       "14:05",
       "01:55",
       "16:35"
-    ],
-    "ex4A": [
-      "las trece quince",
-      "las dos diez",
-      "las diecisiete cuarenta y cinco",
-      "las cuatro treinta",
-      "las quince veinte",
-      "las doce treinta y cinco",
-      "las siete cincuenta",
-      "las catorce cinco",
-      "la una cincuenta y cinco",
-      "las dieciséis treinta y cinco"
     ],
     "ex5": [
       "quarter past six",
@@ -642,22 +661,8 @@
       "twenty-five to four",
       "five to ten"
     ],
-    "ex5A": [
-      "las seis y cuarto",
-      "las ocho y diez",
-      "las once y veinte",
-      "las dos menos cuarto",
-      "las siete y cinco",
-      "las tres y veinticinco",
-      "la una y media",
-      "las doce menos diez",
-      "las cuatro menos veinticinco",
-      "las diez menos cinco"
-    ],
     "ex6": [],
-    "ex6A": [],
     "ex7": [],
-    "ex7A": [],
 
     "culturalBrief": "Cultural Brief",
     "bTitle": ["Días de fiesta en España"],

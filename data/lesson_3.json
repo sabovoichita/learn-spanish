@@ -324,6 +324,7 @@
       "7. Complete the following text with the appropriate form of the verb given in brackets: "
     ],
     "placeholder": "Type Here",
+
     "ex1": [
       "Father talking to daughter: Cant_____ muy bien.",
       "Child talking to grandmother: Cant_____ muy bien.",
@@ -335,18 +336,6 @@
       "One singer to other singer friends: Cant_____ muy bien.",
       "Conductor to opera diva: Cant_____ muy bien.",
       "Wife to husband: Cant_____ muy bien."
-    ],
-    "ex1A": [
-      "cantas",
-      "cantas",
-      "cantas",
-      "canta",
-      "cantan",
-      "cantáis",
-      "cantáis",
-      "cantáis",
-      "canta",
-      "cantas"
     ],
     "ex2": [
       "Habla demasiado rápido (mi hermana, nosotros, los niños)",
@@ -360,18 +349,6 @@
       "Trabajas mucho (vosotras, tú, ella)",
       "No fumamos (nosotros, vosotros, ellos) "
     ],
-    "ex2A": [
-      "mi hermana",
-      "Pedro y yo",
-      "Uds",
-      "vosotros",
-      "tú",
-      "yo",
-      "Uds",
-      "él",
-      "tú",
-      "nosotros"
-    ],
     "ex3": [
       "(Ellos) cant_____ (cantar) ",
       "(Vosotros) habl_____ (hablar) ",
@@ -384,18 +361,6 @@
       "(Ella) llev_____ (llevar)",
       "(Ud.) am_____ (amar)"
     ],
-    "ex3A": [
-      "cantan",
-      "habláis",
-      "bailas",
-      "contestan",
-      "escucho",
-      "estudiamos",
-      "fuman",
-      "trabaja",
-      "lleva",
-      "ama"
-    ],
     "ex4": [
       "1 María _____ español. (habla, fumas, viajan)",
       "2 Pedro y yo _____ salsa muy bien. (saludáis, bailamos, lavan)",
@@ -407,18 +372,6 @@
       "8 Rocío y tú _____ mucho. (llenan, cantamos, trabajáis) ",
       "9 Elena y Marisol _____ por teléfono. (escucháis, hablan, contesta)",
       "10 Nosotras _____ a los Reyes. (admiramos, amas, hablan) "
-    ],
-    "ex4A": [
-      "habla",
-      "bailamos",
-      "firma",
-      "compra",
-      "viajo",
-      "odian",
-      "termina",
-      "trabajáis",
-      "hablan",
-      "admiramos"
     ],
     "ex5": [
       "1 ¿_____ el coche? (vender, tú)",
@@ -437,23 +390,6 @@
       "14 ¿_____ en Dios? (creer, Uds.) ",
       "15 _____ demasiado de vuestros padres. (depender, vosotros) "
     ],
-    "ex5A": [
-      "Vendes",
-      "Comemos",
-      "beben",
-      "veis",
-      "Leo",
-      "Debe",
-      "rompen",
-      "Corre",
-      "Coséis",
-      "comprendes",
-      "Aprendemos",
-      "Suspendo",
-      "Accede",
-      "Creen",
-      "Dependéis"
-    ],
     "ex6": [
       "1 _____ tarjetas a mis amigos en Navidad. (escribir, yo)",
       "2_____ en una casa en el campo. (vivir, ellos)",
@@ -470,23 +406,6 @@
       "13 _____ las consecuencias. (asumir,ella) ",
       "14 ¿_____ al Sr Pérez en su despacho? (recibir, Ud.)",
       "15 ¿_____ la reunión? (interrumpir, yo)"
-    ],
-    "ex6A": [
-      "Escribo",
-      "Viven",
-      "Exhibe",
-      "Acude",
-      "cumples",
-      "Presiden",
-      "Admitís",
-      "Prohibimos",
-      "Abren",
-      "Suben",
-      "Añadimos",
-      "admitís",
-      "Asume",
-      "Recibe",
-      "Interrumpo"
     ],
     "ex7": [
       "Soy estudiante de español.",
@@ -507,25 +426,109 @@
       " (corren) por el campo mientras nosotros",
       " (pasear). "
     ],
-    "ex7A": [
-      "Aprendo",
-      "trabajo",
-      "necesito",
-      "vende",
-      "recibo",
-      "trabaja",
-      "vivimos",
-      "comemos",
-      "comen",
-      "cenamos",
-      "ven",
-      "lee",
-      "estudio",
-      "llevamos",
-      "corren",
-      "paseamos",
-      ""
-    ],
+    "answers": {
+      "ex1": [
+        "cantas",
+        "cantas",
+        "cantas",
+        "canta",
+        "cantan",
+        "cantáis",
+        "cantáis",
+        "cantáis",
+        "canta",
+        "cantas"
+      ],
+      "ex2": [
+        "mi hermana",
+        "Pedro y yo",
+        "Uds",
+        "vosotros",
+        "tú",
+        "yo",
+        "Uds",
+        "él",
+        "tú",
+        "nosotros"
+      ],
+      "ex3": [
+        "cantan",
+        "habláis",
+        "bailas",
+        "contestan",
+        "escucho",
+        "estudiamos",
+        "fuman",
+        "trabaja",
+        "lleva",
+        "ama"
+      ],
+      "ex4": [
+        "habla",
+        "bailamos",
+        "firma",
+        "compra",
+        "viajo",
+        "odian",
+        "termina",
+        "trabajáis",
+        "hablan",
+        "admiramos"
+      ],
+      "ex5": [
+        "Vendes",
+        "Comemos",
+        "beben",
+        "veis",
+        "Leo",
+        "Debe",
+        "rompen",
+        "Corre",
+        "Coséis",
+        "comprendes",
+        "Aprendemos",
+        "Suspendo",
+        "Accede",
+        "Creen",
+        "Dependéis"
+      ],
+      "ex6": [
+        "Escribo",
+        "Viven",
+        "Exhibe",
+        "Acude",
+        "cumples",
+        "Presiden",
+        "Admitís",
+        "Prohibimos",
+        "Abren",
+        "Suben",
+        "Añadimos",
+        "admitís",
+        "Asume",
+        "Recibe",
+        "Interrumpo"
+      ],
+      "ex7": [
+        "Aprendo",
+        "trabajo",
+        "necesito",
+        "vende",
+        "recibo",
+        "trabaja",
+        "vivimos",
+        "comemos",
+        "comen",
+        "cenamos",
+        "ven",
+        "lee",
+        "estudio",
+        "llevamos",
+        "corren",
+        "paseamos",
+        ""
+      ]
+    },
 
     "culturalBrief": "Cultural Brief",
     "bTitle": ["La familia española"],

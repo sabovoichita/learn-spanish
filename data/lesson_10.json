@@ -225,18 +225,7 @@
       "9 Juanjo is more attractive than Miguel.",
       "10 Rafael is fatter than Luis."
     ],
-    "ex1A": [
-      "María es más alta que Pepe.",
-      "Esta silla es menos cara que ésa/ aquélla.",
-      "Nuria es más guapa que Loreto.",
-      "Marta es menos inteligente que Iciar.",
-      "Aquel/ese vaso está más lleno que éste.",
-      "Este bolso es menos pesado que ése/aquél.",
-      "Aquella novela es más interesante que ésta.",
-      "Pedro está menos cansado que José.",
-      "Juanjo es más atractivo que Miguel.",
-      "Rafael está/es más gordo que Luis."
-    ],
+
     "ex2": [
       "1 Esta mesa es _____ cara que aquella. (considerably more)",
       "2 Alvaro es _____ simpático que Nacho. (a lot more)",
@@ -249,18 +238,7 @@
       "9 El coche de Mario está _____ sucio que el de Elena. (somewhat more)",
       "10 El sueldo de Jesús es _____ alto que el de Eugenia. (a lot more)"
     ],
-    "ex2A": [
-      "bastante más cara",
-      "mucho más simpático",
-      "un poco menos informativa",
-      "algo más cansada",
-      "bastante más caro",
-      "mucho menos elegantes",
-      "algo menos interesante",
-      "un poco más gordo",
-      "algo más sucio",
-      "mucho más alto"
-    ],
+
     "ex3": [
       "1 Son más _____ veinte estudiantes en esa clase.",
       "2 Esperan menos _____ quince millones de premio.",
@@ -273,7 +251,6 @@
       "9 Esperamos menos problemas _____ el año pasado.",
       "10 Bebéis más _____ ocho cafés al día."
     ],
-    "ex3A": ["de", "de", "que", "que", "de", "que", "que", "de", "que", "de"],
     "ex4": [
       "1 Mi hermano es _____ que yo. (older)",
       "2 Los problemas de Pedro son _____ que los de Juan. (bigger)",
@@ -287,18 +264,7 @@
       "9 Este niño es _____ que ése. (shorter)",
       "10 Este coche es mucho _____ que el de Juan. (better)"
     ],
-    "ex4A": [
-      "mayor",
-      "mayores",
-      "mejor",
-      "más alta",
-      "peor",
-      "menor",
-      "más alto",
-      "inferior/más bajo",
-      "más bajo",
-      "mejor"
-    ],
+
     "ex5": [
       "1 She is the tallest in the class.",
       "2 He is the fattest in this room.",
@@ -311,23 +277,63 @@
       "9 This film is the best.",
       "10 The food of this restaurant is the best in town."
     ],
-    "ex5A": [
-      "Es la más alta de la clase.",
-      "Es el más gordo de esta habitación.",
-      "Soy la más baja/el más bajo de la familia.",
-      "Somos los más inteligentes de la oficina.",
-      "Esta novela es la peor.",
-      "China es el país más grande del mundo.",
-      "El AVE es el tren más rápido de España.",
-      "Son los más lentos de la carrera.",
-      "Esta película es la mejor.",
-      "La comida de este restaurante es la mejor de la ciudad."
-    ],
-    "ex6": [],
-    "ex6A": [],
-    "ex7": [],
-    "ex7A": [],
 
+    "ex6": [],
+
+    "ex7": [],
+    "answers": {
+      "ex1": [
+        "María es más alta que Pepe.",
+        "Esta silla es menos cara que ésa/ aquélla.",
+        "Nuria es más guapa que Loreto.",
+        "Marta es menos inteligente que Iciar.",
+        "Aquel/ese vaso está más lleno que éste.",
+        "Este bolso es menos pesado que ése/aquél.",
+        "Aquella novela es más interesante que ésta.",
+        "Pedro está menos cansado que José.",
+        "Juanjo es más atractivo que Miguel.",
+        "Rafael está/es más gordo que Luis."
+      ],
+      "ex2": [
+        "bastante más cara",
+        "mucho más simpático",
+        "un poco menos informativa",
+        "algo más cansada",
+        "bastante más caro",
+        "mucho menos elegantes",
+        "algo menos interesante",
+        "un poco más gordo",
+        "algo más sucio",
+        "mucho más alto"
+      ],
+      "ex3": ["de", "de", "que", "que", "de", "que", "que", "de", "que", "de"],
+      "ex4": [
+        "mayor",
+        "mayores",
+        "mejor",
+        "más alta",
+        "peor",
+        "menor",
+        "más alto",
+        "inferior/más bajo",
+        "más bajo",
+        "mejor"
+      ],
+      "ex5": [
+        "Es la más alta de la clase.",
+        "Es el más gordo de esta habitación.",
+        "Soy la más baja/el más bajo de la familia.",
+        "Somos los más inteligentes de la oficina.",
+        "Esta novela es la peor.",
+        "China es el país más grande del mundo.",
+        "El AVE es el tren más rápido de España.",
+        "Son los más lentos de la carrera.",
+        "Esta película es la mejor.",
+        "La comida de este restaurante es la mejor de la ciudad."
+      ],
+      "ex6": [],
+      "ex7": []
+    },
     "culturalBrief": "Cultural Brief",
     "bTitle": ["La Real Academia de la Lengua"],
     "bContent": [

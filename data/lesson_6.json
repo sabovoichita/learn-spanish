@@ -133,23 +133,7 @@
       "14 ¿A quién llamas?",
       "15 ¿Qué compras?"
     ],
-    "ex1A": [
-      "No quiero a nadie.",
-      "No tengo nada.",
-      "No hablo con nadie.",
-      "No voy al cine nunca./Nunca voy al cine.",
-      "Eso no es para nadie.",
-      "No trabajo nunca los sábados./Nunca trabajo los sábados.",
-      "No limpio con nada.",
-      "No leo nada.",
-      "No trabajo nada. ",
-      "No tengo nada./No tengo nunca.",
-      "No trabajo para nadie.",
-      "No como nada.",
-      "No estudio nunca/nunca estudio.",
-      "No llamo a nadie.",
-      "No compro nada."
-    ],
+
     "ex2": [
       "¿Tienes hermanas?",
       "¿Ves la llave?",
@@ -162,18 +146,7 @@
       "¿Necesitas dos bolsas o una?",
       "¿Quieres tres manzanas "
     ],
-    "ex2A": [
-      "No tengo ninguna.",
-      "No veo ninguna.",
-      "No uso ninguno.",
-      "No quiero ninguno.",
-      "No necesito ninguna.",
-      "No espero ninguno.",
-      "No llevo ninguno.",
-      "No tengo ninguno.",
-      "No necesito ninguna.",
-      "No quiero ninguna."
-    ],
+
     "ex3": [
       "1 Tengo un hermano ¿y tú?",
       "2 Estudio mucho ¿y tú?",
@@ -186,18 +159,7 @@
       "9 Admiro a Nelson Mandela ¿y tú?",
       "10 Compro ahí todos los días ¿y tú"
     ],
-    "ex3A": [
-      "No tengo ninguno.",
-      "No estudio nada.",
-      "No tengo ninguno.",
-      "No voy nunca a la playa.",
-      "No vivo con nadie.",
-      "No tengo ninguna./ No tengo nunca.",
-      "No pinto nada/nunca.",
-      "No colecciono nada.",
-      "No admiro a nadie.",
-      "No compro ahí nunca./No compro ahí nada. "
-    ],
+
     "ex4": [
       "1 Siempre leen una novela.",
       "2 Doy siempre ropa a mi hermana.",
@@ -210,24 +172,68 @@
       "9 A veces hablan con vosotros.",
       "10 Entiendo todo siempre."
     ],
-    "ex4A": [
-      "Nunca leen nada./No leen nada nunca./No leen nunca nada.",
-      "Nunca doy nada a nadie./No doy nada a nadie nunca./No doy nunca nada a nadie.",
-      "Nunca compramos nada en esa tienda./No compramos nunca nada en esa tienda./No compramos nada nunca en esa tienda.",
-      "Nunca llevo a nadie al cine./No llevo nunca a nadie al cine./No llevo a nadie nunca al cine.",
-      "Nunca viajan con nadie./No viajan con nadie nunca./ No viajan nunca con nadie.",
-      "Nunca leen nada./No leen nada nunca./No leen nunca nada. ",
-      "Nunca trabajan nada./No trabajan nada nunca./No trabajan nunca nada.",
-      "Nunca cocinan para nadie./ No cocinan para nadie nunca./No cocinan nunca para nadie.",
-      "Nunca hablan con nadie./No hablan con nadie nunca./No hablan nunca con nadie. ",
-      "Nunca entiendo nada./No entiendo nunca nada./No entiendo nada nunca.      "
-    ],
+
     "ex5": [],
-    "ex5A": [],
     "ex6": [],
-    "ex6A": [],
     "ex7": [],
-    "ex7A": [],
+    "answers": {
+      "ex1": [
+        "No quiero a nadie.",
+        "No tengo nada.",
+        "No hablo con nadie.",
+        "No voy al cine nunca./Nunca voy al cine.",
+        "Eso no es para nadie.",
+        "No trabajo nunca los sábados./Nunca trabajo los sábados.",
+        "No limpio con nada.",
+        "No leo nada.",
+        "No trabajo nada. ",
+        "No tengo nada./No tengo nunca.",
+        "No trabajo para nadie.",
+        "No como nada.",
+        "No estudio nunca/nunca estudio.",
+        "No llamo a nadie.",
+        "No compro nada."
+      ],
+      "ex2": [
+        "No tengo ninguna.",
+        "No veo ninguna.",
+        "No uso ninguno.",
+        "No quiero ninguno.",
+        "No necesito ninguna.",
+        "No espero ninguno.",
+        "No llevo ninguno.",
+        "No tengo ninguno.",
+        "No necesito ninguna.",
+        "No quiero ninguna."
+      ],
+      "ex3": [
+        "No tengo ninguno.",
+        "No estudio nada.",
+        "No tengo ninguno.",
+        "No voy nunca a la playa.",
+        "No vivo con nadie.",
+        "No tengo ninguna./ No tengo nunca.",
+        "No pinto nada/nunca.",
+        "No colecciono nada.",
+        "No admiro a nadie.",
+        "No compro ahí nunca./No compro ahí nada. "
+      ],
+      "ex4": [
+        "Nunca leen nada./No leen nada nunca./No leen nunca nada.",
+        "Nunca doy nada a nadie./No doy nada a nadie nunca./No doy nunca nada a nadie.",
+        "Nunca compramos nada en esa tienda./No compramos nunca nada en esa tienda./No compramos nada nunca en esa tienda.",
+        "Nunca llevo a nadie al cine./No llevo nunca a nadie al cine./No llevo a nadie nunca al cine.",
+        "Nunca viajan con nadie./No viajan con nadie nunca./ No viajan nunca con nadie.",
+        "Nunca leen nada./No leen nada nunca./No leen nunca nada. ",
+        "Nunca trabajan nada./No trabajan nada nunca./No trabajan nunca nada.",
+        "Nunca cocinan para nadie./ No cocinan para nadie nunca./No cocinan nunca para nadie.",
+        "Nunca hablan con nadie./No hablan con nadie nunca./No hablan nunca con nadie. ",
+        "Nunca entiendo nada./No entiendo nunca nada./No entiendo nada nunca.      "
+      ],
+      "ex5": [],
+      "ex6": [],
+      "ex7": []
+    },
 
     "culturalBrief": "Cultural Brief",
     "bTitle": ["Algunos estereotipos españoles"],

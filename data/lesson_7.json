@@ -419,23 +419,7 @@
       "14 La casa de mi hermano está _____ . (limpio)",
       "15 El piso de mi hermana está _____ . (sucio"
     ],
-    "ex1A": [
-      "guapa.",
-      "negro.",
-      "altos.",
-      "pequeña.",
-      "rápidos.",
-      "morenas.",
-      "estropeados.",
-      "vaga.",
-      "simpáticos.",
-      "delgadas.",
-      "gordos.",
-      "baratas.",
-      "caros.",
-      "limpia.",
-      "sucio."
-    ],
+
     "ex2": [
       "1 la casa (white)",
       "2 el jersey (brown)",
@@ -448,18 +432,7 @@
       "9 el bañador (green)",
       "10 la chaqueta (black)"
     ],
-    "ex2A": [
-      "blanca",
-      "marrón",
-      "azules",
-      "rojo",
-      "amarillas",
-      "verdes",
-      "azul",
-      "grises",
-      "verde",
-      "negra"
-    ],
+
     "ex3": [
       "1 Ese chico es de Japón.",
       "2 Anne es de Inglaterra.",
@@ -478,23 +451,7 @@
       "14 La Sra Vásquez es de Perú.",
       "15 Los Sres de Torres son de Colombia."
     ],
-    "ex3A": [
-      "japonés",
-      "inglesa",
-      "español",
-      "andaluzas",
-      "alemán",
-      "italianos",
-      "navarros",
-      "catalanes",
-      "irlandeses",
-      "americana",
-      "valencianas",
-      "china",
-      "argentino",
-      "peruana",
-      "colombiano"
-    ],
+
     "ex4": [
       "1 un hombre bueno",
       "2 un coche potente",
@@ -507,18 +464,7 @@
       "9 la fila cuarta",
       "10 no tengo interés ningun"
     ],
-    "ex4A": [
-      "un buen hombre",
-      "un potente coche",
-      "una buena idea",
-      "un mal paso",
-      "una original película",
-      "un primer piso",
-      "una buena mujer",
-      "el tercer episodio",
-      "la cuarta fila",
-      "no tengo ningún interés"
-    ],
+
     "ex5": [
       "1 Mario es gordo.",
       "2 Mario es rubio.",
@@ -531,18 +477,7 @@
       "9 Mario es hablador.",
       "10 Mario es viejo."
     ],
-    "ex5A": [
-      "Lola es delgada.",
-      "Lola es morena.",
-      "Lola es alta.",
-      "Lola es soltera.",
-      "Lola es rica.",
-      "Lola es antipática.",
-      "Lola es trabajadora.",
-      "Lola es sucia.",
-      "Lola es callada.",
-      "Lola es joven."
-    ],
+
     "ex6": [
       "1 lento",
       "2 suave",
@@ -560,23 +495,7 @@
       "14 inútil",
       "15 especial"
     ],
-    "ex6A": [
-      "lentamente",
-      "suavemente",
-      "mal",
-      "probablemente",
-      "desorganizadamente",
-      "supuestamente",
-      "claramente",
-      "tranquilamente",
-      "rápidamente",
-      "seguramente",
-      "calladamente",
-      "pacientemente",
-      "detalladamente",
-      "inútilmente",
-      "especialmente"
-    ],
+
     "ex7": [
       "1 Conduzco de manera rápida.",
       "2 Comemos de un modo pausado.",
@@ -587,16 +506,105 @@
       "7 Explican de manera detallada.",
       "8 Escribo de modo complicado."
     ],
-    "ex7A": [
-      "Conduzco rápidamente.",
-      "Comemos pausadamente.",
-      "Esperan pacientemente.",
-      "Discute tontamente.",
-      "Cantan fenomenalmente.",
-      "Aprendéis lentamente.",
-      "Explican detalladamente.",
-      "Escribo complicadamente."
-    ],
+    "answers": {
+      "ex1": [
+        "guapa.",
+        "negro.",
+        "altos.",
+        "pequeña.",
+        "rápidos.",
+        "morenas.",
+        "estropeados.",
+        "vaga.",
+        "simpáticos.",
+        "delgadas.",
+        "gordos.",
+        "baratas.",
+        "caros.",
+        "limpia.",
+        "sucio."
+      ],
+      "ex2": [
+        "blanca",
+        "marrón",
+        "azules",
+        "rojo",
+        "amarillas",
+        "verdes",
+        "azul",
+        "grises",
+        "verde",
+        "negra"
+      ],
+      "ex3": [
+        "japonés",
+        "inglesa",
+        "español",
+        "andaluzas",
+        "alemán",
+        "italianos",
+        "navarros",
+        "catalanes",
+        "irlandeses",
+        "americana",
+        "valencianas",
+        "china",
+        "argentino",
+        "peruana",
+        "colombiano"
+      ],
+      "ex4": [
+        "un buen hombre",
+        "un potente coche",
+        "una buena idea",
+        "un mal paso",
+        "una original película",
+        "un primer piso",
+        "una buena mujer",
+        "el tercer episodio",
+        "la cuarta fila",
+        "no tengo ningún interés"
+      ],
+      "ex5": [
+        "Lola es delgada.",
+        "Lola es morena.",
+        "Lola es alta.",
+        "Lola es soltera.",
+        "Lola es rica.",
+        "Lola es antipática.",
+        "Lola es trabajadora.",
+        "Lola es sucia.",
+        "Lola es callada.",
+        "Lola es joven."
+      ],
+      "ex6": [
+        "lentamente",
+        "suavemente",
+        "mal",
+        "probablemente",
+        "desorganizadamente",
+        "supuestamente",
+        "claramente",
+        "tranquilamente",
+        "rápidamente",
+        "seguramente",
+        "calladamente",
+        "pacientemente",
+        "detalladamente",
+        "inútilmente",
+        "especialmente"
+      ],
+      "ex7": [
+        "Conduzco rápidamente.",
+        "Comemos pausadamente.",
+        "Esperan pacientemente.",
+        "Discute tontamente.",
+        "Cantan fenomenalmente.",
+        "Aprendéis lentamente.",
+        "Explican detalladamente.",
+        "Escribo complicadamente."
+      ]
+    },
 
     "culturalBrief": "Cultural Brief",
     "bTitle": ["Barcelona"],

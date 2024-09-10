@@ -237,18 +237,7 @@
       "9 ¿_____ van a la fiesta? (Elena y Jesús)",
       "10 ¿_____ escucha Angela en la radio? (el fútbol)"
     ],
-    "ex1A": [
-      "dónde",
-      "quiénes",
-      "quién",
-      "cómo",
-      "dónde",
-      "qué",
-      "quién",
-      "cómo",
-      "quiénes",
-      "qué"
-    ],
+
     "ex2": [
       "1 If they have brothers/sisters. ",
       "2 Where s/he works. ",
@@ -261,18 +250,7 @@
       "9 What car s/he has.",
       "10 Where s/he comes from."
     ],
-    "ex2A": [
-      "¿Tienes hermanos?",
-      "¿Dónde trabajas?",
-      "¿Estás casado/casada?",
-      "¿Cuántos hijos/niños tienes?",
-      "¿Vives en Madrid?",
-      "¿Cuántos años tienes?",
-      "¿Hablas inglés?",
-      "¿Conoces Inglaterra?",
-      "¿Qué coche tienes?",
-      "¿De dónde eres?"
-    ],
+
     "ex3": [
       "1 Is Mr Pérez in the office?",
       "2 Do you know Mr Eagling? ",
@@ -285,18 +263,7 @@
       "9 Who chairs the meeting?",
       "10 What is the problem?"
     ],
-    "ex3A": [
-      "¿Está el Sr Pérez en la oficina?",
-      "¿Conoce Ud. al Sr Eagling?",
-      "¿Dónde está la estación de trenes?",
-      "¿A qué hora es el tren a Barcelona?",
-      "¿Cuándo es la reunión?",
-      "¿Cómo está?",
-      "¿Por qué no está el Sr Serrano allí?",
-      "¿Para qué es la reunión?",
-      "¿Quién preside la reunión?",
-      " ¿Cuál es el problema?"
-    ],
+
     "ex4": [
       "1 Ese chico es Juan. ",
       "2 Las llaves están en el coche.",
@@ -309,18 +276,7 @@
       "9 Mandan la carta a Julia",
       "10 La boda de Juanjo y Marta es en Madrid."
     ],
-    "ex4A": [
-      "¿Quién es ese chico?",
-      "¿Dónde están las llaves?",
-      "¿A quién saludas?",
-      "¿Qué bailas muy bien?",
-      " ¿Qué vino prefieres?/¿Cuál prefieres?",
-      "¿Cómo está la paella?",
-      "¿Quiénes venden casas?",
-      "¿Cuántos hermanos tienes?",
-      "¿A quién mandan la carta?",
-      "¿Dónde es la boda de Juanjo y Marta?"
-    ],
+
     "ex5": [
       "MAITE: ¡Hola Ana! ¿_____ (1) tal?",
       "ANA: ¡Hola Maite! Oye, ¿sabes a _____ (2) hora es el examen?",
@@ -344,33 +300,85 @@
       "MAR: Mr White también, ¿sabes _____ (13) es nuestro aula?",
       "LORETO: Sí, la 42"
     ],
-    "ex5A": [
-      "qué",
-      "a qué",
-      "dónde",
-      "",
-      "cuánto",
-      "cuál",
-      "dónde",
-      "",
-      "dónde",
-      "",
-      "qué",
-      "",
-      "cómo",
-      "de dónde",
-      "",
-      "",
-      "qué",
-      "",
-      "quién/cuál",
-      "cuál",
-      ""
-    ],
+
     "ex6": [],
-    "ex6A": [],
+
     "ex7": [],
-    "ex7A": [],
+    "answers": {
+      "ex1": [
+        "dónde",
+        "quiénes",
+        "quién",
+        "cómo",
+        "dónde",
+        "qué",
+        "quién",
+        "cómo",
+        "quiénes",
+        "qué"
+      ],
+      "ex2": [
+        "¿Tienes hermanos?",
+        "¿Dónde trabajas?",
+        "¿Estás casado/casada?",
+        "¿Cuántos hijos/niños tienes?",
+        "¿Vives en Madrid?",
+        "¿Cuántos años tienes?",
+        "¿Hablas inglés?",
+        "¿Conoces Inglaterra?",
+        "¿Qué coche tienes?",
+        "¿De dónde eres?"
+      ],
+      "ex3": [
+        "¿Está el Sr Pérez en la oficina?",
+        "¿Conoce Ud. al Sr Eagling?",
+        "¿Dónde está la estación de trenes?",
+        "¿A qué hora es el tren a Barcelona?",
+        "¿Cuándo es la reunión?",
+        "¿Cómo está?",
+        "¿Por qué no está el Sr Serrano allí?",
+        "¿Para qué es la reunión?",
+        "¿Quién preside la reunión?",
+        " ¿Cuál es el problema?"
+      ],
+      "ex4": [
+        "¿Quién es ese chico?",
+        "¿Dónde están las llaves?",
+        "¿A quién saludas?",
+        "¿Qué bailas muy bien?",
+        " ¿Qué vino prefieres?/¿Cuál prefieres?",
+        "¿Cómo está la paella?",
+        "¿Quiénes venden casas?",
+        "¿Cuántos hermanos tienes?",
+        "¿A quién mandan la carta?",
+        "¿Dónde es la boda de Juanjo y Marta?"
+      ],
+      "ex5": [
+        "qué",
+        "a qué",
+        "dónde",
+        "",
+        "cuánto",
+        "cuál",
+        "dónde",
+        "",
+        "dónde",
+        "",
+        "qué",
+        "",
+        "cómo",
+        "de dónde",
+        "",
+        "",
+        "qué",
+        "",
+        "quién/cuál",
+        "cuál",
+        ""
+      ],
+      "ex6": [],
+      "ex7": []
+    },
 
     "culturalBrief": "Cultural Brief",
     "bTitle": ["Los horarios españoles"],

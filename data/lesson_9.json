@@ -169,18 +169,6 @@
       "9 _____ mapas son de Barcelona (estos, aquellas, esas)",
       "10 _____ plantas están muertas (esos, aquellas, estos)"
     ],
-    "ex1A": [
-      "1 este",
-      "2 aquel",
-      "3 ese",
-      "4 aquella",
-      "5 esta",
-      "6 aquellos",
-      "7 esas",
-      "8 estos",
-      "9 estos",
-      "10 aquellas"
-    ],
     "ex2": [
       "1 ¿El lápiz de Rocío está aquí? Sí, es _____ .",
       "2 ¿El reloj de Elena está ahí? Sí, es _____ .",
@@ -192,18 +180,6 @@
       "8 ¿El novio de Elisa está ahí? Sí, es _____ .",
       "9 ¿La falda de Lola está aquí? Sí, es _____ .",
       "10 ¿Los sobrinos de Juan están allá? Sí, son _____ ."
-    ],
-    "ex2A": [
-      "1 éste",
-      "2 ése",
-      "3 aquéllas",
-      "4 ésos",
-      "5 aquélla",
-      "6 éstas",
-      "7 éstos",
-      "8 ése",
-      "9 ésta",
-      "10 aquellos"
     ],
     "ex3": [
       "1 No necesitamos aquellos bolígrafos, necesitamos _____ (close distance).",
@@ -217,18 +193,6 @@
       "9 No tenéis esta mesa, tenéis _____ . (far distance)",
       "10 No hacen ese examen, hacen _____ . (close distance)"
     ],
-    "ex3A": [
-      "1 éstos",
-      "2 aquélla",
-      "3 ése",
-      "4 aquél",
-      "5 éstas",
-      "6 ése",
-      "7 éstas",
-      "8 ésos",
-      "9 aquélla",
-      "10 éste"
-    ],
     "ex4": [
       "1 No necesito ni ese plato ni aquella taza, necesito _____ vasos.",
       "2 No pide ni aquellas llaves ni esta tarjeta, pide _____ candado.",
@@ -241,25 +205,62 @@
       "9 No entendemos ni a esos señores ni a aquella chica, entendemos a _____ señoras.",
       "10 No alquilamos ni esta casa ni ese piso, alquilamos _____ chalet."
     ],
-    "ex4A": [
-      "1 estos",
-      "2 ese",
-      "3 estas",
-      "4 aquel",
-      "5 esa",
-      "6 aquellas",
-      "7 ese",
-      "8 aquella",
-      "9 estas",
-      "10 aquel"
-    ],
     "ex5": [],
-    "ex5A": [],
     "ex6": [],
-    "ex6A": [],
     "ex7": [],
-    "ex7A": [],
-
+    "answers": {
+      "ex1": [
+        "este",
+        "aquel",
+        "ese",
+        "aquella",
+        "esta",
+        "aquellos",
+        "esas",
+        "estos",
+        "estos",
+        "aquellas"
+      ],
+      "ex2": [
+        "éste",
+        "ése",
+        "aquéllas",
+        "ésos",
+        "aquélla",
+        "éstas",
+        "éstos",
+        "ése",
+        "ésta",
+        "aquellos"
+      ],
+      "ex3": [
+        "éstos",
+        "aquélla",
+        "ése",
+        "aquél",
+        "éstas",
+        "ése",
+        "éstas",
+        "ésos",
+        "aquélla",
+        "éste"
+      ],
+      "ex4": [
+        "estos",
+        "ese",
+        "estas",
+        "aquel",
+        "esa",
+        "aquellas",
+        "ese",
+        "aquella",
+        "estas",
+        "aquel"
+      ],
+      "ex5": [],
+      "ex6": [],
+      "ex7": []
+    },
     "culturalBrief": "Cultural Brief",
     "bTitle": ["La República de Panamá"],
     "bContent": [

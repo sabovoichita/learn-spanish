@@ -24,9 +24,9 @@ function createNav(chapters) {
   const navItems = chapters
     .map(
       (chapter, index) =>
-        `<li><a href="#" class="chapter-link" data-lesson="${
+        `<li><a href="#" class="chapter-link" data-lesson="${index + 1}">${
           index + 1
-        }">Lesson ${index + 1}: ${chapter.title}</a></li>`
+        }: ${chapter.title}</a></li>`
     )
     .join("");
 
@@ -60,9 +60,7 @@ function generateLessonContent(lessons, lessonNumber) {
     <section id="sectionArea" class="displayContent">
       <!-- Collapsible Section for Introduction -->
       <div class="collapsible-section">
-        <button class="collapsible-btn">Chapter: ${lesson.ch}. ${
-        lesson.title
-      }</button>
+        <button class="collapsible-btn">${lesson.ch}. ${lesson.title}</button>
         <div class="collapsible-content">
           ${generateLessonSections(lesson)}
         </div>
@@ -201,20 +199,15 @@ function generateExercises(lesson, lessonNumber) {
 
 // Generate cultural brief section
 function generateCulturalBrief(lesson) {
-  return lesson.bTitle
-    .map(
-      (title, index) => `
-    <h4 class="subchapter">${title}</h4>
-    ${
-      index === 0
-        ? `<div>${lesson.bContent
-            .map((content) => `<p class="cultural">${content}</p>`)
-            .join("")}</div>`
-        : generateVocabularyTable(lesson.vocabulary, lesson.vocabularyE)
-    }
-  `
-    )
-    .join("");
+  if (!lesson.bTitle || !lesson.bContent) {
+    return ""; // Handle missing titles or content gracefully
+  }
+  return `
+    <h4 class="subchapter">${lesson.bTitle}</h4>
+    ${lesson.bContent
+      .map((content) => `<p class="cultural">${content}</p>`)
+      .join("")}
+  `;
 }
 
 // Create vocabulary table
@@ -245,18 +238,40 @@ function generateVocabularyTable(vocabulary, vocabularyE) {
 
 // Create word mapping section
 function createWSection(label1, label2, ws1, ws2) {
+  // Determine if label1 is an array or a single string
+  const isLabelArray = Array.isArray(label1);
+  const hasLabels = (isLabelArray ? label1.length : label1) && label2; // If label2 is empty, we won't render it
+
   return ws1 && ws1.length
     ? `
-    <p class="text">${label1} | ${label2}</p>
-    ${ws1
-      .map(
-        (item, index) => `
-      <p class="ws">${item} <span class="black"> | </span> <span class="wEnglish">${
-          ws2 ? ws2[index] : ""
-        }</span></p>
-    `
-      )
-      .join("")}
+    <table>
+      <thead>
+        ${
+          hasLabels
+            ? `
+          <tr>
+            <th>${
+              isLabelArray ? label1.map((l) => `<p>${l}</p>`).join("") : label1
+            }</th>
+            ${label2 ? `<th>${label2}</th>` : ""}
+          </tr>
+        `
+            : ""
+        }
+      </thead>
+      <tbody>
+        ${ws1
+          .map(
+            (item, index) => `
+          <tr>
+            <td class="ws">${item}</td>
+            <td class="wEnglish">${ws2 ? ws2[index] : ""}</td>
+          </tr>
+        `
+          )
+          .join("")}
+      </tbody>
+    </table>
   `
     : "";
 }
@@ -478,7 +493,7 @@ function setupCollapsibleSections() {
 }
 
 function initEvents() {
-  const numberOfLessons = 8; // Define the number of lessons
+  const numberOfLessons = 9; // Define the number of lessons
   const chapters = []; // Array to hold chapter data
 
   // Fetch chapter titles dynamically

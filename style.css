@@ -160,9 +160,11 @@ hr {
 .ws {
   color: #5e35b1;
   margin: 10px 0;
+  padding-right: 10px;
+  font-weight: bold;
 }
 
-.ws .wEnglish {
+.wEnglish {
   color: #7e57c2;
   font-style: italic;
 }
@@ -254,6 +256,7 @@ hr {
 .dropdown-btn {
   background-color: #0288d1;
   color: white;
+  min-width: 200px;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
@@ -305,7 +308,7 @@ hr {
   color: #333;
   text-decoration: none;
   display: block;
-  padding: 10px 15px;
+  padding: 5px 10px;
   transition: background-color 0.3s;
 }
 

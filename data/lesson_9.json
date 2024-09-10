@@ -1,0 +1,311 @@
+[
+  {
+    "ch": "9",
+    "title": "Demonstratives ",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "Demonstratives are words used to point out or 'demonstrate' which noun the speaker is referring to, i.e. 'this' or 'that', 'these' or 'those'."
+      },
+      {
+        "type": "paragraph",
+        "text": "In Spanish they must agree in number and gender with the noun to which they refer, so the words for 'this' and 'these' are as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [
+          "este (masc. sing.)",
+          "esta (fem. sing.)",
+          "estos (masc. pl.)",
+          "estas (fem. pl.)"
+        ],
+        "label2": "",
+        "words1": [
+          "este coche",
+          "esta casa",
+          "estos chicos",
+          "estas ventanas "
+        ],
+        "words2": ["this car", "this house", "these boys", "these windows"]
+      },
+      {
+        "type": "paragraph",
+        "text": "este/esta/estos/estas are used to refer to things close to the speaker in either time or space:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Me gusta este libro.", "Estos días tan felices."],
+        "words2": [
+          "I like this book. (i.e. the one that is here, near me/in my hand)",
+          "These happy days. (i.e. the days that we are enjoying now)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "There are two sets of words for 'that' and 'those' in Spanish, depending on the degree of proximity in time or space of the object referred to:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "ese/aquel (masc. sing.) ",
+          "esa/aquella (fem. sing.)",
+          "esos/aquellos (masc. pl.)",
+          "esas/aquellas (fem. pl.) "
+        ],
+        "words2": [
+          "ese/aquel día (that day)",
+          "esa/aquella mujer (that woman)",
+          "esos/aquellos niños (those children)",
+          "esas/aquellas casas (those houses)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "ese/esa/esos/esas are used to refer to things slightly further removed than este/esta, etc., or close to the person being spoken to:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "Dame ese periódico.",
+          "¿Recuerdas esa semana que pasamos en Mallorca? "
+        ],
+        "words2": [
+          "Give me that newspaper.(i.e. the one near you)",
+          "Do you remember that week we spent in Mallorca? (i.e. the one familiar to both of us)"
+        ]
+      },
+
+      {
+        "type": "paragraph",
+        "text": "aquel/aquella/aquellos/aquellas refer to things that are far away from both the speaker and the person being spoken to, either in time or space:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["Me gusta aquella casa.", "Aquel verano hizo mucho calor."],
+        "words2": [
+          "I like that house. (i.e. the one over there, not near either of us)",
+          "It was very hot that summer. (i.e. a long time ago)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The difference between ese and aquel is not always clear-cut, and it is difficult to establish hard and fast rules for every use. Careful observation of how native speakers use these two forms will help you to understand the subtle distinctions."
+      },
+      {
+        "type": "paragraph",
+        "text": "When these forms are immediately followed by a noun, they are demonstrative adjectives, because they give more information about the noun to which they refer. They can, however, be used on their own, in which case they are demonstrative pronouns, as they are taking the place of the noun. When used as pronouns they take a stress mark to distinguish them from the demonstrative adjective form:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["éste, ésta, éstos, estas"],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["ése, ésa, ésos, ésas"],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["aquél, aquélla, aquéllos, aquéllas"],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "Este libro me gusta mucho, pero aquél no me gusta nada. ",
+          "Estas casas son bonitas, pero aquéllas son feísimas. "
+        ],
+        "words2": [
+          "I like this book very much, but I don’t like that one at all.",
+          "These houses are pretty, but those are very ugly."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "In Modern Spanish, however, the stress mark is not essential and is frequently omitted."
+      }
+    ],
+
+    "subCh2": "",
+    "lessonContentSubCh2": [],
+    "subCh3": "",
+    "lessonContentSubCh3": [],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Choose the appropriate demonstrative adjective:",
+      "2 Complete with the demonstrative pronouns taking into account the place adverbs of close (aquí/acá), middle (ahí) or far (allí/allá) distance: Example: ¿Los libros de Mario están allí? Sí, son aquéllos.",
+      "3 Complete the following sentences with the appropriate demonstrative pronoun as in this example: Example: No quiero estos coches, quiero _____ . (far distance) No quiero estos coches, quiero aquéllos.",
+      "4 Complete the following sentences as in the example, using the demonstrative adjective that has not been used before in the same sentence: Example: No quiero ni este lápiz ni ese bolígrafo, quiero _____ pluma. No quiero ni este lápiz ni ese bolígrafo, quiero aquella pluma."
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 _____ camión es de mi hermano (aquella, esa, este)",
+      "2 _____ jardín es muy bonito (aquel, esta, eso)",
+      "3 _____ ordenador está estropeado (aquella, ese, eso)",
+      "4 _____ flor es para Carmen (este, aquella, ese)",
+      "5 _____ llave es de Mario (esta, aquel, eso)",
+      "6 _____ árboles son pinos (aquellos, estas, aquellas)",
+      "7 _____ motos son muy veloces (esos, esas, estos)",
+      "8 _____ jerseys son baratos (estas, aquellas, estos)",
+      "9 _____ mapas son de Barcelona (estos, aquellas, esas)",
+      "10 _____ plantas están muertas (esos, aquellas, estos)"
+    ],
+    "ex1A": [
+      "1 este",
+      "2 aquel",
+      "3 ese",
+      "4 aquella",
+      "5 esta",
+      "6 aquellos",
+      "7 esas",
+      "8 estos",
+      "9 estos",
+      "10 aquellas"
+    ],
+    "ex2": [
+      "1 ¿El lápiz de Rocío está aquí? Sí, es _____ .",
+      "2 ¿El reloj de Elena está ahí? Sí, es _____ .",
+      "3 ¿Las botellas están allá? Sí, son _____ .",
+      "4 ¿Los estudiantes de Pepe están ahí? Sí, son _____ .",
+      "5 ¿La amiga de Merche está allí? Sí, es _____ .",
+      "6 ¿Las tazas de café están aquí? Sí, son _____ .",
+      "7 ¿Los discos de Ana están acá? Sí, son _____ .",
+      "8 ¿El novio de Elisa está ahí? Sí, es _____ .",
+      "9 ¿La falda de Lola está aquí? Sí, es _____ .",
+      "10 ¿Los sobrinos de Juan están allá? Sí, son _____ ."
+    ],
+    "ex2A": [
+      "1 éste",
+      "2 ése",
+      "3 aquéllas",
+      "4 ésos",
+      "5 aquélla",
+      "6 éstas",
+      "7 éstos",
+      "8 ése",
+      "9 ésta",
+      "10 aquellos"
+    ],
+    "ex3": [
+      "1 No necesitamos aquellos bolígrafos, necesitamos _____ (close distance).",
+      "2 No quieren esa fotografía, quieren _____ . (far distance)",
+      "3 No compra este cuadro, compra _____ . (middle distance)",
+      "4 No pintamos este paisaje, pintamos _____ . (far distance)",
+      "5 No conoce a aquellas chicas, conoce a _____ . (close distance)",
+      "6 No salen con este chico, salen con _____ . (middle distance)",
+      "7 No decoro esas habitaciones, decoro _____ . (close distance)",
+      "8 No venden aquellos pisos, venden _____ . (middle distance)",
+      "9 No tenéis esta mesa, tenéis _____ . (far distance)",
+      "10 No hacen ese examen, hacen _____ . (close distance)"
+    ],
+    "ex3A": [
+      "1 éstos",
+      "2 aquélla",
+      "3 ése",
+      "4 aquél",
+      "5 éstas",
+      "6 ése",
+      "7 éstas",
+      "8 ésos",
+      "9 aquélla",
+      "10 éste"
+    ],
+    "ex4": [
+      "1 No necesito ni ese plato ni aquella taza, necesito _____ vasos.",
+      "2 No pide ni aquellas llaves ni esta tarjeta, pide _____ candado.",
+      "3 No conocemos ni a esa chica ni a aquel chico, conocemos a _____ señoras.",
+      "4 No quieren ni esas coca-colas ni estos refrescos, quieren _____ vino.",
+      "5 No compra ni aquel coche ni esta moto, compra _____ bicicleta.",
+      "6 No leemos ni este libro ni esa novela, leemos _____ revistas.",
+      "7 No vendo ni aquel óleo ni esta acuarela, vendo _____ grabado.",
+      "8 No necesitamos ni esas manzanas ni esas peras, necesitamos _____ naranja.",
+      "9 No entendemos ni a esos señores ni a aquella chica, entendemos a _____ señoras.",
+      "10 No alquilamos ni esta casa ni ese piso, alquilamos _____ chalet."
+    ],
+    "ex4A": [
+      "1 estos",
+      "2 ese",
+      "3 estas",
+      "4 aquel",
+      "5 esa",
+      "6 aquellas",
+      "7 ese",
+      "8 aquella",
+      "9 estas",
+      "10 aquel"
+    ],
+    "ex5": [],
+    "ex5A": [],
+    "ex6": [],
+    "ex6A": [],
+    "ex7": [],
+    "ex7A": [],
+
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["La República de Panamá"],
+    "bContent": [
+      "Panamá es un país centroamericano que está entre el océano Atlántico (mar del Caribe) y el océano Pacífico. A sus habitantes se les llama panameños. Tiene fronteras con Costa Rica (al norte) y Colombia (al sur). No es un país muy grande ni en términos de extensión (alrededor de 60.000 km2) ni de población (unos 3 millones de habitantes) pero tiene gran importancia geográfica debido al Canal de Panamá, que une el océano Pacífico con el mar del Caribe; aunque construido por los EEUU entre 1904 y 1914, pertenece totalmente a Panamá desde 1999 Panamá es un país culturalmente muy rico y lleno de contrastes. Geográficamente está dividido en 9 provincias (Bocas del Toro, Chiriqui, Cocle, Colón, Darién, Herrera, Los Santos, Panamá y Veraguas) y una comarca (San Blas). Su capital es la ciudad de Panamá."
+    ],
+    "vocabulary": [
+      "acuarela (f.)",
+      "candado (m.)",
+      "comarca (f.)",
+      "construir",
+      "decorar",
+      "EEUU",
+      "en términos de",
+      "frontera (f.)",
+      "grabado (m.)",
+      "habitante (m.)",
+      "ni … ni …",
+      "oleo (m.)",
+      "paisaje (m.)",
+      "pera (f.)",
+      "pertenecer",
+      "plato (m.)",
+      "población (f.)",
+      "taza (f.)",
+      "vaso (m.)"
+    ],
+    "vocabularyE": [
+      "water-colour (painting)",
+      "lock",
+      "region",
+      "to build",
+      "to decorate",
+      "USA",
+      "in terms of",
+      "border",
+      "etching",
+      "inhabitant",
+      "neither … nor …       ",
+      "oil (painting)",
+      "landscape",
+      "pear",
+      "to belong",
+      "plate",
+      "population",
+      "cup",
+      "glass"
+    ]
+  }
+]

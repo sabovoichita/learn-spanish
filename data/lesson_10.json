@@ -1,0 +1,355 @@
+[
+  {
+    "ch": "10",
+    "title": "Comparatives and superlatives ",
+    "subCh1": "Comparatives",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "In Lesson 7 we saw that adjectives must agree in number and gender with the noun to which they refer. By placing más or menos before adjectives and que after them we can make comparisons as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": "",
+        "words1": [
+          "Juan es más alto que Pedro.",
+          "Estas casas son más bonitas que ésas.",
+          "Este abrigo es menos caro.",
+          "Los gatos son menos cariñosos que los perros."
+        ],
+        "words2": [
+          "Juan is taller than Pedro.",
+          "These houses are prettier than those.",
+          "This coat is less expensive.",
+          "Cats are less affectionate than dogs."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "When making a comparison using pronouns, the subject pronoun (see Unit 1) must be used after que:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "(Yo) soy más fuerte que tú.",
+          "(Nosotros) somos más ricos que ellos. "
+        ],
+        "words2": ["I am stronger than you. ", "We are richer than them. "]
+      },
+      {
+        "type": "paragraph",
+        "text": "The comparisons can be further qualified by using the following adverbs before más or menos:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": ["mucho", "bastante", "un pocoa", "algo"],
+        "words2": [
+          "much/a lot",
+          "quite/considerably",
+          "little",
+          "rather/somewhat"
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "Juan es mucho más inteligente que Pedro.",
+          "Este coche es bastante más cómodo que aquél.",
+          "Este libro es un poco menos interesante. "
+        ],
+        "words2": [
+          "Juan is much more intelligent than Pedro.",
+          "This car is considerably more comfortable than that one.",
+          "This book is a little less interesting."
+        ]
+      }
+    ],
+
+    "subCh2": "más que or más de?",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "When an expression of quantity (usually a number) follows 'than' this is normally translated by de rather than que:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "Pesa más de ochenta kilos.",
+          "Tengo menos de veinte euros.",
+          "Son más de las doce y media."
+        ],
+        "words2": [
+          "He weighs more than 80 kilos.",
+          "I have less than 20 euros.",
+          "It is later than half past twelve."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The exception to this is the expression no … más que (only) that can be used before quantities:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": "",
+        "label2": "",
+        "words1": [
+          "No tengo más que veinte euros.",
+          "No pesa más que sesenta kilos.",
+          "No son más que las once."
+        ],
+        "words2": [
+          "I only have 20 euros.",
+          "He only weighs 60 kilos.",
+          "It is only 11 o'clock."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A few adjectives have special comparative forms, although in some cases it is possible to use más or menos before them in the same way as other adjectives, but with a slightly different meaning or context:"
+      },
+      {
+        "type": "wordSection",
+        "label1": "Adjective",
+        "label2": "Comparative",
+        "words1": [
+          "bueno",
+          "malo",
+          "grande",
+          "",
+          "pequeño",
+          "",
+          "bajo",
+          "",
+          "alto"
+        ],
+        "words2": [
+          "mejor (better)",
+          "peor (worse)",
+          "mayor (bigger, older)",
+          "más grande bigger",
+          "menor (smaller, younger)",
+          "más pequeño (smaller)",
+          "inferior (lower, inferior)",
+          "más bajo (lower, shorter (height))",
+          "superior (higher, superior)",
+          "  más alto (higher, taller (height))"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "mayor and menor are especially used to indicate older and younger in family relationships:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["mi hermano mayor", "su hermana menor"],
+        "words2": ["my older brother", "his younger sister"]
+      }
+    ],
+    "subCh3": "Superlatives",
+    "lessonContentSubCh3": [
+      {
+        "type": "paragraph",
+        "text": "más and menos are also used to form superlatives - biggest', 'youngest', 'most interesting', etc. The absence of the following que indicates that a superlative rather than a comparative is intended:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "la película más interesante",
+          "el pueblo más aislado",
+          "el coche menos caro"
+        ],
+        "words2": [
+          "the most interesting film",
+          "the most remote village",
+          "the cheapest car"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: To express the English 'in' after a superlative, de must be used:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "la chica más inteligente de la clase",
+          "el país más rico del mundo",
+          "",
+          ""
+        ],
+        "words2": [
+          "the most intelligent girl in the class",
+          "the richest country in the world",
+          "",
+          ""
+        ]
+      }
+    ],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 How would you express the following in Spanish? ",
+      "2 Complete the following comparisons using the information given at the end of the sentence:",
+      "3 más/menos que or más/menos de?",
+      "4 Complete the following sentences with the information given in brackets:",
+      "5 How would you say the following in Spanish? "
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 María is taller than Pepe.",
+      "2 This chair is less expensive than that one.",
+      "3 Nuria is more beautiful than Loreto.",
+      "4 Marta is less intelligent than Iciar.",
+      "5 That glass is fuller than this one.",
+      "6 This handbag is heavier than that one.",
+      "7 That novel is more interesting than this one.",
+      "8 Pedro is less tired than José.",
+      "9 Juanjo is more attractive than Miguel.",
+      "10 Rafael is fatter than Luis."
+    ],
+    "ex1A": [
+      "María es más alta que Pepe.",
+      "Esta silla es menos cara que ésa/ aquélla.",
+      "Nuria es más guapa que Loreto.",
+      "Marta es menos inteligente que Iciar.",
+      "Aquel/ese vaso está más lleno que éste.",
+      "Este bolso es menos pesado que ése/aquél.",
+      "Aquella novela es más interesante que ésta.",
+      "Pedro está menos cansado que José.",
+      "Juanjo es más atractivo que Miguel.",
+      "Rafael está/es más gordo que Luis."
+    ],
+    "ex2": [
+      "1 Esta mesa es _____ cara que aquella. (considerably more)",
+      "2 Alvaro es _____ simpático que Nacho. (a lot more)",
+      "3 Esa revista es _____ informativa que ésta. (a little less)",
+      "4 Maite está _____ cansada que Arancha. (rather more)",
+      "5 Este piso es _____ caro que aquel. (considerably more)",
+      "6 Esas chicas son _____ más elegantes que yo. (much less)",
+      "7 La película de hoy es _____ interesante que la de ayer. (somewhat less)",
+      "8 Este perro está _____ gordo que este gato. (a little more)",
+      "9 El coche de Mario está _____ sucio que el de Elena. (somewhat more)",
+      "10 El sueldo de Jesús es _____ alto que el de Eugenia. (a lot more)"
+    ],
+    "ex2A": [
+      "bastante más cara",
+      "mucho más simpático",
+      "un poco menos informativa",
+      "algo más cansada",
+      "bastante más caro",
+      "mucho menos elegantes",
+      "algo menos interesante",
+      "un poco más gordo",
+      "algo más sucio",
+      "mucho más alto"
+    ],
+    "ex3": [
+      "1 Son más _____ veinte estudiantes en esa clase.",
+      "2 Esperan menos _____ quince millones de premio.",
+      "3 Tienen más dinero _____ Pedro.",
+      "4 No quiero más _____ trece euros para esta tarde.",
+      "5 Necesito menos _____ trece euros para esta tarde.",
+      "6 Ganan menos sueldo _____ esas secretarias.",
+      "7 No tienen más _____ seis cervezas en la nevera.",
+      "8 Leen más _____ dos libros a la semana.",
+      "9 Esperamos menos problemas _____ el año pasado.",
+      "10 Bebéis más _____ ocho cafés al día."
+    ],
+    "ex3A": ["de", "de", "que", "que", "de", "que", "que", "de", "que", "de"],
+    "ex4": [
+      "1 Mi hermano es _____ que yo. (older)",
+      "2 Los problemas de Pedro son _____ que los de Juan. (bigger)",
+      "Basic Spanish: A grammar and workbook 7",
+      "3 Este piso es _____ que aquel. (better)",
+      "4 Soy _____ que María. (taller)",
+      "5 Begoña está hoy mucho _____ que ayer. (worse)",
+      "6 Rafael es el hermano _____ de Maite. (younger)",
+      "7 Este edificio es _____ que ese. (higher)",
+      "8 En español estoy en un nivel _____ que Peter. (lower)",
+      "9 Este niño es _____ que ése. (shorter)",
+      "10 Este coche es mucho _____ que el de Juan. (better)"
+    ],
+    "ex4A": [
+      "mayor",
+      "mayores",
+      "mejor",
+      "más alta",
+      "peor",
+      "menor",
+      "más alto",
+      "inferior/más bajo",
+      "más bajo",
+      "mejor"
+    ],
+    "ex5": [
+      "1 She is the tallest in the class.",
+      "2 He is the fattest in this room.",
+      "3 I am the shortest in the family.",
+      "4 We are the most intelligent in the office.",
+      "5 This novel is the worst.",
+      "6 China is the biggest country in the world.",
+      "7 The AVE is the fastest train in Spain.",
+      "8 They are the slowest in the race.",
+      "9 This film is the best.",
+      "10 The food of this restaurant is the best in town."
+    ],
+    "ex5A": [
+      "Es la más alta de la clase.",
+      "Es el más gordo de esta habitación.",
+      "Soy la más baja/el más bajo de la familia.",
+      "Somos los más inteligentes de la oficina.",
+      "Esta novela es la peor.",
+      "China es el país más grande del mundo.",
+      "El AVE es el tren más rápido de España.",
+      "Son los más lentos de la carrera.",
+      "Esta película es la mejor.",
+      "La comida de este restaurante es la mejor de la ciudad."
+    ],
+    "ex6": [],
+    "ex6A": [],
+    "ex7": [],
+    "ex7A": [],
+
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["La Real Academia de la Lengua"],
+    "bContent": [
+      "La Real Academia de la Lengua es una institución que existe en España desde hace siglos con una función muy específica: cuidar de la lengua española. Su lema es “limpia, fija y da esplendor”. Todos los países latino-americanos que tienen el español como primera lengua oficial tienen también sus propias academias y todas ellas trabajan juntas en todos los proyectos que están relacionados con las reglas gramaticales y el léxico del español en el mundo. En las academias se reunen los más ilustres lingüistas del mundo hispano. Sus puestos son honoríficos; es decir, que son invitados a pertenecer a ellas. Las Reales Academias publican su propia gramática y su propio diccionario y ambos son considerados como el mejor instrumento de trabajo de todas aquellas personas interesadas en la lengua española."
+    ],
+    "vocabulary": [
+      "fijar ",
+      "ilustre",
+      "lema (m.)",
+      "léxico (m.)",
+      "lingüista (m./f.)",
+      "reunirse",
+      "sueldo (m.)"
+    ],
+    "vocabularyE": [
+      "to fix, to establish (to prescribe)",
+      "distinguished",
+      "motto",
+      "lexis, vocabulary",
+      "linguist",
+      "to meet",
+      "salary"
+    ]
+  }
+]

@@ -222,6 +222,7 @@ hr {
   overflow: hidden;
   transition: max-height 0.3s ease-out, padding 0.3s ease-out;
   background-color: white;
+  margin-bottom: 5px;
 }
 
 .collapsible-content p {
@@ -312,30 +313,6 @@ hr {
   transition: background-color 0.3s;
 }
 
-/* Hover effect for dropdown links */
-.dropdown-menu li a:hover {
-  background-color: #f5f5f5;
-}
-/* dropdown.active .dropdown-menu {
-  display: block;
-} */
-
-/* Display the dropdown menu when the button is active */
-/* .dropdown-btn.active + .dropdown-menu {
-  display: block;
-} */
-
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .h2Design {
-    font-size: 1.5rem;
-  }
-
-  .check-answers-btn {
-    width: 100%;
-  }
-}
-
 /* Show dropdown when active */
 .dropdown.active .dropdown-menu {
   display: block;
@@ -352,4 +329,33 @@ hr {
 .collapsible-btn.active + .collapsible-content {
   max-height: 1000px; /* Adjust based on content */
   padding: 15px;
+}
+
+/* Hover effect for dropdown links */
+.dropdown-menu li a:hover {
+  background-color: #f5f5f5;
+}
+/* dropdown.active .dropdown-menu {
+  display: block;
+} */
+
+/* Display the dropdown menu when the button is active */
+/* .dropdown-btn.active + .dropdown-menu {
+  display: block;
+} */
+
+.displayLesson {
+  padding-bottom: 40px;
+  /* background: #009688; */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .h2Design {
+    font-size: 1.5rem;
+  }
+
+  .check-answers-btn {
+    width: 100%;
+  }
 }

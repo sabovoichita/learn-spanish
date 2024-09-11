@@ -1,0 +1,383 @@
+[
+  {
+    "ch": "14",
+    "title": "Reflexive verbs",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "Reflexive verbs are nomally used for actions that the subject performs to 'him/herself', e.g. 'I wash (myself)', 'I wake (myself)'. In other words the subject and the object of the verb are the same. Remember that in English, however, the 'myself/yourself', etc. are often implicit rather than stated, thus we would usually say 'I washed' with the 'myself' being implicit in the lack of any other direct object."
+      },
+      {
+        "type": "paragraph",
+        "text": "In Spanish the use of reflexive verbs is much more common and the reflexive pronoun must be used:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Me lavo. ", "Se despierta. "],
+        "words2": ["I wash (myself).", "He wakes (himself)."]
+      },
+      {
+        "type": "paragraph",
+        "text": "but"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Lavo el coche.", "Despierta a los niños."],
+        "words2": ["I wash the car.", "He wakes the children."]
+      },
+      {
+        "type": "paragraph",
+        "text": "The form of the reflexive verb in Spanish is as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "me lavo",
+          "te lavas",
+          "se lava",
+          "",
+          "nos lavamos",
+          "os laváis",
+          "se lavan",
+          ""
+        ],
+        "words2": [
+          "I wash (myself)",
+          "you wash (yourself)",
+          "he/she washes (himself/herself)",
+          "you wash (yourself)",
+          "we wash (ourselves)",
+          "you wash (yourselves)",
+          "they wash (themselves)",
+          "you wash (yourselves)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The pronoun is placed in front of the verb in the present tense. But as we saw in Unit 11, pronouns are normally placed at the end of certain parts of the verb, notably the infinitive, the gerund (see Unit 15) and the imperative, which will be dealt with at a later stage."
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Voy a lavarme.", "Tenemos que despertarnos."],
+        "words2": ["I am going to wash (myself).", "We have to wake up."]
+      },
+      {
+        "type": "paragraph",
+        "text": "Other common reflexive verbs are:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": ["pensar"],
+        "label2": ["(to think) "],
+        "words1": [
+          "levantarse",
+          "acostarse(ue)",
+          "afeitarse",
+          "peinarse",
+          "vestirse(i)",
+          "ponerse"
+        ],
+        "words2": [
+          "to get up",
+          "to go to bed",
+          "to shave",
+          "to comb one's hair",
+          "to get dressed",
+          "to put on"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: When referring to parts of the body or articles of clothing, a reflexive verb is often used in Spanish to express possession in preference to the possessive adjective:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Se lava la cara.",
+          "Se rompe la pierna.",
+          "Me quito el abrigo."
+        ],
+        "words2": [
+          "He washes his face.",
+          "He breaks his leg.",
+          "I take off my coat."
+        ]
+      }
+    ],
+
+    "subCh2": "The reflexive passive",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "A reflexive form of the verb is often used in Spanish when we would use a passive in English, for example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Se habla ingles.",
+          "Se venden sellos.",
+          "Se cultivan manzanas."
+        ],
+        "words2": [
+          "English is spoken.",
+          "Stamps are sold.",
+          "Apples are grown."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Note that the verb form is the third person singular or plural, depending on the subject."
+      },
+      {
+        "type": "paragraph",
+        "text": "This construction is normally only used when the subject of the verb refers to an inanimate object. This is because in such cases there is little likelihood of confusion with the reflexive meaning, since inanimate objects cannot perform the actions on themselves."
+      },
+      {
+        "type": "paragraph",
+        "text": "In the above examples, newspapers cannot sell themselves, neither can apples grow themselves, so there is no possible confusion with the reflexive meaning."
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice the word order of this construction – the verb is normally placed before the subject."
+      },
+      {
+        "type": "paragraph",
+        "text": "A singular reflexive construction can also be used to convey the meaning 'it is + past participle' for example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Se dice que…", "Se cree que…", "Se espera que…"],
+        "words2": [
+          "It is said that… ",
+          "It is believed that… ",
+          "It is hoped that… "
+        ]
+      }
+    ],
+    "subCh3": "",
+    "lessonContentSubCh3": [],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Write the appropriate form of the reflexive pronouns in the blanks.",
+      "2 Answer the following questions as in the example: Example: ¿A qué hora te levantas? (9.00) Me levanto a las 9.00",
+      "3 Translate the following sentences into Spanish:",
+      "4 Answer these questions with the reflexive passive as in the example: Example: ¿Compráis/compran periódicos en esta oficina? Sí, se compran.",
+      "5 Change the infinitives for the reflexive passive to make up the recipe for a potato omelette:",
+      "6 Translate the following sentences into Spanish with a reflexive passive: "
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 _____ lava",
+      "6 _____ levanto",
+      "2 _____ acuestas",
+      "7 _____ duchas",
+      "3 _____ despertamos",
+      "8 _____ despierta",
+      "4 _____ quitan",
+      "9 _____ vas",
+      "5 _____ rompe",
+      "10 _____ peináis"
+    ],
+    "ex2": [
+      "1 ¿Os levantáis temprano? (tarde)",
+      "2 ¿A qué hora se despierta (Vd.)? (6.00)",
+      "3 ¿Se duchan (ellos) por la mañana? (noche)",
+      "4 ¿A qué hora se van a trabajar (Vds.)? (7.30)",
+      "5 ¿Te acuestas tarde? (pronto)",
+      "6 ¿Se afeitan (ellos) con brocha? (maquinilla)",
+      "7 ¿Adónde os váis? (Galicia)",
+      "8 ¿Cuándo te vas? (mañana)",
+      "9 ¿Se lava el pelo (Vd.) dos veces a la semana? (todos los días)",
+      "10 ¿Os quitáis la bufanda? (el abrigo)"
+    ],
+    "ex3": [
+      "1 I get up at 7.00 every morning.",
+      "2 She has her shower after breakfast.",
+      "3 Can you (tú) eat all of that?",
+      "4 They go to bed very late at night.",
+      "5 Do we take off our shoes?",
+      "6 He doesnt wake up till 9.00.",
+      "7 What time do you wake up, sir?",
+      "8 The children are putting on their coats.",
+      "9 When do you (Vds.) go to New York?",
+      "10 They are buying themselves clothes."
+    ],
+    "ex4": [
+      "1 ¿Vendéis helados en esta tienda?",
+      "2 ¿Alquiláis habitaciones en este piso?",
+      "3 ¿Hacen traducciones al chino?",
+      "4 ¿Habláis francés en las reuniones?",
+      "5 ¿Ponen música para los clientes que están esperando?",
+      "6 ¿Estáis importando mucha fruta?",
+      "7 ¿Están comprando mucho en Navidad?",
+      "8 ¿Necesitáis más profesores?",
+      "9 ¿Ofrecen buenas condiciones de trabajo?",
+      "10 ¿Arregláis motos en este taller?"
+    ],
+    "ex5": [
+      "1 Pelar 3 patatas medianas.",
+      "2 Lavar las patatas.",
+      "3 Cortar las patatas en lonchas finas.",
+      "4 Lavar un pimiento verde o pelar una cebolla.",
+      "5 Cortar la mitad del pimiento o la cebolla en cuadraditos pequeños.",
+      "6 Añadir a las patatas y salar.",
+      "7 Freir en mucho aceite a fuego suave hasta que la patata está muy blanda.",
+      "8 Sacar la mezcla del aceite y escurrir.",
+      "9 Calentar un poco de aceite en una sartén.",
+      "10 Batir dos huevos, salar y añadir la patata y el pimiento o la cebolla.",
+      "11 Hacer la tortilla a fuego lento.",
+      "12 Dar la vuelta a la tortilla con un plato llano y hacer por el otro lado."
+    ],
+    "ex6": [
+      "1 People say that the King is ill.",
+      "2 Cheaper flats are being built now.",
+      "3 It is believed that pollution is destroying the environment.",
+      "4 It is said that bilingual children learn faster than monolingual children.",
+      "5 People believe that there can be a war."
+    ],
+    "ex7": [],
+
+    "answers": {
+      "ex1": ["se", "te", "nos", "se", "se", "me", "te", "se", "te", "os"],
+      "ex2": [
+        "Nos levantamos tarde.",
+        "Me despierto a las 6.00.",
+        "se duchan por la noche.",
+        "Nos vamos a trabajar a las 7.30.",
+        "Me acuesto pronto.",
+        "Se afeitan con maquinilla.",
+        "Nos vamos a Galicia.",
+        "Me voy mañana.",
+        "Me lavo el pelo todos los días.",
+        "Nos quitamos el abrigo."
+      ],
+      "ex3": [
+        "Me levanto a las 7 todas las mañanas.",
+        "Se ducha después del desayuno/de desayunar.",
+        "¿Te puedes comer todo eso?/¿Puedes comerte todo eso?",
+        "Se acuestan muy tarde por la noche.",
+        "¿Nos quitamos los zapatos?",
+        "No se despierta hasta las nueve.",
+        "¿Señor, a qué hora se despierta?",
+        "Los niños se están poniendo los abrigos/están poniéndose los abrigos.",
+        "¿Cuándo se van a Nueva York?",
+        "Se están comprando ropa/están comprándose ropa."
+      ],
+      "ex4": [
+        "Sí, se venden.",
+        "Sí, se alquilan.",
+        "Sí, se hacen.",
+        "Sí, se habla.",
+        "Sí, se pone.",
+        "Sí, se importa.",
+        "Sí, se compra.",
+        "Sí, se necesitan.",
+        "Sí, se ofrecen.",
+        "Sí, se arreglan."
+      ],
+      "ex5": [
+        "Se pelan tres patatas medianas.",
+        "Se lavan las patatas.",
+        "Se cortan las patatas en lonchas finas.",
+        "Se lava un pimiento verde o se pela una cebolla.",
+        "Se corta la mitad del pimiento o la cebolla en cuadraditos pequeños.",
+        "Se añade a las patatas y se sala.",
+        "Se fríen en mucho aceite a fuego suave hasta que la patata está muy blanda.",
+        "Se saca la mezcla del aceite y se escurre.",
+        "Se calienta un poco de aceite en una sartén.",
+        "Se baten dos huevos, se salan y se añaden la patata y el pimiento o la cebolla.",
+        "Se hace la tortilla a fuego lento.",
+        "Se da la vuelta a la tortilla con un plato llano y se hace por el otro lado."
+      ],
+      "ex6": [
+        "Se dice que el Rey está enfermo/malo.",
+        "Ahora se están construyendo pisos más baratos.",
+        "Se cree que la contaminación está destruyendo el medio ambiente.",
+        "Se dice que los niños bilingües aprenden más deprisa que los niños monolingües.",
+        "Se cree que puede haber una guerra."
+      ],
+      "ex7": []
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Costa Rica"],
+    "bContent": [
+      "Costa Rica es un país de América central que tiene fronteras con Nicaragua al norte y Panamá al sur. Es un país pequeño con una población de unos cuatro millones de habitantes. Una de sus principales fuentes económicas es el turismo porque además de su clima tropical y sus fabulosas playas del Caribe y la costa del Pacífico, Costa Rica es conocida por su cuidado al medio ambiente. Alrededor de un cuarto de la superficie de Costa Rica está dedicada a parques naturales y espacios protegidos por lo que hay mucho ecoturismo. Esta forma de turismo la practican personas que están interesadas en la ecología y van en busca de plantas y animales que no se pueden ver en ningún otro sitio del planeta. Al mismo tiempo que se aseguran de que su forma de turismo no destruye el medio ambiente. "
+    ],
+    "vocabulary": [
+      "alrededor",
+      "añadir",
+      "asegurarse de",
+      "batir",
+      "busca (f.)",
+      "calentar",
+      "clima (m.)",
+      "cortar",
+      "dedicado",
+      "Basic",
+      "destruir",
+      "escurrir",
+      "freir",
+      "fuente (f.)",
+      "habitante (m.)",
+      "huevo (m.)",
+      "lavar",
+      "loncha (f.)",
+      "medio ambiente(m.)",
+      "mezcla(f.)",
+      "pelar",
+      "planeta(m.)",
+      "plato(m.)",
+      "población(f.)",
+      "protegido",
+      "salar",
+      "sartén(f.)",
+      "superficie(f.)"
+    ],
+    "vocabularyE": [
+      "around",
+      "to add",
+      "to make sure",
+      "to beat",
+      "search",
+      "to heat up",
+      "climate",
+      "to cut",
+      "dedicated",
+      "to destroy",
+      "to drain",
+      "to fry",
+      "source",
+      "inhabitant",
+      "egg",
+      "to wash",
+      "slice",
+      "the environment",
+      "mixture",
+      "to peel",
+      "planet",
+      "dish",
+      "population",
+      "protected",
+      "to add salt",
+      "frying pan",
+      "surface"
+    ]
+  }
+]

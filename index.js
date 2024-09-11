@@ -479,7 +479,7 @@ function setupCollapsibleSections() {
 }
 
 function initEvents() {
-  const numberOfLessons = 13; // Define the number of lessons
+  const numberOfLessons = 14; // Define the number of lessons
   const chapters = []; // Array to hold chapter data
 
   // Fetch chapter titles dynamically

@@ -1,0 +1,311 @@
+[
+  {
+    "ch": "13",
+    "title": "Radical changing verbs",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "So far we have seen how verb endings in Spanish change to indicate the subject of the verb, thus an ending in -o indicates that the subject is 'I', whereas -mos indicates that the subject is 'we'. However, some verbs in Spanish also have changes to their stems or roots (hence the term 'radical changing')."
+      },
+      {
+        "type": "paragraph",
+        "text": "The change occurs in the vowel that receives the stress, hence it will not occur in all persons of the verb. Here is an example of a verb in which a stressed e will change to ue:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["poder"],
+        "label2": ["(to be able)"],
+        "words1": [
+          "puedo",
+          "puedes",
+          "puede",
+          "podemos (note the stress is not on the o)",
+          "podéis (note the stess is not on the o)",
+          "pueden"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "If you look at the rules of stress given on pp. xi-xiii, you will see that in the first and second persons plural of regular verbs (i.e. 'we' and 'you') the stress is on the ending, not on the vowel in the stem."
+      },
+      {
+        "type": "paragraph",
+        "text": "Other common verbs that behave like poder and have this change from o to ue in the stem are:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "almorzar",
+          "contar",
+          "dormir",
+          "morir",
+          "mostrar",
+          "mover",
+          "volver"
+        ],
+        "words2": [
+          " to have lunch",
+          " to tell or to count",
+          " to sleep",
+          " to die",
+          " to show",
+          " to mover",
+          " to return"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "This is by no means a complete list, but these are some of the more common verbs that have this change. There is no way of telling just by looking at the infinitive that a verb is radical changing – e.g. comer is not radical changing but contar is, but you will usually find the radical change indicated in brackets in the dictionary, e.g.: morir (ue) (to die). It is important to learn this along with the verb."
+      },
+      {
+        "type": "paragraph",
+        "text": "One verb jugar, 'to play', has a radical change u to ue:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["jugar"],
+        "label2": ["(to play)"],
+        "words1": ["juego", "juegas", "juega", "jugamos", "jugáis", "juegan"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "In another group of radical changing verbs a stressed e in the stem changes to ie, for example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["pensar"],
+        "label2": ["(to think) "],
+        "words1": [
+          "pienso",
+          "piensas",
+          "piensa",
+          "pensamos",
+          "pensáis",
+          "piensan"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "Other common verbs that follow this pattern are:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["despertar", "perder", "preferir", "querer"],
+        "words2": [
+          "to wake up (despierto, etc.)",
+          "to lose",
+          "to prefer (prefiero, etc.)",
+          "to want"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "A final type of radical change is from e to i. Only a few -ir verbs have this change. An example is servir 'to serve':"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["servir"],
+        "label2": ["(to serve)"],
+        "words1": ["sirvo", "sirves", "sirve", "servimos", "servís", "sirven"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "Other verbs which follow this pattern are:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [],
+        "label2": [],
+        "words1": ["pedir", "medir"],
+        "words2": ["to ask for ", "to measure"]
+      }
+    ],
+
+    "subCh2": "",
+    "lessonContentSubCh2": [],
+    "subCh3": "",
+    "lessonContentSubCh3": [],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Fill in the gaps with the appropriate form of the verb: ",
+      "2 Change the subject of the sentences as in the example: Example: Voy a Madrid este verano (nosotros).Vamos a Madrid este verano.",
+      "3 Translate the following sentences into Spanish:",
+      "4 Complete the following text with the verbs below: juego jugamos vamos prefiero puedo entiendesuelo podemos prefiere preferimos",
+      "5 Complete the following texts with the appropriate verb in the right form: gustar querer poder preferir  | almorzar volver dormir ir "
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 (ella) _____ (querer) una muñeca nueva.",
+      "2 ¿(ellos) _____ (poder) salir al patio?",
+      "3 (yo) _____ (pedir) silencio.",
+      "4 ¿(tú) _____ (entender) a la madre de Juan?",
+      "5 (vosotros) _____ (jugar) con el balón en el jardín.",
+      "6 (Vds.) no _____ (tener) hotel en Madrid.",
+      "7 ¿(ellos) _____ (venir) a la fiesta?",
+      "8 ¿(tú) qué _____? (decir).",
+      "9 (Yo) no _____ (entender) lo que dices.",
+      "10 (vosotros) _____ (estar) en una casa preciosa.",
+      "11 ¿(Vd.) _____ (ir) a una reunión mañana?",
+      "12 (Yo) no _____ (entender) los verbos irregulares.",
+      "13 ¿(tú) _____ (encender) la luz, por favor?",
+      "14 ¿(Vds.) _____ (volver) a España este verano?",
+      "15 (yo) _____ (preferir) la falda verde."
+    ],
+    "ex2": [
+      "1 Estamos cansados. (vosotros)",
+      "2 Queremos una cocina nueva. (él)",
+      "3 ¿Podéis venir mañana? (yo)",
+      "4 ¿Venimos mañana? (tú)",
+      "5 No pedimos la luna. (ellos)",
+      "6 Jugamos al tenis. (Vds.)",
+      "7 No decimos nada. (Vd.)",
+      "8 Perdemos las llaves todos los días. (yo)",
+      "9 Huelo el perfume. (tú)",
+      "10 Dormís demasiadas horas. (ella)",
+      "11 Tengo demasiado trabajo. (vosotros)"
+    ],
+    "ex3": [
+      "1 I understand Lola very well.",
+      "2 She prefers the red car.",
+      "3 Do you go back to England every summer?",
+      "4 They play tennis.",
+      "5 Do you (Ud.) serve dinner at 5.00?",
+      "6 He sleeps until midday.",
+      "7 They have lunch at school.",
+      "8 You (Uds.) don't understand French?",
+      "9 They tell a story to the children every night.",
+      "10 He can't do this."
+    ],
+    "ex4": [
+      "Vivo en España, en Alicante, aunque soy inglés. _____ (1)",
+      "España porque como el tiempo es mejor _____ (2) ",
+      "hacer más cosas al aire libre. A mi novia (Ana) y a mi nos gustan los deportes de montaña aunque _____(3)",
+      "los deportes de agua: la vela, la moto acuática y el submarinismo. También _____ (4)",
+      "al tenis juntos y yo _____ (5)",
+      "al fútbol con mis amigos los domingos por la mañana. En invierno, cuando _____ (6),",
+      "Ana y yo _____ (7)",
+      "a los Pirineos porque también nos gusta esquiar. En Semana Santa yo _____ (8) ",
+      "volver a Inglaterra de vacaciones. Ana _____ (9)",
+      "quedarse en España porque no _____ (10) inglés."
+    ],
+    "ex5": [
+      "Me _____ (1)",
+      "mucho el bricolage. _____ (2)",
+      "hacer yo las cosas porque así _____ (3)",
+      "hacerlas exactamente como yo _____ (4).",
+      "Cuando hace calor, yo _____ (5)",
+      "la siesta todos los días. En verano por la mañana _____ (6)",
+      "a la playa, luego _____ (7)",
+      "en casa y después de la siesta _____ (8) a la playa un par de horas."
+    ],
+    "ex6": [],
+    "ex7": [],
+
+    "answers": {
+      "ex1": [
+        "quiere",
+        "pueden",
+        "pido",
+        "entiendes",
+        "jugáis",
+        "tienen",
+        "vienen",
+        "dices",
+        "entiendo",
+        "estáis",
+        "va",
+        "entiendo",
+        "enciendes",
+        "vuelven",
+        "prefiero"
+      ],
+      "ex2": [
+        "Estáis cansados.",
+        "Quiere una cocina nueva.",
+        "¿Puedo venir mañana?",
+        "¿Vienes mañana?",
+        "No piden la luna",
+        "Juegan al tenis.",
+        "No dice nada.",
+        "Pierdo las llaves todos los días.",
+        "Hueles el perfume.",
+        "Duerme demasiadas horas.",
+        "Tenéis demasiado trabajo."
+      ],
+      "ex3": [
+        "Entiendo a Lola muy bien.",
+        "Prefiere el coche rojo.",
+        "¿Vuelves a Inglaterra todos los veranos?",
+        "Juegan al tenis.",
+        "¿Sirve la cena a las cinco?",
+        "Duerme hasta el mediodía.",
+        "Almuerzan en el colegio.",
+        "No entienden francés.",
+        "Le cuentan un cuento a los niños todas las noches.",
+        "No puede hacer esto."
+      ],
+      "ex4": [
+        "prefiero",
+        "puedo",
+        "preferimos",
+        "jugamos",
+        "juego",
+        "podemos",
+        "vamos",
+        "suelo",
+        "prefiere",
+        "entiende"
+      ],
+      "ex5": [
+        "gusta",
+        "prefiero",
+        "puedo",
+        "quiero",
+        "duermo",
+        "voy",
+        "almuerzo",
+        "vuelvo"
+      ],
+      "ex6": [],
+      "ex7": []
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Chile"],
+    "bContent": [
+      "Chile, como Argentina, es un país lleno de contrastes, tanto climáticos como geográficos. Aunque no es tan grande en extensión como Argentina, tiene una longitud enorme (más de 4.000 kilómetros). La cordillera de los Andes recorre el país de norte a sur y hace de Chile un país de una belleza excepcional. Tiene también, como Argentina, una gran herencia europea, tanto en la arquitectura como en la cultura. Pablo Neruda, conocido por su poesía, e Isabel Allende (novelista) son dos de los escritores chilenos más famosos fuera de sus fronteras.",
+      "Chile produce los mejores vinos de América del Sur y los exporta a EEUU y a Europa."
+    ],
+    "vocabulary": [
+      "belleza (f.)",
+      "bricolage (m.)",
+      "cordillera (f.)",
+      "escritor (m.)",
+      "herencia (f.)",
+      "lleno",
+      "longitud (f.)",
+      "relajado",
+      "submarinismo (m.)"
+    ],
+    "vocabularyE": [
+      "beauty ",
+      "DIY ",
+      "mountain range ",
+      "writer ",
+      "heritage ",
+      "full ",
+      "length ",
+      "relaxed ",
+      "scuba diving"
+    ]
+  }
+]

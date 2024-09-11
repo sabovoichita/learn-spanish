@@ -1,0 +1,269 @@
+[
+  {
+    "ch": "12",
+    "title": "gustar",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "The verb gustar is used to translate the English verb 'to like' and so is very common in Spanish. The important thing to bear in mind right from the outset, however, is that it does not actually mean 'to like', but 'to be pleasing'. In order to say 'I like coffee', what you actually have to say is 'coffee is pleasing to me'. Thus the verb will be in the third person singular, and the 'to me' will be translated by the indirect object pronoun me (seeLesson 11):"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Me gusta el café."],
+        "words2": ["I like coffee. (lit. 'Coffee is pleasing to me.')"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Obviously if the things liked are plural, then a third person plural verb must be used, as the plural noun is the subject of the verb:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Me gustan las películas."],
+        "words2": ["I like films. (lit. 'Films are pleasing to me.')"]
+      },
+      {
+        "type": "paragraph",
+        "text": "The construction can be used with all indirect object pronouns as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "¿Te gusta mi coche?",
+          "Le gusta jugar al tennis.",
+          "No nos gustan las galletas.",
+          "¿Os gusta la idea?",
+          "Les gusta patinar."
+        ],
+        "words2": [
+          "Do you like my car? (Is my car pleasing to you?)",
+          "He likes to play tennis/playing tennis. (To play tennis is pleasing to him.)",
+          "We don't like the biscuits. (The biscuits are not pleasing to us.)",
+          "Do you like the idea? (Is the idea pleasing to you?)",
+          "They like to skate/they like skating. (To skate is pleasing to them.)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "If the indirect object is named, it is normally placed at the beginning of the sentence and must be introduced by a, but the pronoun form is also included in the sentences and cannot be omitted:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "A Juan le gusta el fútbol.",
+          "A mis padres no les gusta la idea."
+        ],
+        "words2": [
+          "Juan likes football. (Football is pleasing to Juan.)",
+          "My parents don't like the idea. (The idea is not pleasing to my parents.)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "This construction can cause some difficulty for English speakers and so needs to be studied very carefully."
+      },
+      {
+        "type": "paragraph",
+        "text": "In colloquial Spanish you will come across the verb gustar being used in other ways, i.e. not only in the third person, for example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Me gustas mucho.", "Yo le gusto."],
+        "words2": [
+          "I like you very much/you are very pleasing to me.",
+          "He likes me/I am pleasing to him."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "There are a number of common verbs in Spanish that follow the same pattern as gustar, for example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["interesar"],
+        "label2": ["(to interest)"],
+        "words1": ["Me interesan tus opiniones."],
+        "words2": [
+          "I am interested in your opinions. (Your opinions are interesting to me.)"
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["encantar"],
+        "label2": ["(to delight/charm)"],
+        "words1": ["Les encanta la casa."],
+        "words2": [
+          "They are delighted by the house. (The house is delightful to them.)"
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["apetecer"],
+        "label2": ["(to be appealing)"],
+        "words1": ["Me apetece salir esta noche."],
+        "words2": [
+          "I feel like going out this evening. (It is appealing to me to go out this evening.)"
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["doler"],
+        "label2": ["(to hurt)"],
+        "words1": ["Me duele la cabeza."],
+        "words2": ["My head hurts/I have a headache."]
+      }
+    ],
+
+    "subCh2": "",
+    "lessonContentSubCh2": [],
+    "subCh3": "",
+    "lessonContentSubCh3": [],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Fill in the first blank with the appropriate form of the pronoun in brackets. You will see another space after the verb, decide whether the verb agrees with the subject or whether it needs the plural ending: Example: _____ gusta_____ esos pantalones (Vd.) Le gustan esos pantalones",
+      "2 Answer the sentence as in the example. You are always the speaker: Example: ¿Te gustan estos pantalones? (that skirt) No, no me gustan estos pantalones, me gusta esa falda.",
+      "3 Change the verb preferir for gustar as in the example: Example: Vds. prefieren el coche rojo. Les gusta más el coche rojo.",
+      "4 Ask the following questions in Spanish as in the example: Example: Ask me … if Pedro likes football (Vd.) ¿Le gusta el fútbol? Ask me … ",
+      "5 Choose the appropriate form of the verb in brackets: "
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 _____ gusta_____ la cocina francesa. (vosotros)",
+      "2 No _____ gusta_____ jugar al tenis. (ellos)",
+      "3 _____ gusta_____ las fotos de tus hermanas. (yo)",
+      "4 _____ gusta_____ el fútbol y el golf. (nosotros)",
+      "5 ¿_____ gusta_____ esa película? (tú)",
+      "6 _____ gusta_____ los restaurantes chinos. (Vd.)",
+      "7 ¿_____ gusta_____ el cine? (Vds.)",
+      "8 No _____ gusta_____ la clase de química. (ella)",
+      "9 ¿_____ gusta_____ esos apartamentos? (vosotros)",
+      "10 No _____ gusta_____ la lluvia. (nosotros)"
+    ],
+    "ex2": [
+      "1 ¿Os gusta el piso? (those apartments)",
+      "2 ¿Le gustan a Marta esas flores? (that rose)",
+      "3 ¿Les gustan a ellos los restaurantes franceses? (Italian)",
+      "4 ¿Te gusta este libro? (those novels)",
+      "5 ¿Os gustan estos coches? (that motorcicle)",
+      "6 ¿Les gusta (a Vds.) la lluvia? (la nieve)",
+      "7 ¿Le gustan a tu hermana estas sortijas? (those necklaces)",
+      "8 ¿Te gustan estas botas? (these shoes)"
+    ],
+    "ex3": [
+      "1 Nosotros preferimos la comida china.",
+      "2 Lola prefiere ir de compras.",
+      "3 Rocío y Elena prefieren dos cafés con leche.",
+      "4 Vosotros preferís el pantalón negro.",
+      "5 Nosotros preferimos las cosas claras.",
+      "6 Prefiero esta habitación.",
+      "7 Prefieres una casa con piscina.",
+      "8 Vd. prefiere llamar desde el móvil.",
+      "9 Vosotros preferís los jardines grandes.",
+      "10 Pedro prefiere las novelas de terror."
+    ],
+    "ex4": [
+      "1 if I like the red skirt (tú)",
+      "2 if I like the cinema (Vd.)",
+      "3 if we like Chinese restaurants (vosotros)",
+      "4 if we like red wine (Vds.)",
+      "5 if they like those rooms",
+      "6 if Rocío likes playing",
+      "7 if we like playing the piano (vosotros)",
+      "8 if I like reading (tú)"
+    ],
+    "ex5": [
+      "1 (Le interesa, le interesan, él interesa) las noticias.",
+      "2 A los franceses (le gustan, le gusta, les gusta) comer y beber.",
+      "3 A ti (te encanta, te encantas, te encantan) los bombones.",
+      "4 A mis primos (les apetecen, le apetece, les apetece) venir a Madrid.",
+      "5 A vosotras no (os gustáis, les gustan, os gusta) vivir en Barcelona.",
+      "6 (Me encanto, me encantas, me encanta) el cine de terror.",
+      "7 ¿A Ud. (le apetece, les apetecen, le apetecen) comer paella?",
+      "8 A nosotros (nos interesamos, nos interesa, nos interesan) los coches antiguos.",
+      "9 A ella (la gusta, le gusta, se gusta) Pedro.",
+      "10 ¿A Uds. (le gustan, los gustan, les gustan) los animales?"
+    ],
+    "ex6": [],
+    "ex7": [],
+
+    "answers": {
+      "ex1": [
+        "Os gusta la cocina francesa.",
+        "No les gusta jugar al tenis.",
+        "Me gustan las fotos de tus hermanas.",
+        "Nos gustan el fútbol y el golf.",
+        "¿Te gusta esa película?",
+        "Le gustan los restaurantes chinos.",
+        "¿Les gusta el cine?",
+        "No le gusta la clase de química.",
+        "¿Os gustan esos apartamentos?",
+        "No nos gusta la lluvia."
+      ],
+      "ex2": [
+        "No, no nos gusta el piso, nos gustan esos/aquellos apartamentos.",
+        "No, a Marta no le gustan esas flores, le gusta esa/aquella rosa.",
+        "No, no les gustan los restaurantes franceses, le gustan los italianos.",
+        "No, no me gusta este libro, me gustan esas/aquellas novelas.",
+        "No, no nos gustan estos coches, nos gusta esa/aquella moto(cicleta).",
+        "No, no nos gusta la lluvia, nos gusta la nieve.",
+        "No, a mi hermana no le gustan estas sortijas, le gustan aquellos/esos collares.",
+        "No, no me gustan estas botas, me gustan estos zapatos."
+      ],
+      "ex3": [
+        "Nos gusta más la comida china.",
+        "Le gusta más ir de compras.",
+        "Les gustan más dos cafés con leche.",
+        "Os gusta más el pantalón negro.",
+        "Nos gustan más las cosas claras.",
+        "Me gusta más esta habitación.",
+        "Te gusta más una casa con piscina.",
+        "Le gusta más llamar desde el móvil.",
+        "Os gustan más los jardines grandes.",
+        "Le gustan más las novelas de terror."
+      ],
+      "ex4": [
+        "1 ¿Te gusta la falda roja?",
+        "2 ¿Le gusta (a Vd.) el cine?",
+        "3 ¿Os gustan los restaurantes chinos?",
+        "4 ¿Les gusta el vino tinto?",
+        "5 ¿Les gustan esas/aquellas habitaciones?",
+        "6 ¿Le gusta jugar?",
+        "7 ¿Os gusta tocar el piano?",
+        "8 ¿Te gusta leer?"
+      ],
+      "ex5": [
+        "Le interesan las noticias.",
+        "A los franceses les gusta comer y beber. (Note: When followed by infinitive(s) gustar remains in the singular.)",
+        "A ti te encantan los bombones.",
+        "A mis primos les apetece venir a Madrid.",
+        "A vosotras no os gusta vivir en Barcelona.",
+        "Me encanta el cine de terror.",
+        "¿A Ud. le apetece comer paella?",
+        "A nosotros nos interesan los coches antiguos.",
+        "A ella le gusta Pedro.",
+        "¿A Uds. les gustan los animales?"
+      ],
+      "ex6": [],
+      "ex7": []
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["¿Qué les gusta y no les gusta a los españoles?"],
+    "bContent": [
+      "A los españoles les gusta el sol y el buen tiempo, y las vacaciones en las costas españolas son las preferidas por las familias. A los españoles les gusta pasear y después de trabajar las familias suelen salir a “dar una vuelta”, sobre todo en verano cuando hace calor. A los españoles les gusta comer bien y tienen una dieta mediterránea, aunque hay una variedad muy grande de comidas típicas en todas la regiones. A los españoles les gusta tener a la familia cerca y hay mucho contacto entre hermanos, primos, sobrinos, etc.",
+      "No a todos los españoles les gustan los toros. Algunos españoles creen que los toros es un pasatiempo cruel y que debe ser prohibido. Tampoco a todos los españoles les gusta el flamenco. El flamenco es sólo típico de Andalucía, las otras regiones de España tienen sus propias tradiciones musicales."
+    ],
+    "vocabulary": ["bombón", "pasatiempo (m.)", "prohibido", "toros (los)"],
+    "vocabularyE": ["chocolate", "hobby", "forbidden", "bullfighting"]
+  }
+]

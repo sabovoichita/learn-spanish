@@ -205,7 +205,7 @@ function generateCulturalBrief(lesson) {
   return `
     <h4 class="subchapter">${lesson.bTitle}</h4>
     ${lesson.bContent
-      .map((content) => `<p class="cultural">${content}</p>`)
+      .map((content) => `<p class="cultural">${content}</p> <br>`)
       .join("")}
   `;
 }
@@ -480,7 +480,7 @@ function setupCollapsibleSections() {
 }
 
 function initEvents() {
-  const numberOfLessons = 15; // Define the number of lessons
+  const numberOfLessons = 16; // Define the number of lessons
   const chapters = []; // Array to hold chapter data
 
   // Fetch chapter titles dynamically

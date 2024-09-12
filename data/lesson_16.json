@@ -1,0 +1,443 @@
+[
+  {
+    "ch": "16",
+    "title": "Possessives",
+    "subCh1": "Possessive adjectives",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "In order to indicate the owner of an object or objects, the following possessive adjectives are used. Notice that they agree with the object(s) owned, not the owner:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "mi/mis",
+          "(tú) tu/tus",
+          "su/sus",
+          "nuestro/nuestra/nuestros/nuestras",
+          "vuestro/vuestra/vuestros/vuestras",
+          "su/sus"
+        ],
+        "words2": [
+          "my",
+          "your",
+          "his/her/its/your (usted)",
+          "our",
+          "your (vosotros)",
+          "their/your (ustedes)"
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "mis libros",
+          "tu dinero",
+          "sus revistas",
+          "nuestra casa",
+          "nuestros amigos",
+          "su familia"
+        ],
+        "words2": [
+          "my books",
+          "your money",
+          "his magazines",
+          "our house",
+          "our friends",
+          "their family"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "As you can see, 'your' can be tu(s), su(s) or vuestro(s) depending on whether you are talking to one person or more than one person and whether you would address the person (people) with the familiar tú/vosotros or the formal usted/ustedes, hence:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "tu amigo",
+          "tus amigos",
+          "vuestro gato",
+          "vuestras hijas",
+          "su casa",
+          "sus billetes"
+        ],
+        "words2": [
+          "your friend (talking to one person you know well)",
+          "your friends (talking to one person you know well)",
+          "your cat (talking to more than one person you know well (i.e. belonging to vosotros)",
+          "your daughters (belonging to vosotros)",
+          "your house (talking to one person or more than one person you do not know well)",
+          "your tickets (talking to one or more than one person you do not know well)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "There is no problem with tu and vuestro as long as you remember that the possessive adjective must agree in number and gender with the object owned and not the owner, but su can sometimes be ambiguous. Normally, the context makes the meaning clear, but if there is doubt it is possible to clarify the meaning as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["La casa de Ud. (su casa)", "La casa de Uds. (su casa)"],
+        "words2": [
+          "your house ",
+          "your house (when more than one person owns the house)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The same applies to 'his', 'her' and 'their', although this is less common as it is usually assumed that su will be third rather than second person unless the context makes it clear that this is not the case:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "La casa de él",
+          "La casa de ella",
+          "La casa de ellos",
+          "La casa de ellas"
+        ],
+        "words2": ["his house ", "her house", "their house", "their house "]
+      }
+    ],
+
+    "subCh2": "Possessive pronouns",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "If the object that is 'possessed' is omitted, the possessive adjectives described above have to be replaced by 'possessive pronouns' - 'pronouns' because they replace the noun. As with the possessive adjectives, the pronouns must agree in number and gender with the object(s) owned, not with the owner:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Mis zapatos",
+          "Los míos",
+          "Tus zapatos son blancos, los míos son azules"
+        ],
+        "words2": [
+          "my shoes",
+          "mine (referring to a masculine plural object) ",
+          "Your shoes are white, mine are blue."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "•The forms of the possessive pronouns are:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "el mío",
+          "la mía",
+          "los míos",
+          "las mías",
+          "el tuyo",
+          "la tuya",
+          "los tuyos",
+          "las tuyas",
+          "el suyo",
+          "la suya",
+          "los suyos",
+          "las suyas",
+          "el nuestro",
+          "la nuestra",
+          "los nuestros",
+          "las nuestras",
+          "el vuestro",
+          "la vuestra",
+          "los vuestros",
+          "las vuestras",
+          "el suyo",
+          "la suya",
+          "los suyos",
+          "las suyas"
+        ],
+        "words2": [
+          "mine",
+          "",
+          "",
+          "",
+          "yours",
+          "",
+          "",
+          "",
+          "his/hers/its/yours (Ud.)",
+          "",
+          "",
+          "",
+          "ours",
+          "",
+          "",
+          "",
+          "yours (plural)",
+          "",
+          "",
+          "",
+          "theirs/yours (Uds.)",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "As with the possessive adjectives, suyo may be ambiguous and if this is the case it can be replaced by the following:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["el de Ud."],
+        "label2": ["yours (book)"],
+        "words1": ["Mi libro es interesante, pero el de Ud. es aburrido."],
+        "words2": ["My book is interesting, but yours is boring."]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["los de Ud."],
+        "label2": ["yours (books)"],
+        "words1": ["Mis libros están aquí, pero los de Ud. están en el coche."],
+        "words2": ["My books are here, but yours are in the car."]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["el de Uds. | los de Uds."],
+        "label2": ["yours (more than one owner)"],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["las de él"],
+        "label2": ["his (sisters) "],
+        "words1": ["Mis hermanas viven en Madrid pero las de él no."],
+        "words2": ["My sisters live in Madrid, but his don't."]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["la de ella"],
+        "label2": ["hers (house)"],
+        "words1": ["Mi casa es grande pero la de ella es pequeña."],
+        "words2": ["My house is large, but hers is small."]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["el de ellos"],
+        "label2": ["theirs (car)"],
+        "words1": ["Mi coche es un Seat pero el de ellos en un Renault."],
+        "words2": ["My car is a Seat but theirs is a Renault."]
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Esta casa es mía.", "Esos libros son suyos. "],
+        "words2": ["This house is mine. ", "Those shoes are his"]
+      }
+    ],
+    "subCh3": "",
+    "lessonContentSubCh3": [],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Translate the following phrases into Spanish:",
+      "2 Fill in the blanks with the appropriate possessive adjective:",
+      "3 Choose the correct possessive adjective for each blank (you will always have one left unused, which does not fit in either of the blanks in the sentence), answer should be like this(word1, word2):",
+      "4 Change the following possessive adjectives into possessive pronouns as in the example: Example: mi libro => el mío ",
+      "5 Complete the sentences with the verb and the possessive pronouns as in the example: Example: Nosotros estamos haciendo nuestra cama y vosotros … Nosotros estamos haciendo nuestra cama y vosotros hacéis la vuestra."
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 my sister",
+      "2 your (tú) brother",
+      "3 his uncle",
+      "4 her cousin",
+      "5 our mother",
+      "6 your (Vd.) grandmother",
+      "7 your (vosotros) parents",
+      "8 their aunt",
+      "9 your (Vds.) mother-in-law",
+      "10 my sister-in-law",
+      "11 our son-in-law",
+      "12 her grandson"
+    ],
+    "ex2": [
+      "Tengo una hermana y un hermano. El nombre de (1) _____",
+      "hermana es Lola y (2) _____",
+      "hermano se llama Mario. (3) ____",
+      "madre vive en Madrid, muy cerca de (4) _____",
+      "hijos. Mario está casado, (5) ____",
+      "mujer se llama Elena y (6) _____",
+      "hijas se llaman Rocío y Almudena. Lola está casada con Jesús. (7) _____",
+      "suegros viven en Navarra. Ellos tienen sólo un hijo, (8) ____",
+      "hijo se llama Luis. A Luis le gusta mucho jugar con (9) _____",
+      "primas en casa de (10) _____ abuela."
+    ],
+    "ex3": [
+      "1 _____ hermana vive en Madrid. _____ hijos en Barcelona. (sus, mi, nuestro)",
+      "2 A _____ suegra le gusta el futbol, a _____ marido el tenis. (nuestra, sus, su)",
+      "3 _____ cuñada es abogada y _____ cuñadas son profesoras. (nuestro, vuestras, nuestra)",
+      "4 No veo mucho a _____ nietos pero _____ hija viene todas las semanas. (mi, vuestras, mis)",
+      "5 _____ hermano tiene tres coches. Todos _____ coches son deportivos. (nuestros, sus, vuestro)",
+      "6 ¿Tiene _____ cuñado hermanos? _____ hijas dicen que sí. (tu, vuestra, sus)",
+      "7 i_____ problemas están solucionados! _____ hermano nos presta dinero. (nuestros, mi, nuestra)",
+      "8 _____ hermano dice que tenéis una moto nueva ¿Es esa _____ moto nueva? (vuestra, sus, su)"
+    ],
+    "ex4": [
+      "1 tu problema",
+      "2 mi pantalón",
+      "3 nuestro perro",
+      "4 su prima",
+      "5 sus apuntes",
+      "6 su piel",
+      "7 vuestra moto",
+      "8 sus sistemas",
+      "9 mis papeles",
+      "10 su jardín",
+      "11 mi pintura",
+      "12 tu jersey"
+    ],
+    "ex5": [
+      "1 Ellos está leyendo sus periódicos y nosotros …",
+      "2 Yo estoy pintando mi acuarela y Vds …",
+      "3 Nosotros estamos pintando nuestra habitación y tú …",
+      "4 Vd. está esperando en su cola y yo …",
+      "5 María está haciendo sus deberes y vosotros …",
+      "6 Vosotros estáis comiendo vuestros bombones y ella …",
+      "7 Tú estás limpiando tu habitación y ellos …",
+      "8 Uds. están hablando con su jefe y Vd….",
+      "9 Yo estoy acabando mi trabajo y vosotros …",
+      "10 Nosotros estamos jugando con nuestras cartas y ellos …"
+    ],
+    "ex6": [],
+    "ex7": [],
+
+    "answers": {
+      "ex1": [
+        "mi hermana",
+        "tu hermano",
+        "su tío",
+        "su primo/a",
+        "nuestra madre",
+        "su abuela",
+        "vuestros padres",
+        "su tía",
+        "su suegra",
+        "mi cuñada",
+        "nuestro yerno",
+        "su nieto"
+      ],
+      "ex2": [
+        "mi",
+        "mi/nuestro",
+        "mi/nuestra",
+        "sus",
+        "su",
+        "sus",
+        "sus",
+        "su",
+        "sus",
+        "su"
+      ],
+      "ex3": [
+        "mi, sus",
+        "nuestra, su",
+        "nuestra, vuestras",
+        "mis, mi",
+        "vuestro, sus",
+        "tu, sus",
+        "nuestros, mi",
+        "su, vuestra"
+      ],
+      "ex4": [
+        "el tuyo",
+        "el mío",
+        "el nuestro",
+        "la suya",
+        "los suyos",
+        "la suya",
+        "la vuestra",
+        "los suyos",
+        "los míos",
+        "el suyo",
+        "la mía",
+        "el tuyo"
+      ],
+      "ex5": [
+        "leemos los nuestros",
+        "pintan las suyas/la suya",
+        "pintas la tuya",
+        "espero en la mía",
+        "hacéis los vuestros",
+        "come los suyos",
+        "limpian las suyas/la suya",
+        "habla con el suyo",
+        "acabáis el vuestro",
+        "juegan con las suyas"
+      ],
+      "ex6": [],
+      "ex7": []
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Ecuador"],
+    "bContent": [
+      "La cultura y la historia de Ecuador son tan ricas y diversas como su paisaje, que se caracteriza por sus altas montañas y la selva amazónica. La antigua civilización precolombina de Ecuador se conoce por sus pinturas, esculturas, su cerámica y sus trabajos de orfebrería",
+      "Su capital es Quito y el país tiene una población de alrededor de doce millones de personas. La mayor parte de su población es o mestiza o india, con un pequeño porcentaje de descendientes de españoles o africanos.",
+      "Ecuador tiene una gran atracción turística por las islas Galápagos, que se conocen en el mundo entero por su belleza y la riqueza natural de su ecosistema y son una reserva natural protegida."
+    ],
+    "vocabulary": [
+      "caracterizar",
+      "carta (f.)",
+      "cerámica(f.)",
+      "civilización(f.)",
+      "cuñado",
+      "deberes(m.)",
+      "diverso",
+      "escultura(f.)",
+      "nieto(m.)",
+      "orfebreria(f.)",
+      "paisaje(m.)",
+      "papel(m.)",
+      "porcentaje(m.)",
+      "pre-colombino",
+      "piel(f.)",
+      "reserva natural (f.)",
+      "selva(f.)",
+      "sistema(m.)",
+      "suegro(m.)",
+      "yerno"
+    ],
+    "vocabularyE": [
+      "characterize",
+      "playing card, letter",
+      "pottery",
+      "civilization",
+      "brother-in-law",
+      "homework",
+      "diverse",
+      "sculpture",
+      "grandson",
+      "precious metal work",
+      "landscape",
+      "paper",
+      "percentage",
+      "pre-Columbian",
+      "skin, fur",
+      "national park",
+      "rain forest",
+      "system",
+      "father-in-law",
+      "son-in-law"
+    ]
+  }
+]

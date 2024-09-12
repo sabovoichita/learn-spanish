@@ -1,0 +1,368 @@
+[
+  {
+    "ch": "15",
+    "title": "Present continuous tense",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "The present tense in Spanish can be used for the simple present tense 'does' or the continuous form 'is doing', for example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["compra", "escribo"],
+        "words2": ["he buys/he is buying", "I write/I am writing"]
+      },
+      {
+        "type": "paragraph",
+        "text": "If, however, you want to emphasize the ongoing nature of the verb, i.e. that the action is a continuous one which is in progress at the time referred to, you can use the verb estar with the gerund to say literally 'is doing'."
+      },
+      {
+        "type": "paragraph",
+        "text": "The gerund is roughly equivalent to the form of the verb ending in '-ing' in English, but it must be borne in mind that the '-ing' form in English has a far greater range of meanings than the gerund in Spanish."
+      },
+      {
+        "type": "paragraph",
+        "text": "The gerund in Spanish is formed by adding -ando to the stem of -ar verbs and -iendoto the stem of -er and -ir verbs. For example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["comprando", "escribiendo"],
+        "words2": ["buying", "writing"]
+      },
+      {
+        "type": "paragraph",
+        "text": "The following points, however, need to be remembered when forming the gerund:"
+      },
+      {
+        "type": "paragraph",
+        "text": "• With -ir radical changing verbs. the vowel before the -ando or -iendo changes. The change is always from -e to -i and from -o to -u, hence:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["servir", "preferir", "morir", "reír"],
+        "words2": ["sirviendo", "prefiriendo", "muriendo", "riendo"]
+      },
+      {
+        "type": "paragraph",
+        "text": "• -er and -ir verbs whose stems end in a vowel have a y instead of an i. The pronunciation is not affected:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["traer", "oír", "leer"],
+        "words2": ["trayendo", "oyendo", "leyendo"]
+      },
+      {
+        "type": "paragraph",
+        "text": "So an alternative way of saying 'he is buying', when you want to emphasize the continuous nature of the action would be está comprando. Other examples are:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Estoy esperando",
+          "Estamos comiendo.",
+          "¿Qué estás haciendo?"
+        ],
+        "words2": ["I am waiting.", "We are eating.", "What are you doing?"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that the form of the gerund is invariable. In other words it does not change regardless of the subject of the action."
+      }
+    ],
+
+    "subCh2": "Other uses of the gerund",
+    "lessonContentSubCh2": [
+      {
+        "type": "subchapter",
+        "text": "1 The gerund can be used to indicate the means by which something is done. In such cases it is often the equivalent of the English 'by '-ing', or 'if you…':"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Escuchando bien aprendes mucho.",
+          "",
+          "Vas a emborracharte, bebiendo tanto vino.",
+          ""
+        ],
+        "words2": [
+          "By listening carefully you learn a lot.",
+          "If you listen carefully you learn a lot.",
+          "You are going to get drunk (by) drinking so much wine.",
+          "You are going to get drunk if you drink so much wine."
+        ]
+      },
+      {
+        "type": "subchapter",
+        "text": "2 It can also be used to indicate the reason for something:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Siendo muy joven, no va a conseguir el puesto.",
+          "Estando en Madrid voy a visitar el museo del Prado."
+        ],
+        "words2": [
+          "Because he's very young, he won't get the job.",
+          "Since I am in Madrid, I am going to visit the Prado museum."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: Unlike the English '-ing', the gerund cannot be used to describe nouns. Therefore, phrases like 'a man carrying a suitcase' should be translated as 'a man who is carrying a suitcase':"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Un hombre que lleva una maleta.",
+          "Una bolsa que contiene 1.000 euros."
+        ],
+        "words2": ["A man carrying suitcase.", "A bag containing 1,000 euros."]
+      }
+    ],
+    "subCh3": "Position of pronouns with the gerund",
+    "lessonContentSubCh3": [
+      {
+        "type": "paragraph",
+        "text": "As we saw in Unit 11, pronouns are added to the end of certain verb forms, and the gerund is one such form. In the case of the present continuous tense, however, the pronoun(s) can either be added to the gerund or placed before the form of estar:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Está lavándose (or se está lavando).",
+          "Estamos comprándola (or la estamos comprando)."
+        ],
+        "words2": ["He is washing (himself).", "We are buying it."]
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that when a pronoun is added to the end of a gerund, it becomes necessary to add a stress mark. This follows the natural rules of stress (see introductory section on 'Stress')."
+      }
+    ],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Write the gerund of the following verbs, taking into account that there may be some radical changing verbs:",
+      "2 Translate these sentences into Spanish. Join the two sentences into one with a gerund, as in the example: Example: They go to the park. They are skipping. Van al parque saltando.",
+      "3 Change the following conditional sentences into one with a gerund as in the example: Example: Si dejas de fumar, engordas. Dejando de fumar engordas.",
+      "4 Fill in the blanks with the correct form of the continuous form of the present:",
+      "5 Answer the following questions with the continuous form of the present:"
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 cantar",
+      "2 correr",
+      "3 escribir",
+      "4 reir ",
+      "5 caer",
+      "6 oir",
+      "7 ver",
+      "8 bailar",
+      "9 leer",
+      "10 freir",
+      "11 contar",
+      "12 oler",
+      "13 conducir",
+      "14 dormir",
+      "15 ser"
+    ],
+    "ex2": [
+      "1 She comes in. She is crying.",
+      "2 They go to school. They are running.",
+      "3 You study (Vd.). You are listening to music.",
+      "4 We paint the walls. We are singing.",
+      "5 I talk. I am shouting.",
+      "6 He sleeps. He is snoring.",
+      "7 You (Vds.) have dinner. You (Vds.) are watching the television.",
+      "8 You (vosotros) have breakfast. You (vosotros) are reading the newspaper."
+    ],
+    "ex3": [
+      "1 Si paga (Vd.) más, consigue entradas.",
+      "2 Si estudias un poco, apruebas el examen.",
+      "3 Si estamos enfermos, no podemos ir.",
+      "4 Si cogemos el tren, llegamos tarde.",
+      "5 Si sabéis informática, conseguís trabajo.",
+      "6 Si comen tanto, se van a poner enfermos.",
+      "7 Si bebemos mucho, no podemos conducir.",
+      "8 Si buscan la palabra en el diccionario, entienden la frase.",
+      "9 Si cortas el césped, está más bonito el jardín.",
+      "10 Si andáis deprisa, llegáis antes de la cena."
+    ],
+    "ex4": [
+      "1 (él) _____ (cantar) en la ducha.",
+      "2 (nosotros) _____ (comer) en un restaurante chino.",
+      "3 (yo) _____ (caminar) hacia el parque.",
+      "4 (Vds.) _____ (escuchar) la radio.",
+      "5 (Tú) no _____ (oir) lo que te digo.",
+      "6 (Vd.) _____ (estudiar) español.",
+      "7 (vosotros) _____ (lavar) el coche.",
+      "8 (ellos)no _____ (prestar) atención.",
+      "9 (tú) _____ (perder) el tiempo.",
+      "10 (ella) _____ (dormir) arriba."
+    ],
+    "ex5": [
+      "1 ¿Qué hacen (ellos)? (cantar)",
+      "2 ¿Qué hacéis? (escribir a María)",
+      "3 ¿Qué hacen (Vds.)? (leer un documento)",
+      "4 ¿Qué haces? (hacer la cena)",
+      "5 ¿Qué hacen (ellos)? (jugar en el jardín)",
+      "6 ¿Qué hacéis? (oir música)",
+      "7 ¿Qué hace (Vd.)? (ver la película)",
+      "8 ¿Qué hacen (Vds.)? (fregar los platos)",
+      "9 ¿Qué hacéis? (preparar una fiesta)",
+      "10 ¿Qué haces? (aprender español)"
+    ],
+    "ex6": [],
+    "ex7": [],
+
+    "answers": {
+      "ex1": [
+        "cantando",
+        "corriendo",
+        "escribiendo",
+        "riendo",
+        "cayendo",
+        "oyendo",
+        "viendo",
+        "bailando",
+        "leyendo",
+        "friendo",
+        "contando",
+        "oliendo",
+        "conduciendo",
+        "durmiendo",
+        "siendo"
+      ],
+      "ex2": [
+        "Viene llorando.",
+        "Van al colegio corriendo.",
+        "Estudia escuchando música.",
+        "Pintamos las paredes cantando.",
+        "Hablo gritando.",
+        "Duerme roncando.",
+        "Cenan viendo la televisión.",
+        "Desayunáis leyendo el periódico."
+      ],
+      "ex3": [
+        "Pagando más consigue entradas.",
+        "Estudiando un poco apruebas el examen.",
+        "Estando enfermos no podemos ir.",
+        "Cogiendo el tren llegamos tarde.",
+        "Sabiendo informática conseguís trabajo.",
+        "Comiendo tanto se van a poner enfermos.",
+        "Bebiendo mucho no podemos conducir.",
+        "Buscando la palabra en el diccionario entienden la frase.",
+        "Cortando el césped estará más bonito el jardín.",
+        "Andando deprisa llegaréis antes de la cena."
+      ],
+      "ex4": [
+        "está cantando",
+        "estamos comiendo",
+        "estoy caminando",
+        "están escuchando",
+        "estás oyendo",
+        "está estudiando",
+        "estáis lavando",
+        "están prestando",
+        "estás perdiendo",
+        "está durmiendo"
+      ],
+      "ex5": [
+        "Están cantando.",
+        "Estamos escribiendo a María.",
+        "Estamos leyendo un documento.",
+        "Estoy haciendo la cena.",
+        "Están jugando en el jardín.",
+        "Estamos oyendo música.",
+        "Estoy viendo la película.",
+        "Estamos fregando los platos.",
+        "Estamos preparando una fiesta.",
+        "Estoy aprendiendo español."
+      ],
+      "ex6": [],
+      "ex7": []
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Costa Rica"],
+    "bContent": [
+      "Costa Rica es un país de América central que tiene fronteras con Nicaragua al norte y Panamá al sur. Es un país pequeño con una población de unos cuatro millones de habitantes. Una de sus principales fuentes económicas es el turismo porque además de su clima tropical y sus fabulosas playas del Caribe y la costa del Pacífico, Costa Rica es conocida por su cuidado al medio ambiente. Alrededor de un cuarto de la superficie de Costa Rica está dedicada a parques naturales y espacios protegidos por lo que hay mucho ecoturismo. Esta forma de turismo la practican personas que están interesadas en la ecología y van en busca de plantas y animales que no se pueden ver en ningún otro sitio del planeta. Al mismo tiempo que se aseguran de que su forma de turismo no destruye el medio ambiente. "
+    ],
+    "vocabulary": [
+      "alrededor",
+      "añadir",
+      "asegurarse de",
+      "batir",
+      "busca (f.)",
+      "calentar",
+      "clima (m.)",
+      "cortar",
+      "dedicado",
+      "Basic",
+      "destruir",
+      "escurrir",
+      "freir",
+      "fuente (f.)",
+      "habitante (m.)",
+      "huevo (m.)",
+      "lavar",
+      "loncha (f.)",
+      "medio ambiente(m.)",
+      "mezcla(f.)",
+      "pelar",
+      "planeta(m.)",
+      "plato(m.)",
+      "población(f.)",
+      "protegido",
+      "salar",
+      "sartén(f.)",
+      "superficie(f.)"
+    ],
+    "vocabularyE": [
+      "around",
+      "to add",
+      "to make sure",
+      "to beat",
+      "search",
+      "to heat up",
+      "climate",
+      "to cut",
+      "dedicated",
+      "to destroy",
+      "to drain",
+      "to fry",
+      "source",
+      "inhabitant",
+      "egg",
+      "to wash",
+      "slice",
+      "the environment",
+      "mixture",
+      "to peel",
+      "planet",
+      "dish",
+      "population",
+      "protected",
+      "to add salt",
+      "frying pan",
+      "surface"
+    ]
+  }
+]

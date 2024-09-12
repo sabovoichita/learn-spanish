@@ -11,8 +11,9 @@ function createStructure(chapters) {
   body.innerHTML = `
     <header class="fixed-header">
       <h1>Learn Spanish</h1>
-      ${createNav(chapters)}
+      
     </header>
+    ${createNav(chapters)}
     <div id="container"></div>
   `;
 
@@ -479,7 +480,7 @@ function setupCollapsibleSections() {
 }
 
 function initEvents() {
-  const numberOfLessons = 14; // Define the number of lessons
+  const numberOfLessons = 15; // Define the number of lessons
   const chapters = []; // Array to hold chapter data
 
   // Fetch chapter titles dynamically

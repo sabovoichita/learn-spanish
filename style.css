@@ -358,6 +358,32 @@ hr {
   /* background: #009688; */
 }
 
+/* Tick mark style */
+.tick {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* Progress bar style */
+.progress-bar {
+  background-color: lightgray;
+  height: 20px;
+  width: 0;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.completed {
+  cursor: pointer;
+  background-image: url(/assets/v2/square-rounded-check-filled.svg);
+  background-size: 16px 16px; /* Adjust based on the icon size */
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .h2Design {

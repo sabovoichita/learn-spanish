@@ -136,39 +136,39 @@ function generateSubChapter(title, content) {
   `;
 }
 
-function createExSection(lessonNumber, exIdPrefix, placeholder, ex, answers) {
-  if (!Array.isArray(ex)) {
-    console.error(
-      `Expected 'ex' to be an array for exercise ${exIdPrefix}, but got:`,
-      ex
-    );
-    return ""; // Return an empty string to prevent errors
-  }
+// function createExSection(lessonNumber, exIdPrefix, placeholder, ex, answers) {
+//   if (!Array.isArray(ex)) {
+//     console.error(
+//       `Expected 'ex' to be an array for exercise ${exIdPrefix}, but got:`,
+//       ex
+//     );
+//     return ""; // Return an empty string to prevent errors
+//   }
 
-  const uniqueExIdPrefix = `l${lessonNumber}-${exIdPrefix}`;
+//   const uniqueExIdPrefix = `l${lessonNumber}-${exIdPrefix}`;
 
-  const exerciseHtml = ex
-    .map(
-      (example, index) => `
-        <span class="exercise-item">
-          <span class="exercise-text">${example}</span> ${index + 1}
-          <input class="exerciseInput" 
-                 id="${uniqueExIdPrefix}-${index}" 
-                 placeholder="${placeholder}" 
-                 aria-label="Exercise input for ${example}" />
-        </span>
-      `
-    )
-    .join("");
+//   const exerciseHtml = ex
+//     .map(
+//       (example, index) => `
+//         <span class="exercise-item">
+//           <span class="exercise-text">${example}</span> ${index + 1}
+//           <input class="exerciseInput"
+//                  id="${uniqueExIdPrefix}-${index}"
+//                  placeholder="${placeholder}"
+//                  aria-label="Exercise input for ${example}" />
+//         </span>
+//       `
+//     )
+//     .join("");
 
-  return `
-    <div class="ex-section" data-prefix="${uniqueExIdPrefix}">
-      ${exerciseHtml}
-      <br>
-      <button class="check-answers-btn" data-prefix="${uniqueExIdPrefix}">Check Answers</button>
-    </div>
-  `;
-}
+//   return `
+//     <div class="ex-section" data-prefix="${uniqueExIdPrefix}">
+//       ${exerciseHtml}
+//       <br>
+//       <button class="check-answers-btn" data-prefix="${uniqueExIdPrefix}">Check Answers</button>
+//     </div>
+//   `;
+// }
 
 function generateExercises(lesson, lessonNumber) {
   return lesson.lessonEx
@@ -277,6 +277,35 @@ function createWSection(label1, label2, ws1, ws2) {
 }
 
 // Function to verify answers
+// function verifyAnswers(exIdPrefix, answers) {
+//   console.log(`Verifying answers for exercise ID prefix: ${exIdPrefix}`);
+
+//   const exercisePart = exIdPrefix.split("-")[1]; // Get exercise (e.g., 'ex1', 'ex2')
+//   const exerciseAnswers = answers[exercisePart];
+
+//   if (!exerciseAnswers) {
+//     console.error(`No answers found for exercise: ${exercisePart}`);
+//     return;
+//   }
+
+//   exerciseAnswers.forEach((correctAnswer, index) => {
+//     const inputElement = document.getElementById(`${exIdPrefix}-${index}`);
+//     if (inputElement) {
+//       const userAnswer = inputElement.value.trim().toLowerCase();
+//       const expectedAnswer = correctAnswer.trim().toLowerCase();
+
+//       if (userAnswer === expectedAnswer) {
+//         inputElement.style.backgroundColor = "green";
+//         inputElement.style.color = "white";
+//       } else {
+//         inputElement.style.backgroundColor = "red";
+//         inputElement.style.color = "white";
+//       }
+//     } else {
+//       console.warn(`Input element with ID ${exIdPrefix}-${index} not found.`);
+//     }
+//   });
+// }
 function verifyAnswers(exIdPrefix, answers) {
   console.log(`Verifying answers for exercise ID prefix: ${exIdPrefix}`);
 
@@ -288,6 +317,8 @@ function verifyAnswers(exIdPrefix, answers) {
     return;
   }
 
+  let correctCount = 0;
+
   exerciseAnswers.forEach((correctAnswer, index) => {
     const inputElement = document.getElementById(`${exIdPrefix}-${index}`);
     if (inputElement) {
@@ -297,6 +328,8 @@ function verifyAnswers(exIdPrefix, answers) {
       if (userAnswer === expectedAnswer) {
         inputElement.style.backgroundColor = "green";
         inputElement.style.color = "white";
+        correctCount++; // Increment correct answer count
+        markExerciseCompleted(exIdPrefix.split("-")[0].substring(1), index); // Mark this exercise as completed
       } else {
         inputElement.style.backgroundColor = "red";
         inputElement.style.color = "white";
@@ -305,6 +338,24 @@ function verifyAnswers(exIdPrefix, answers) {
       console.warn(`Input element with ID ${exIdPrefix}-${index} not found.`);
     }
   });
+
+  // Update the progress bar after verifying answers
+  updateProgressBar(
+    exIdPrefix.split("-")[0].substring(1),
+    exercisePart,
+    correctCount,
+    exerciseAnswers.length
+  );
+}
+
+// Function to update the progress bar
+function updateProgressBar(lessonNumber, exPrefix, correctCount, totalCount) {
+  const progressBar = document.querySelector(
+    `#progress-bar-${lessonNumber}-${exPrefix}`
+  );
+  const percentage = (correctCount / totalCount) * 100;
+  progressBar.style.width = `${percentage}%`;
+  progressBar.innerText = `${Math.round(percentage)}% Completed`;
 }
 
 let globalLessons = {}; // Use an object for better key-based access
@@ -352,25 +403,60 @@ function loadLesson(lessonNumber) {
 }
 
 // Show the selected lesson in the same div, replacing any existing content
+// Modify the lesson display to add a tick mark if completed
 function showLesson(lessonNumber, lessons) {
-  const container = $("#container"); // Use the container element
+  const container = $("#container");
   if (!container) {
     console.error(`Container not found.`);
     return;
   }
 
-  // Clear the existing lesson content
   container.innerHTML = "";
-
-  // Create a new div for the selected lesson content
   const lessonDiv = document.createElement("div");
   lessonDiv.id = `l${lessonNumber}`;
-
-  // Ensure that lesson content is generated with all exercises including ex7
   lessonDiv.innerHTML = generateLessonContent(lessons, lessonNumber);
 
   // Append the new lesson div to the container
   container.appendChild(lessonDiv);
+
+  // If the lesson is completed, show a tick
+  if (isLessonCompleted(lessonNumber)) {
+    const lessonHeader = document.querySelector(`#l${lessonNumber} header`);
+    lessonHeader.innerHTML += '<span class="tick">&#10003;</span>'; // Add tick mark for completion
+  }
+}
+
+// Modify the exercise display to show progress
+function createExSection(lessonNumber, exIdPrefix, placeholder, ex, answers) {
+  const uniqueExIdPrefix = `l${lessonNumber}-${exIdPrefix}`;
+
+  const exerciseHtml = ex
+    .map(
+      (example, index) => `
+        <span class="exercise-item">
+          <span class="exercise-text">${example}</span> ${index + 1}
+          <input class="exerciseInput" 
+                 id="${uniqueExIdPrefix}-${index}" 
+                 placeholder="${placeholder}" 
+                 aria-label="Exercise input for ${example}" />
+          ${
+            isExerciseCompleted(lessonNumber, index)
+              ? '<span class="tick">&#10003;</span>'
+              : ""
+          } <!-- Add tick if exercise completed -->
+        </span>
+      `
+    )
+    .join("");
+
+  return `
+    <div class="ex-section" data-prefix="${uniqueExIdPrefix}">
+      ${exerciseHtml}
+      <br>
+      <button class="check-answers-btn" data-prefix="${uniqueExIdPrefix}">Check Answers</button>
+      <div class="progress-bar" id="progress-bar-${lessonNumber}-${exIdPrefix}"></div> <!-- Add progress bar -->
+    </div>
+  `;
 }
 
 function validateGlobalLessons() {
@@ -477,6 +563,43 @@ function setupCollapsibleSections() {
       }
     }
   });
+}
+
+// Track user progress in localStorage
+function getProgress() {
+  return JSON.parse(localStorage.getItem("progress")) || {};
+}
+
+function updateProgress(progress) {
+  localStorage.setItem("progress", JSON.stringify(progress));
+}
+
+function markLessonCompleted(lessonNumber) {
+  const progress = getProgress();
+  progress[lessonNumber] = progress[lessonNumber] || {};
+  progress[lessonNumber].completed = true; // Mark lesson as completed
+  updateProgress(progress);
+}
+
+function markExerciseCompleted(lessonNumber, exerciseNumber) {
+  const progress = getProgress();
+  progress[lessonNumber] = progress[lessonNumber] || { exercises: [] };
+  progress[lessonNumber].exercises[exerciseNumber] = true; // Mark specific exercise as done
+  updateProgress(progress);
+}
+
+function isLessonCompleted(lessonNumber) {
+  const progress = getProgress();
+  return progress[lessonNumber] && progress[lessonNumber].completed;
+}
+
+function isExerciseCompleted(lessonNumber, exerciseNumber) {
+  const progress = getProgress();
+  return (
+    progress[lessonNumber] &&
+    progress[lessonNumber].exercises &&
+    progress[lessonNumber].exercises[exerciseNumber]
+  );
 }
 
 function initEvents() {

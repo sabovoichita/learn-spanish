@@ -1,0 +1,626 @@
+[
+  {
+    "ch": "17",
+    "title": "The preterite tense ",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "The preterite tense in Spanish, sometimes called the simple past tense in English, is used to describe completed actions in the past. For example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["We bought a house. ", "He played football. "],
+        "words2": ["", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "The actions took place at a specific time and are over and done with."
+      },
+      {
+        "type": "paragraph",
+        "text": "This tense would not be used to describe actions that were on-going (e.g. 'he was watching television') or that happened repeatedly (e.g. 'When I was young we always went to Spain for our holidays') and it would not be used for descriptions (e.g. 'The sun was shining'). The tense required for the preceding examples will be discussed in Unit 18."
+      },
+      {
+        "type": "paragraph",
+        "text": "The preterite has three sets of endings; one for -ar verbs, another for -er and -ir verbs and the third for a small number of verbs that undergo a stem change."
+      },
+      {
+        "type": "paragraph",
+        "text": "The endings for regular -ar verbs are as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["-ar"],
+        "label2": [""],
+        "words1": ["-é", "-aste", "-ó", "-amos", "-asteis", "-aron"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["comprar"],
+        "label2": ["(to buy)"],
+        "words1": [
+          "compré",
+          "compraste",
+          "compró",
+          "compramos",
+          "comprasteis",
+          "compraron"
+        ],
+        "words2": [
+          "I bought ",
+          "you bought",
+          "he/she bought you | (Ud.) bought",
+          "we bought",
+          "you bought",
+          "they bought | you (Uds.) bought"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are some examples of other -ar verbs in the preterite tense:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Desayuné a las ocho.",
+          "Escuchó un ruido.",
+          "Trabajaron todo el día.",
+          "¿Terminaste el libro?"
+        ],
+        "words2": [
+          "I had breakfast at eight o'clock.",
+          "He heard a noise.",
+          "They worked all day.",
+          "Did you finish the book?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The endings for regular -er and -ir verbs are as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["-er | -ir"],
+        "label2": [""],
+        "words1": ["-í", "-iste", "-ió", "-imos", "-isteis", "-ieron"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["comer"],
+        "label2": ["(to eat)"],
+        "words1": [
+          "comí",
+          "comiste",
+          "comió",
+          "comimos",
+          "comisteis",
+          "comieron"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["escribir"],
+        "label2": ["(to write)"],
+        "words1": [
+          "escribí",
+          "escribiste",
+          "escribió",
+          "escribimos",
+          "escribisteis",
+          "escribieron"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are some examples of regular -er and -ir verbs in the preterite tense:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Decidimos vender la casa.",
+          "No vieron la película.",
+          "Bebí mucho vino anoche.",
+          "Vendió su coche."
+        ],
+        "words2": [
+          "We decided to sell the house.",
+          "They did not see the film.",
+          "I drank a lot of wine last night.",
+          "He sold his car."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: The preterite of the verb dar (to give) uses -er endings: dí, diste, dio, dimos, disteis, dieron."
+      }
+    ],
+
+    "subCh2": "Spelling changes",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "Some verbs require spelling changes in the stem of the preterite to conform to the normal rules of pronunciation"
+      },
+      {
+        "type": "paragraph",
+        "text": "-ar verbs whose stem ends in z, c or g need a spelling change in the first person singular as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["empezar"],
+        "label2": [""],
+        "words1": ["empecé"],
+        "words2": ["(to begin)"]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["aparcar"],
+        "label2": [""],
+        "words1": ["aparqué"],
+        "words2": ["(to park)"]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["pagar"],
+        "label2": [""],
+        "words1": ["pagué"],
+        "words2": ["(to pay)"]
+      },
+      {
+        "type": "paragraph",
+        "text": "-er and -ir verbs whose stem ends in a vowel change the i of the ending to a y in the third persons singular and plural:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["leer"],
+        "label2": [""],
+        "words1": ["eyó, leyeron"],
+        "words2": ["(to read)"]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["caer"],
+        "label2": [""],
+        "words1": ["cayó, cayeron"],
+        "words2": ["(to fall)"]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["distribuir"],
+        "label2": [""],
+        "words1": ["distribuyó, distribuyeron"],
+        "words2": ["(to distribute)"]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["oír"],
+        "label2": [""],
+        "words1": ["oyó, oyeron"],
+        "words2": ["(to hear)"]
+      }
+    ],
+    "subCh3": "Radical changing verbs in the preterite",
+    "lessonContentSubCh3": [
+      {
+        "type": "paragraph",
+        "text": "Most radical changing verbs do not undergo any spelling change in the preterite. The only radical changing verbs that do have a change are those in the -ir group, such as dormir, morir, servir, pedir, preferir, reír."
+      },
+      {
+        "type": "paragraph",
+        "text": "The spelling change in the preterite only affects the third persons singular and plural, and in these persons e in the stem becomes i and o in the stem becomes u. For example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["servir (to serve):"],
+        "label2": [""],
+        "words1": [
+          "serví",
+          "serviste",
+          "sirvió",
+          "servimos",
+          "servisteis",
+          "sirvieron"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["morir (to die):"],
+        "label2": [""],
+        "words1": [
+          "morí",
+          "moriste",
+          "murió",
+          "morimos",
+          "moristeis",
+          "murieron"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "subchapter",
+        "text": "'Strong' preterites"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a group of verbs, sometimes called 'strong' preterites, in which the stress is not on the last syllable, but on the last but one syllable. The endings for these verbs are as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["hacer (to do/to make) "],
+        "label2": [""],
+        "words1": ["-e", "-imo", "-iste", "-isteis", "-o", "-ieron"],
+        "words2": [
+          "hice",
+          "hiciste",
+          "hizo*",
+          "hicimos",
+          "hicisteis",
+          "hicieron"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "*Note spelling change c to z. You will have noticed that there is also a change in the stem of this verb, and this is the case with many of the verbs in this group, consequently they are sometimes referred to as 'irregular' verbs in the preterite. The number of verbs in this group is quite small and it is best to learn them by heart. The following common verbs are in this group:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["andar(to walk)"],
+        "label2": [""],
+        "words1": ["anduve, anduviste,anduvo, etc. "],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["conducir*(to drive)"],
+        "label2": [""],
+        "words1": ["conduje"],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["decir(to say, tell)"],
+        "label2": [""],
+        "words1": ["dije"],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["estar(to be)"],
+        "label2": [""],
+        "words1": ["estuve"],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["poder(to be able)"],
+        "label2": [""],
+        "words1": ["pude"],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["poner(to put)"],
+        "label2": [""],
+        "words1": ["puse"],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["querer(to want)"],
+        "label2": [""],
+        "words1": ["quise"],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["saber(to know)"],
+        "label2": [""],
+        "words1": ["supe"],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["tener(to have)"],
+        "label2": [""],
+        "words1": ["tuve"],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["traer(to take)"],
+        "label2": [""],
+        "words1": ["traje"],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["venir(to come)"],
+        "label2": [""],
+        "words1": ["vine"],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "*Note spelling change c to z. You will have noticed that there is also a change in the stem of this verb, and this is the case with many of the verbs in this group, consequently they are sometimes referred to as 'irregular' verbs in the preterite. The number of verbs in this group is quite small and it is best to learn them by heart. The following common verbs are in this group:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: Verbs with stems ending in -j, omit the i of the third person plural ending: trajeron, condujeron, dijeron, etc"
+      },
+      {
+        "type": "paragraph",
+        "text": "The verbs ser and ir have the same preterite and only the context makes it clear which verb is being used. The preterite form of these verbs does not follow any of the preceding patterns and has to be learnt separately. It is as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["venir(to come)"],
+        "label2": [""],
+        "words1": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
+        "words2": [
+          "I was/I went",
+          "you were/you went",
+          "he was/he went | she was/she went | you (Ud.) were/you went",
+          "we were/we went",
+          "you were/you went",
+          "they were/they went | you (Uds.) were | you went"
+        ]
+      }
+    ],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Give the appropriate form of the preterite (-ar verbs):",
+      "2 Give the appropriate form of the preterite (-er verbs):",
+      "3 Give the appropriate form of the preterite (-ir verbs):",
+      "4 Translate the following sentences into Spanish:",
+      "5 Give the appropriate form of the preterite:",
+      "6 Translate the following sentences into Spanish using strong preterites:",
+      "7 Answer the following questions in Spanish with the information provided in the brackets:"
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 ¿A qué hora te _____ (levantar) ayer?",
+      "2 ¿Os _____ (duchar) ayer después de mi?",
+      "3 ¿_____ (cantar) Juan en ese coro?",
+      "4 ¿No _____ (nadar, Vd.) mucho el verano pasado?",
+      "5 En 1936 los republicanos _____ (luchar) por la libertad.",
+      "6 ¡Vds. _____ (bailar) mucho anoche en la discoteca!",
+      "7 Tú me _____ (explicar) ayer esto pero no lo entiendo todavía.",
+      "8 Nos _____ (cortar) el pelo ayer por la mañana.",
+      "9 Elena no _____ (comprar) nada ayer.",
+      "10 ¿_____ (lavar, vosotros) el coche la semana pasada?"
+    ],
+    "ex2": [
+      "1 El curso pasado _____ (leer, nosotros) El Quijote en el colegio.",
+      "2 Pedro y Juan _____ (beber) demasiado en la fiesta de anoche.",
+      "3 No _____ (entender, yo) lo que me contó.",
+      "4 ¿_____ (comer) Elisa contigo ayer?",
+      "5 ¿_____ (vender) Vd. su casa el año pasado?",
+      "6 Ayer se _____ (romper) la pierna.",
+      "7 ¿Os _____ (coser) los botones ayer?",
+      "8 ¡_____ (correr, Vds.) demasiado ayer!",
+      "9 ¿Le _____ (agradecer, tú) su invitación?",
+      "10 No le _____ (conocer, ellos) hasta el año pasado."
+    ],
+    "ex3": [
+      "1 ¿_____ (recibir, tú) el mes pasado la revista?",
+      "2 ¿Cuándo _____ (vivir, Vd.) en Madrid?",
+      "3 _____ (subir, nosotros) las escaleras corriendo.",
+      "4 No _____ (escribir, Vds.) el informe ayer.",
+      "5 ¿A qué hora _____ (salir) su vuelo?",
+      "6 _____ (lucir, ella) un vestido largo para la fiesta de Versace.",
+      "7 No _____ (sucumbir, vosotros) a la tentación.",
+      "8 _____ (vivir, yo) con mis padres hasta 1987.",
+      "9 ¿Cuándo _____ (exhibir, ellos) ese cuadro por última vez?",
+      "10 _____ (rescindir, tú) el contrato de Juan el mes pasado."
+    ],
+    "ex4": [
+      "1 I started my job in January.",
+      "2 I parked my car in that street.",
+      "3 He read all the books in the library.",
+      "4 He fell down and broke his leg.",
+      "5 Did you (Vd.) hear my programme last night?",
+      "6 You (Vd.) didn't read the report.",
+      "7 They didn't hear you last night.",
+      "8 The girls didn't fall down. He pushed them."
+    ],
+    "ex5": [
+      "1 Se _____ (dormir, Vd) pronto anoche?",
+      "2 Le _____ (pedir, ellos) la llave al conserje.",
+      "Basic Spanish: A grammar and workbook 12",
+      "3 Se _____ (reir, Vds.) mucho anoche en el cine.",
+      "4 Cuándo _____ (morir) tu padre?",
+      "5 _____ (preferir, ellos) ir al teatro",
+      "6 _____ (competir, Vd.) en la carrera de ayer?",
+      "7 Se _____ (despedir, ellos) de sus novias antes de partir.",
+      "8 Luis te _____ (pedir) un favor ayer, ¿no?",
+      "9 _____ (sentir, Vd) mucho no verle.",
+      "10 No me _____ (repetir, ellos) la explicación."
+    ],
+    "ex6": [
+      "1 I walked 10 kilometres yesterday.",
+      "2 She could not do that.",
+      "3 We drove a very small car in Madrid.",
+      "4 He gave you my address.",
+      "5 Did you go to Paris last summer?",
+      "6 I wasn't here yesterday.",
+      "7 They went to Paris without me.",
+      "8 He told them the news.",
+      "9 Did you (Vd.) have a good trip?",
+      "10 You (Vds.) didn't want to accept my invitation"
+    ],
+    "ex7": [
+      "1 Where were you (vosotros) last year? (In Rome)",
+      "2 How many books did you (Vd.) bring? (ten)",
+      "3 When did you (tú) walk around with him? (last summer)",
+      "4 Where did he put the parcel? (under the table)",
+      "5 How did they go to Germany? (by car)",
+      "6 What did we say? (nothing)",
+      "7 When did you (Vd.) do that work? (yesterday)",
+      "8 Did he fit (caber) in there? (no)",
+      "9 How did she come to England? (by train)",
+      "10 Were you able to buy the present? (no)"
+    ],
+
+    "answers": {
+      "ex1": [
+        "levantaste",
+        "duchasteis",
+        "cantó",
+        "nadó",
+        "lucharon",
+        "bailaron",
+        "explicastes",
+        "cortamos",
+        "compró",
+        "lavasteis"
+      ],
+      "ex2": [
+        "leímos",
+        "bebieron",
+        "entendí",
+        "comió",
+        "vendió",
+        "rompió",
+        "cosisteis",
+        "corrieron",
+        "agradeciste",
+        "conocieron"
+      ],
+      "ex3": [
+        "recibiste",
+        "vivió",
+        "subimos",
+        "escribieron",
+        "salió",
+        "lució",
+        "sucumbisteis",
+        "viví",
+        "exhibieron",
+        "rescindiste"
+      ],
+      "ex4": [
+        "Empecé mi trabajo en enero.",
+        "Aparqué el/mi coche en esa calle.",
+        "(Se) leyó todos los libros de la biblioteca.",
+        "Se cayó y se rompió la pierna.",
+        "¿Oiste mi programa anoche?",
+        "No (se) leyó el informe.",
+        "No te oyeron anoche.",
+        "Las chicas no se cayeron. Las empujó."
+      ],
+      "ex5": [
+        "durmió",
+        "pidieron",
+        "rieron",
+        "murió",
+        "prefirieron",
+        "compitió",
+        "despidieron",
+        "pidió",
+        "sintió",
+        "repitieron"
+      ],
+      "ex6": [
+        "Anduve 10 kilómetros ayer.",
+        "No pudo hacerlo./No lo pudo hacer.",
+        "Condujimos un coche muy pequeño en Madrid.",
+        "Te dio mi dirección.",
+        "¿Fuiste a Paris el verano pasado?",
+        "No estuve aquí ayer.",
+        "Se fueron a París sin mí.",
+        "Les contamos las noticias.",
+        "¿Tuvo un buen viaje?",
+        "No quisieron aceptar mi invitación."
+      ],
+      "ex7": [
+        "El año pasado estuvimos en Roma.",
+        "Traje diez libros.",
+        "Anduve con él el verano pasado.",
+        "Puso el paquete debajo de la mesa.",
+        "Fueron a Alemania en coche.",
+        "No dijisteis/dijimos nada.",
+        "Hice ese trabajo ayer.",
+        "No, no cupo ahí.",
+        "Vino a Inglatera en tren.",
+        "No pude comprar el regalo."
+      ]
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Camilo José Cela"],
+    "bContent": [
+      "Camilo José Cela es un escritor español, premio Nobel, autor de obras narrativas, poesía, memorias y libros de viajes. Nació en Iria Flavia (Galicia), estudió en la universidad Complutense de Madrid y luchó en el bando franquista durante la Guerra Civil española. Posteriormente rechazó la dictadura de Franco y mantuvo una actitud independiente. Su primera novela fue La familia de Pascual Duarte (1942). Debido a problemas con la censura, La Colmena (1951), una de sus novelas más celebradas, tuvo que publicarse en Buenos Aires.",
+      "En 1956, Cela fundó una revista literaria donde publicó a muchos escritores españoles en el exilio durante la dictadura franquista. Escribió libros de viajes que incluyen Viaje a la Alcarria (1948), su libro más celebrado de los de este género. Publicó también poesía, numerosos relatos, artículos periodísticos y ensayos. Entre otros premios recibió el Premio Nobel de Literatura en 1989, y el Premio Cervantes en 1995. En 1996 se le nombró marqués de Iria-Flavia.",
+      "Cela se casó dos veces y murió a los 89 años de edad."
+    ],
+    "vocabulary": [
+      "artículo periodístico(m.)",
+      "bando(m.)",
+      "casarse",
+      "censura(f.)",
+      "debido",
+      "dictadura(f.)",
+      "ensayo(m.)",
+      "exilio(m.)",
+      "franquista(m.)",
+      "género(m.)",
+      "guerra civil(f.)",
+      "incluir",
+      "literario",
+      "luchar",
+      "mantener",
+      "marqués(m.)",
+      "memorias(f.)",
+      "morir",
+      "nacer",
+      "narrativo",
+      "poesía(f.)",
+      "premio(m.)",
+      "publicar",
+      "rechazar",
+      "relato(m.)",
+      "revista(f.)"
+    ],
+    "vocabularyE": [
+      "newspaper article",
+      "side",
+      "to get married",
+      "censorship",
+      "a due to",
+      "dictatorship",
+      "essay",
+      "exile",
+      "Francoist",
+      "genre",
+      "civil war",
+      "include",
+      "literary",
+      "to fight",
+      "to maintain",
+      "Marquis",
+      "memoirs",
+      "to die",
+      "to be born",
+      "narrative",
+      "poetry",
+      "prize",
+      "publish",
+      "reject",
+      "short story",
+      "magazine"
+    ]
+  }
+]

@@ -1,0 +1,500 @@
+[
+  {
+    "ch": "18",
+    "title": "The imperfect tense",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "The preterite tense, or simple past tense, is used for completed actions in the past. Spanish distinguishes between completed actions (preterite tense) and repeated or continuous actions in the past (imperfect tense)."
+      },
+      {
+        "type": "paragraph",
+        "text": "The imperfect tense is used for descriptions and for actions that took place on a regular basis or over a period of time. The emphasis is on the on-going process rather than the completion of the action."
+      },
+      {
+        "type": "paragraph",
+        "text": "Compare the two verbs in the following sentence:"
+      },
+      {
+        "type": "paragraph",
+        "text": "The preterite tense, or simple past tense, is used for completed actions in the past. Spanish distinguishes between completed actions (preterite tense) and repeated or continuous actions in the past (imperfect tense)."
+      },
+      {
+        "type": "wordSection",
+        "label1": ["We were watching the television when the phone rang."],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "The first verb 'were watching' describes an on-going action, whereas 'rang' describes a sudden, completed action. In this sentence the difference is evident in the English form of the verb, but it is not always this obvious, as in the case of habitual action:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [
+          "When I was young we (usually) went to Spain for our holidays."
+        ],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "The idea of 'usually' or 'always' indicates that a different tense is required but sometimes the verb itself conveys the notion without any such explicit adverb."
+      },
+      {
+        "type": "paragraph",
+        "text": "In the case of descriptions it is clear that this is not a completed action, but an ongoing state of affairs, hence the need for the imperfect tense:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["The sky was blue and the sun shone."],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": [
+          "The imperfect tense of -ar verbs in Spanish is formed as follows:"
+        ],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["comprar"],
+        "label2": ["(to buy)"],
+        "words1": [
+          "compraba",
+          "comprabas",
+          "compraba",
+          "comprábamos",
+          "comprabais",
+          "compraban"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "The first person singular and the third person singular forms are the same, so if there is any possible ambiguity, the subject pronoun can be used for clarity."
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that a stress mark is required on the first person plural – comprábamos."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are some examples of the use of the imperfect tense of -ar verbs:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Juan trabajaba en una fábrica.",
+          "Yo cantaba en el coro.",
+          "Los chicos bailaban en la discoteca.",
+          "Te esperábamos en la estación."
+        ],
+        "words2": [
+          "Juan worked (used to work/was working) in a factory.",
+          "I sang (used to sing/was singing) in the choir.",
+          "The boys danced (were dancing/used to dance) in the disco.",
+          "We were waiting for you at the station."
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": [
+          "The endings for the imperfect tense of -er and -ir verbs are the same and are as follows:"
+        ],
+        "label2": [""],
+        "words1": ["-í", "-iste", "-ió", "-imos", "-isteis", "-ieron"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["comer"],
+        "label2": ["(to eat)"],
+        "words1": ["comía", "comías", "comía", "comíamos", "comíais", "comían"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["vivir"],
+        "label2": ["(to live)"],
+        "words1": ["vivía", "vivías", "vivía", "vivíamos", "vivíais", "vivían"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are some examples of the use of the imperfect tense of -er and -ir verbs:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "La familia Jiménez vivía en Madrid.",
+          "Luis siempre bebía demasiado vino.",
+          "Nunca entendía lo que me decían.",
+          "Juan y yo nos queríamos mucho."
+        ],
+        "words2": [
+          "The Jiménez family lived in Madrid.",
+          "Luis always drank too much wine.",
+          "I never understood what they were saying to me.",
+          "Juan and I loved each other very much. "
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": [
+          "There are only three verbs that do not follow the above patterns and they are: "
+        ],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["ser"],
+        "label2": ["(to be)"],
+        "words1": ["era", "eras", "era", "éramos", "erais", "eran"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["ir"],
+        "label2": ["(to go)"],
+        "words1": ["iba", "ibas", "iba", "íbamos", "ibais", "iban"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["ver"],
+        "label2": ["(to see)"],
+        "words1": ["veía", "veía", "veía", "veíamos", "veíais", "veían"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are some examples of these irregular verbs in the imperfect tense:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Era un día estupendo y hacía un tiempo magnífico.",
+          "No veíamos nada.",
+          "Nunca íbamos al cine cuando yo era joven."
+        ],
+        "words2": [
+          "It was a wonderful day and the weather was magnificent.",
+          "We couldn't see anything.",
+          "We never went to the cinema when I was young. "
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "You will notice that in all the examples given of the use of the imperfect tense, the action of the verb is either on-going, repeated or went on over a period of time. In no cases does it describe a sudden or completed action."
+      }
+    ],
+
+    "subCh2": "Past continuous tense",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "We saw that the verb estar can be used with the gerund to form the present continuous tense. Similarly the imperfect tense of estar can be used with the gerund to form the past continuous tense:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["empezar"],
+        "label2": [""],
+        "words1": ["Estaba esperando el autobús.", "Estábamos comiendo."],
+        "words2": ["I was waiting for the bus.", "We were eating. "]
+      }
+    ],
+    "subCh3": "Preterite or imperfect tense?",
+    "lessonContentSubCh3": [
+      {
+        "type": "paragraph",
+        "text": "Although these two tenses have quite distinct functions, it can sometimes be difficult for the non-native Spanish speaker to decide which is most appropriate. The following guidelines should help you to avoid mistakes."
+      },
+      {
+        "type": "paragraph",
+        "text": "The imperfect tense is generally concerned with the process of an activity whereas the preterite is concerned with its completion:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["servir (to serve):"],
+        "label2": [""],
+        "words1": ["Juan escuchaba la radio.", "Juan escuchó la radio."],
+        "words2": [
+          "Juan was listening (when I arrived)/used to listen to the radio. ",
+          "Juan listened to the radio (last night). "
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The imperfect tense is often incomplete without reference (whether stated or implied) to another action in the preterite, in other words it describes what was going on when another action took place:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Preparaba la cena cuando sonó el teléfono.",
+          "Luis leía el periódico cuando llegó su novia.te"
+        ],
+        "words2": [
+          "I was preparing supper when the phone rang",
+          "Luis was reading the newspaper when his girlfriend arrived."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The imperfect tense sets the scene for other actions: "
+      },
+      {
+        "type": "wordSection",
+        "label1": ["hacer (to do/to make) "],
+        "label2": [""],
+        "words1": ["Hacía buen tiempo cuando llegamos. "],
+        "words2": ["The weather was fine when we arrived."]
+      },
+      {
+        "type": "paragraph",
+        "text": "The choice between the two tenses is often more related to how the speaker sees the situation than to strict linguistic guidelines, so careful observation of native speaker use will help you to use them correctly."
+      }
+    ],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Write the correct form of the verb in bracket in the imperfect tense:",
+      "2 Complete the following sentences with the appropriate form of the imperfect:",
+      "3 Express the following in Spanish:",
+      "4 Answer the following questions as in the example: Example: ¿Qué hacíais cuando llegaron? (comer) Estábamos comiendo.",
+      "5 Preterite or imperfect?",
+      "6 Preterite or imperfect?"
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 Mi hermano _____ a Barcelona dos veces por semana. (ir)",
+      "2 Irene y Juan _____ en un grupo todos los miércoles. (bailar)",
+      "3 Rocío y yo _____ en un piso muy bonito. (vivir)",
+      "4 ¿_____ Ud. mucho esa empresa? (visitar)",
+      "5 Yo _____ en aquel restaurante todos los días. (comer)",
+      "6 Elena y tú _____ un perro, ¿no? (tener)",
+      "7 Aquella tarde _____ mucho. (llover)",
+      "8 Nosotras _____ con los amigos de mi hermano. (salir)",
+      "9 ¿No _____ Uds. apartamentos? (alquilar)",
+      "10 Mis amigas _____ en un coro. (cantar)",
+      "11 Pepe _____ deporte dos veces a la semana. (hacer)",
+      "12 Mis padres _____ chino muy bien. (hablar)",
+      "13 Yo _____ muy bueno cuando pequeño. (ser)",
+      "14 Mi abuelo _____ un coche muy viejo. (conducir)",
+      "15 Juan y Lucía nunca _____ nuestras opiniones. (compartir)"
+    ],
+    "ex2": [
+      "1 Mientras yo _____ (afeitarse), mi mujer _____ (ducharse).",
+      "2 Mientras mi hermano _____ (desayunar), mi hermana _____ (peinarse).",
+      "3 Mientras Uds. _____ (preparar) la reunión, nosotros _____ (hablar) con nuestros clientes.",
+      "4 Mientras vosotros _____ (ir) a la compra, ellos _____ la comida (hacer).",
+      "5 Mientras nosotros _____ (estar) en el cine, Juan _____ (quedar) con Marisol."
+    ],
+    "ex3": [
+      "Cuando era pequeño ...",
+      "1 I used to play football in the park.",
+      "2 He used to go to this school.",
+      "3 She used to sing in a choir.",
+      "4 You (Ud.) used to understand French.",
+      "5 You (tú) used to write stories.",
+      "Cuando éramos pequeños... ",
+      "6 They used to go to church.",
+      "7 We used to eat at school.",
+      "8 You (Uds.) used to play sports.",
+      "9 We used to ask for ice-cream all the time.",
+      "10 You (vosotros) used to read horror stories."
+    ],
+    "ex4": [
+      "1 ¿Qué hacían (ellos) cuando llegasteis? (leer)",
+      "2 ¿Qué hacía (él) cuando llamó? (estudiar)",
+      "3 ¿Qué hacía Ud. cuando recibió la noticia? (desayunar)",
+      "4 ¿Qué hacíamos cuando los vimos? (vender en la calle)",
+      "5 ¿Qué hacías cuando lo descubriste? (escribir una nota)",
+      "6 ¿Qué hacían (Uds.) cuando lo supieron? (ver la television)",
+      "7 ¿Qué hacía yo cuando él vino? (dormir)",
+      "8 ¿Qué hacía Nuria cuando Arancha llegó? (planchar)"
+    ],
+    "ex5": [
+      "Don Juan Carlos I, rey de España, (1) _____ (nacer)",
+      "el 5 de enero de 1938 en Roma, donde (2) ________ (vivir)",
+      "la Familia Real, que (3) _____ (abandonar) España en 1931.",
+      "El Rey (4) _____ (llegar) a España por primera vez a los diez años",
+      "Sus padres, entonces, no (5) _____ (residir) en Italia, sino en Portugal.",
+      "El rey (6)_____ (quedarse) en España para completar su formación académica y militar.",
+      "El 14 de mayo de 1962 (7) _____ (casarse) en Atenas con la Princesa Sofía de Grecia",
+      "En 1963 (8) _____ (nacer) la primera de sus tres hijos, la Infanta Doña Elena",
+      "dos años más tarde (9) _____ (venir) al mundo la Infanta Doña Cristina y en 1968 el Príncipe Don Felipe",
+      "Don Juan Carlos (10) _____ (empezar) su reinado el 22 de noviembre de 1975, tras la muerte de Franco."
+    ],
+    "ex6": [
+      "Ernesto Che Guevara (1) _____ (ser) argentino.",
+      "(2) _____ (estudiar) medicina",
+      "y en su país (3) _____ (participar) en la oposición política contra el general Perón.",
+      "A partir de 1953 (4) _____ (viajar) por varios países de Latinoamérica.",
+      "En 1955 mientras (5) _____ (estar) en México",
+      "(6) _____ (conocer) a Fidel Castro,",
+      "que (7) _____ (estar) preparando una expedición revolucionaria a Cuba.",
+      "El Che (8) _____ (convertirse) en uno de los hombres de confianza de Castro",
+      "y (9) _____ (entrar) con él en La Habana en 1959.",
+      "Fue Fidel Castro quien le (10) _____ (conceder) la nacionalidad cubana."
+    ],
+    "ex7": [],
+
+    "answers": {
+      "ex1": [
+        "iba",
+        "bailaban",
+        "vivíamos",
+        "visitaba",
+        "comía",
+        "teníais",
+        "llovía",
+        "salíamos",
+        "alquilaban",
+        "cantaban",
+        "hacía",
+        "hablaban",
+        "era",
+        "conducía",
+        "compartían"
+      ],
+      "ex2": [
+        "me afeinaba, se duchaba",
+        "desayunaba, se peinaba",
+        "preparaban, hablábamos",
+        "ibais, hacían",
+        "estábamos, quedaba"
+      ],
+      "ex3": [
+        "",
+        "jugaba al fútbol en el parque",
+        "iba a este colegio",
+        "cantaba en un coro",
+        "entendía francés",
+        "escribías cuentos",
+        "",
+        "iban a la iglesia",
+        "comíamos en el colegio",
+        "hacían/practicaban deporte(s)",
+        "pedíamos siempre helado",
+        "leíais cuentos de terror"
+      ],
+      "ex4": [
+        "Estaban leyendo.",
+        "Estaba estudiando.",
+        "Estaba desayunando.",
+        "Estábamos vendiendo en la calle.",
+        "Estaba escribiendo una nota.",
+        "Estábamos viendo la televisión.",
+        "Estabas(tú)/estaba(Ud.) durmiendo.",
+        "Estaba planchando."
+      ],
+      "ex5": [
+        "nació",
+        "vivía",
+        "abandonó",
+        "llegó",
+        "residían",
+        "se quedó",
+        "se casó",
+        "nació",
+        "vino",
+        "empezó"
+      ],
+      "ex6": [
+        "era",
+        "estudió",
+        "participó",
+        "viajó",
+        "estaba",
+        "conoció",
+        "estaba",
+        "se convirtió",
+        "entró",
+        "concedió"
+      ],
+      "ex7": []
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Bolivia"],
+    "bContent": [
+      "La historia de Bolivia está muy unida a la historia de Perú hasta finales del siglo XVIII. En la época precolombina, Bolivia formaba parte del imperio de los Incas. Durante la Conquista, Bolivia dependió del Perú y no fue hasta 1809 cuando se inició un movimiento revolucionario para la independencia de este país. La independencia llegó en 1825 y el primer presidente de la nueva república fue Simón Bolívar y, por él, Bolivia adoptó el nombre con el que la conocemos hoy.",
+      "Durante el siglo XX se produjeron en Bolivia varios levantamientos populares que tuvieron como consecuencia grandes problemas socio-económicos para el país.",
+      "En la actualidad Bolivia tiene una población de alrededor de ocho millones y medio de habitantes y está haciendo un gran esfuerzo para el desarrollo de su economía de Mercado."
+    ],
+    "vocabulary": [
+      "abandonar",
+      "adoptar",
+      "afeitarse",
+      "cliente (f., m.)",
+      "compartir",
+      "confianza (f.)",
+      "consecuencia (f.)",
+      "depender de",
+      "ducharse",
+      "economía de mercado (f.)",
+      "empresa (f.)",
+      "en la actualidad",
+      "formación (f.)",
+      "imperio (m.)",
+      "independencia (f.)",
+      "levantamiento popular (m.)",
+      "llover",
+      "movimiento (m.)",
+      "muerte (f.)",
+      "peinarse",
+      "planchar",
+      "quedar",
+      "residir",
+      "revolucionario",
+      "siglo (m.)",
+      "venir al mundo"
+    ],
+    "vocabularyE": [
+      "to leave",
+      "to adopt",
+      "to shave",
+      "client",
+      "to share",
+      "trust",
+      "consequence",
+      "to depend on",
+      "to have a shower",
+      "market economy",
+      "company",
+      "nowadays",
+      "education, training",
+      "empire",
+      "independence",
+      "popular uprising",
+      "to rain",
+      "movement",
+      "death",
+      "to comb one's hair",
+      "to iron",
+      "to meet, to arrange to meet",
+      "to live",
+      "revolutionary",
+      "century (Note: In Spanish, centuries are written with roman numerals.)",
+      "to be born"
+    ]
+  }
+]

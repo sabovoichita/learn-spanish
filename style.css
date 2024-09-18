@@ -1,4 +1,7 @@
 /* General Reset */
+:root {
+  --max-width: 1200px;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -235,18 +238,19 @@ hr {
   padding: 15px;
 }
 /* Style for the fixed header */
-.fixed-header {
+/* .fixed-header {
   /* position: fixed; */
-  /* top: 0; */
-  width: 100%;
-  background-color: #03a9f4;
-  color: white;
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 1000; /* Ensures the header stays above other content */
-}
+/* top: 0; */
+/* width: 100%; */
+/* background-color: #03a9f4; */
+/* color: white; */
+/* display: flex; */
+/* align-items: center; */
+/* padding: 10px 20px; */
+/* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+/* z-index: 1000; Ensures the header stays above other content */
+/* } */
+*/
 
 /* Nav container to wrap the dropdown */
 .nav-container {
@@ -384,8 +388,47 @@ hr {
   background-position: right center;
 }
 
+/* Ensure the container has a height */
+#text-carousel {
+  position: relative;
+  height: 20px; /* Adjust height to fit your design */
+  overflow: hidden;
+}
+
+/* Styling for the text wrapper */
+.text-carousel-wrap {
+  position: absolute;
+  width: 100%; /* Make the width large enough for smooth animation */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+/* Styling for the individual text lines */
+.text-carousel-line {
+  display: inline-block;
+  font-size: 14px; /* Adjust font size */
+  color: #333;
+  opacity: 1;
+  white-space: nowrap;
+  transition: margin-left 1s ease; /* Smooth transition for text movement */
+}
+
+.carousel-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+  #text-carousel {
+    min-height: 42px;
+  }
+  .text-carousel-wrap {
+    font-size: 10px;
+    line-height: 14px;
+  }
   .h2Design {
     font-size: 1.5rem;
   }

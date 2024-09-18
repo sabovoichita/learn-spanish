@@ -9,9 +9,12 @@ function createStructure(chapters) {
   // console.log("Body element:", body); // Check if body exists
 
   body.innerHTML = `
-    <header class="fixed-header">
+    
+    <header>
+    <div id="header-wrapper">
       <h1>Learn Spanish</h1>
-      
+    </div>
+    <div id="text-carousel"></div>
     </header>
     ${createNav(chapters)}
     <div id="container"></div>
@@ -66,17 +69,6 @@ function generateLessonContent(lessons, lessonNumber) {
           ${generateLessonSections(lesson)}
         </div>
       </div>
-
-      
-
-      <!-- Collapsible Section for Exercises -->
-      <div class="collapsible-section">
-        <button class="collapsible-btn"> ${lesson.exercises}</button>
-        <div class="collapsible-content">
-          ${generateExercises(lesson, lessonNumber)}
-        </div>
-      </div>
-
       <!-- Collapsible Section for Cultural Brief -->
       <div class="collapsible-section">
         <button class="collapsible-btn">Cultural Brief</button>
@@ -84,8 +76,6 @@ function generateLessonContent(lessons, lessonNumber) {
           ${generateCulturalBrief(lesson)}
         </div>
       </div>
-      
-
       <!-- Collapsible Section for Vocabulary -->
       <div class="collapsible-section">
         <button class="collapsible-btn">Vocabulary</button>
@@ -94,6 +84,13 @@ function generateLessonContent(lessons, lessonNumber) {
         </div>
       </div>
       <hr>
+       <!-- Collapsible Section for Exercises -->
+      <div class="collapsible-section">
+        <button class="collapsible-btn"> ${lesson.exercises}</button>
+        <div class="collapsible-content">
+          ${generateExercises(lesson, lessonNumber)}
+        </div>
+      </div>
     </section>
   `
     )
@@ -630,13 +627,25 @@ function initEvents() {
 
   // Wait for all chapters to be loaded before creating the structure
   Promise.all(chapterPromises).then(() => {
+    // Create the page structure after all chapters are loaded
     createStructure(chapters);
-    renderDivs();
 
+    // Now that the structure is created, initialize the carousel
+    createGradientTextSlider({
+      renderTo: "#text-carousel",
+      animateInterval: 15000,
+      text: `1. SELECT LESSON.
+        2. READ
+        3. EXERCISE 
+        4. REPEAT 
+        5. REPEAT AGAIN`,
+    });
+
+    // Proceed with other initializations after structure creation
+    renderDivs();
     setupDropdown();
     setupCollapsibleSections();
   });
-  // console.log("initEvents called");
 
   // Attach event listener to handle button clicks
   document.addEventListener("click", function (event) {
@@ -652,4 +661,5 @@ function initEvents() {
     }
   });
 }
+
 initEvents();

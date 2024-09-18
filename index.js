@@ -603,7 +603,7 @@ function isExerciseCompleted(lessonNumber, exerciseNumber) {
 }
 
 function initEvents() {
-  const numberOfLessons = 18; // Define the number of lessons
+  const numberOfLessons = 19; // Define the number of lessons
   const chapters = []; // Array to hold chapter data
 
   // Fetch chapter titles dynamically

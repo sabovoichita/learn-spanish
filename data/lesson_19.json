@@ -1,0 +1,368 @@
+[
+  {
+    "ch": "19",
+    "title": "Perfect and pluperfect tenses",
+    "subCh1": "Perfect tense",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "The perfect tense in Spanish is used in a similar way to the perfect tense in English, i.e. to translate 'has/have + past participle', for example:"
+      },
+      {
+        "type": "paragraph",
+        "text": "I have bought."
+      },
+      {
+        "type": "paragraph",
+        "text": "They have eaten."
+      },
+      {
+        "type": "paragraph",
+        "text": "It is formed in Spanish by using the present tense of the verb haber (to have) and the past participle of the verb. The present tense of the verb haber is as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["haber"],
+        "label2": ["(to have)"],
+        "words1": ["he", "has", "ha", "hemos", "habéis", "han"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "The verb haber is called an 'auxiliary verb', because it is only used to help with the formation of other tenses, and not as a verb in its own right, except in a few exceptional cases. The usual verb ‘to have’ is tener, as has been seen previously."
+      },
+      {
+        "type": "paragraph",
+        "text": "The past participle of regular verbs is formed as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["comprar", "beber", "vivir"],
+        "words2": ["comprado", "bebido", "vivido"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are some examples of the perfect tense of regular verbs:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["The sky was blue and the sun shone."],
+        "label2": [],
+        "words1": [
+          "He comprado un coche nuevo.",
+          "Ramón ha bebido demasiado.",
+          "¿Siempre has vivido aquí?"
+        ],
+        "words2": [
+          "I have bought a new car.",
+          "Ramon has drunk too much.",
+          "Have you always lived here?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Notice that the past participle is invariable, in other words, it does not change to agree in number or gender with the subject."
+      },
+      {
+        "type": "paragraph",
+        "text": "A few verbs have irregular past participles, and these have to be learnt separately:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "abrir(to open)",
+          "cubrir(to cover)",
+          "decir(to say/tell)",
+          "escribir(to write)",
+          "freír(to fry)",
+          "hacer(to do/make)",
+          "morir(to die)",
+          "poner(to put)",
+          "resolver(to solve)",
+          "romper(to break)",
+          "ver(to see)",
+          "volver(to return)"
+        ],
+        "words2": [
+          "abierto",
+          "cubierto",
+          "dicho",
+          "escrito",
+          "frito",
+          "hecho",
+          "muerto",
+          "puesto",
+          "resuelto",
+          "roto",
+          "visto",
+          "vuelto"
+        ]
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Juan ha roto la ventana.", "Hemos resuelto el problema."],
+        "words2": [
+          "Juan has broken the window.",
+          "We have solved the problem. "
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Verbs which are compounds of any of the above (e.g. descubrir, devolver, suponer, proponer, disponer, prever) will have the same irregularity:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "suponer(to suppose)",
+          "descubrir(to discover)",
+          "prever(to foresee)"
+        ],
+        "words2": ["supuesto", "descubierto", "previsto"]
+      },
+      {
+        "type": "paragraph",
+        "text": "The perfect tense can also be used in Spanish to refer to recent events in the past as follows:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [
+          "The endings for the imperfect tense of -er and -ir verbs are the same and are as follows:"
+        ],
+        "label2": [""],
+        "words1": [
+          "Lo he hecho esta mañana. (or Lo hice esta mañana.)",
+          "La he visto hoy. (or La vi hoy.)"
+        ],
+        "words2": ["I did it this morning.", "I saw her today. "]
+      },
+      {
+        "type": "paragraph",
+        "text": "Note: The perfect tense is not used in the following type of sentence, when the action of the verb is still going on:"
+      },
+      {
+        "type": "paragraph",
+        "text": "I have been waiting for ten minutes (and I am still waiting). He has been studying English for two years (and he is still studying it)."
+      },
+      {
+        "type": "paragraph",
+        "text": "The construction required to deal with sentences like these (e.g. llevo … esperando, llevo … estudiando) will be dealt with at a later stage."
+      }
+    ],
+
+    "subCh2": "Pluperfect tense",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "This is used in a similar way to the pluperfect tense in English, i.e. to translate had + past participle', for example:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["I had started my meal."],
+        "words2": ["They had already asked us."]
+      },
+      {
+        "type": "paragraph",
+        "text": "It is formed with the imperfect tense of the verb haber and the past participle as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Había terminado el trabajo.",
+          "Ya te lo había dicho.",
+          "Habíamos visto la película."
+        ],
+        "words2": [
+          "I had finished the work.",
+          "I had already told you.",
+          "We had seen the film."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "As with the perfect tense, the past participle is invariable - i.e. it does not agree in number or gender with the subject."
+      }
+    ],
+    "subCh3": "",
+    "lessonContentSubCh3": [],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Answer the following questions with the information given in brackets:",
+      "2 Describe what Mario and Lola have done today with the information provided (use the perfect in Spanish):",
+      "3 'How did you make the paella?' You have a list of infinitives below. Explain how you cooked the paella to your guests using the perfect: Example: Partir la cebolla. He partido la cebolla.",
+      "4 Put the correct form of the verb in brackets in the pluperfect:",
+      "5 Complete this text with the verbs that are given to you below (they are in the right form for the appropriate blank). ha gustado, era, iba, he vivido, nací, viví, acostumbré, estudié, dejaban, teníamos, gustaba, había estado"
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 ¿A qué hora te has levantado hoy? (a las 7.30)",
+      "2 ¿Cuándo ha tomado Pepe el autobús? (esta mañana)",
+      "3 ¿Con quién ha desayunado Ud.? (con esos señores)",
+      "4 ¿A quién han llamado (Uds.) esta mañana? (a nuestros clientes)",
+      "5 ¿Cuándo habéis llegado? (después que Marta)",
+      "6 ¿Te has duchado? (no, bañado)",
+      "7 ¿A qué hora ha salido el avión? (a las 12.30)",
+      "8 ¿Para quién habéis comprado eso? (para Lola)",
+      "9 ¿Con quién han hablado ellos? (con José y Mario)",
+      "10 ¿Ha sido muy caro el regalo? (no, barato)"
+    ],
+    "ex2": [
+      "1 They got up at 7.15.",
+      "2 Mario had a shower. Lola had a bath.",
+      "3 Mario went to work at 8.15.",
+      "4 Lola went to her school at 8.45.",
+      "5 Mario had two meetings this morning.",
+      "6 Lola came back home for lunch.",
+      "7 Mario had lunch with clients.",
+      "8 Lola went shopping in the afternoon.",
+      "9 They had dinner in a Chinese restaurant at 9.30.",
+      "10 They went to bed at 12.30."
+    ],
+    "ex3": [
+      "1 Echar aceite en la sartén y freir el pollo, el tomate y el ajo.",
+      "2 Añadir el azafrán y el pimentón. Agregar el agua.",
+      "3 Pelar las judiás verdes y echarlas en el caldo.",
+      "4 Salarlo y dejarlo hervir un rato.",
+      "5 Medir el arroz y meterlo en el caldo.",
+      "6 Ponerlo a fuego lento durante 20 minutos.",
+      "7 Quitar la paella del fuego.",
+      "8 Cubrirla con papel de periódico.",
+      "9 Dejarla reposar cinco minutos.",
+      "10 Servirla con limones cortados."
+    ],
+    "ex4": [
+      "1 Nosotros _____ el informe a las seis. (terminar)",
+      "2 ¿_____ Ud. la carta? (escribir)",
+      "3 Juan y Marta _____ demasiado. (beber)",
+      "4 Vosotros no _____ un buen hotel. (encontrar)",
+      "5 Rocío _____ su apartamento. (vender)",
+      "6 Yo no _____ ese regalo. (comprar)",
+      "7 Lucía no _____ en esta ocasión. (mentir)",
+      "8 ¡Se me _____ el diccionario! (olvidar)",
+      "9 Pepe y yo _____ las llaves. (perder)",
+      "10 Mi madre me _____ la camisa. (coser)"
+    ],
+    "ex5": [
+      "Yo _____ en Córdoba ",
+      "y _____ allí hasta los 26 años. ",
+      "Cuando _____ pequeña me ",
+      "_____ ir al campo los domingos con mis padres y mis hermanos ya que no nos ",
+      "_____ jugar en la calle. ",
+      "_____ al colegio andando con mi hermana y ",
+      "después del colegio _____ clases de ",
+      "inglés y de baile. _____ inglés en la universidad y me vine a Gran Bretaña en ",
+      "1990 Desde entonces _____ en Manchester, Liverpool, Cambridge y Bath aunque ",
+      "la ciudad que más me _____ es Bath. ",
+      "Cuando llegué a Gran Bretaña no _____ nunca tan lejos de casa ",
+      "pero me _____ muy deprisa a la vida inglesa. "
+    ],
+    "ex6": [],
+    "ex7": [],
+
+    "answers": {
+      "ex1": [
+        "Me he levantado a las siete y media.",
+        "Pepe ha tomado el autobús esta mañana.",
+        "He desayunado con esos señores.",
+        "Esta mañana hemos llamado a nuestros clientes.",
+        "hemos llegado después que Marta.",
+        "No me he duchado, me he bañado.",
+        "El avión ha salido a las doce y media.",
+        "Hemos comprado eso para Lola.",
+        "Han hablado con José y Mario.",
+        "El regalo no ha sido caro, ha sido barato."
+      ],
+      "ex2": [
+        "Se han levantado a las siete y cuarto.",
+        "Mario se ha duchado, Lola se ha bañado.",
+        "Mario se ha ido a trabajar a las ocho y cuarto.",
+        "Lola se ha ido al colegio a las nueve menos cuarto.",
+        "Mario ha tenido dos reuniones esta mañana.",
+        "Lola ha vuelto a casa a comer.",
+        "Mario ha comido con (unos) clientes.",
+        "Lola ha ido de compras por la tarde.",
+        "Han cenado en un restaurante chino a las nueve y media.",
+        "se han acostado a las doce y media."
+      ],
+      "ex3": [
+        "He echado el aceite en la sarten y he frito el pollo, el tomate y el ajo.",
+        "He añadido el azafrán y el pimentón. He agregado el agua.",
+        "He pelado las judías verdes y las he echado en el caldo.",
+        "Lo he salado y lo he dejado hervir un rato.",
+        "He medido el arroz y lo he metido en el caldo.",
+        "Lo he puesto a fuego lento durante veinte minutes.",
+        "He quitado la paella del fuego.",
+        "La he cubierto con papel de periódico.",
+        "La he dejado reposar cinco minutos.",
+        "La he servido con limones cortados."
+      ],
+      "ex4": [
+        "habíamos terminado",
+        "había escrito",
+        "habían bebido",
+        "habíais encontrado",
+        "había vendido",
+        "había comprado",
+        "había mentido",
+        "había olvidado",
+        "habíamos perdido",
+        "había cosido"
+      ],
+      "ex5": [
+        "nací",
+        "viví",
+        "era",
+        "me gustaba",
+        "dejaban",
+        "Iba",
+        "andando",
+        "teníamos",
+        "Estudié",
+        "he vivido",
+        "ha gustado",
+        "había estado",
+        "acostumbré"
+      ],
+      "ex6": [],
+      "ex7": []
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["El Quijote"],
+    "bContent": [
+      "El Quijote se publicó por primera vez en 1605. Escrita por Miguel de Cervantes Saavedra, está considerada como una de las obras más importantes de la literatura universal. Miguel de Cervantes escribió en los tres géneros literarios principales (poesía, teatro y novela) aunque su éxito no fue el mismo en los tres. Sólo como novelista llegó a triunfar. Su poesía y su teatro no tienen, según los críticos, la calidad de sus novelas.",
+      "El Quijote, su obra maestra, cuenta las aventuras y andanzas del un caballero (Don Quijote) y su escudero (Sancho). Cervantes escribió esta obra satírica como crítica a las novelas de caballería que tan famosas eran en su época. Don Quijote y Sancho Panza representan dos tipos bien diferenciados del carácter español: el idealista y soñador (Don Quijote), que se olvida de sus necesidades y de la vida material para ir tras su sueño, y el fiel y práctico (Sancho), que piensa en el bienestar de su señor y no se separa de él en ningún momento."
+    ],
+    "vocabulary": [
+      "andanzas (f.)",
+      "bienestar (m.)",
+      "caballería",
+      "calidad (f.)",
+      "fiel",
+      "obra maestra (f.)",
+      "satírico"
+    ],
+    "vocabularyE": [
+      "travels (old spanish)",
+      "welfare",
+      "chivalry",
+      "quality",
+      "trustworthy",
+      "masterpiece",
+      "satirical"
+    ]
+  }
+]

@@ -1,0 +1,295 @@
+[
+  {
+    "ch": "20",
+    "title": "The future tense",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "In colloquial Spanish the future is usually expressed by ir a + infinitive, equivalent to the English 'I am going to …':"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["Voy a visitar a mis tíos.", "Vamos a hacerlo."],
+        "words2": [
+          "I am going to visit my aunt and uncle.",
+          "We are going to do it."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "There is, however, a future tense that is used in more formal contexts."
+      },
+      {
+        "type": "paragraph",
+        "text": "The formation of the future tense is very straightforward, as there is only one set of endings for all three verb categories – -ar, -er and -ir."
+      },
+      {
+        "type": "paragraph",
+        "text": "The endings for the future tense are added to the infinitive and are as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["-é", "-ás", "-á", "-emos", "-éis", "-án"],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "paragraph",
+        "text": "So here is the full form of the future tense of regular verbs:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["comprar"],
+        "label2": [],
+        "words1": [
+          "compraré",
+          "comprarás",
+          "comprará",
+          "compraremos",
+          "compraréis",
+          "comprarán"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["beber"],
+        "label2": [],
+        "words1": [
+          "beberé",
+          "beberás",
+          "beberá",
+          "beberemos",
+          "beberéis",
+          "beberán"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": ["vivir"],
+        "label2": [],
+        "words1": [
+          "viviré",
+          "vivirás",
+          "vivirá",
+          "viviremos",
+          "viviréis",
+          "vivirán"
+        ],
+        "words2": ["", "", "", "", "", ""]
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Escribiré la carta mañana. ",
+          "No beberemos nada.",
+          "¿A qué hora llegarás?"
+        ],
+        "words2": [
+          "I will write the letter tomorrow.",
+          "We will not drink anything.",
+          "What time will you arrive?"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "There are a few irregular verbs in which the infinitive is slightly changed before the endings are added. Once the change is learnt, the endings are the same as regular verbs."
+      },
+      {
+        "type": "paragraph",
+        "text": "These irregular verbs are as follows:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "caber (to fit in)",
+          "decir (to say/tell)",
+          "hacer (to make/do)",
+          "poder (to be able)",
+          "poner (to put)",
+          "querer (to want)",
+          "saber (to know)",
+          "salir (to go out)",
+          "tener (to have)",
+          "valer (to be worth)",
+          "venir (to come)"
+        ],
+        "words2": [
+          "cabré",
+          "diré",
+          "haré",
+          "podré",
+          "pondré",
+          "querré",
+          "sabré",
+          "saldré",
+          "tendré",
+          "valdré",
+          "vendré"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "In some cases it is possible to use the present tense to convey a future meaning, i.e. to express an action that will definitely happen in the near future. This is particularly common in colloquial Spanish:"
+      },
+
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "Nos vemos mañana./Nos veremos mañana.",
+          "Lo hago esta tarde./Lo haré esta tarde.",
+          "Vamos al cine el sábado./Iremos al cine el sábado."
+        ],
+        "words2": [
+          "We'll meet (see each other) tomorrow.",
+          "I'll do it this evening.",
+          "We'll go to the cinema on Saturday."
+        ]
+      }
+    ],
+
+    "subCh2": "",
+    "lessonContentSubCh2": [],
+    "subCh3": "",
+    "lessonContentSubCh3": [],
+
+    "exercises": "Exercises",
+    "lessonEx": [
+      "1 Write the future form of the following verbs:",
+      "2 Change these sentences into the future tense:",
+      "3 Your friends have just won one million euros in the lottery. These are the questions you would like to ask them:",
+      "4 Finish the following sentences with the appropriate verb in the future: podremos compraréis aprobaré saldrás pondremos vendrá sabrá cabremos lloverá ganarán"
+    ],
+    "placeholder": "Type Here",
+    "ex1": [
+      "1 hablar (tú)",
+      "2 servir (Uds.)",
+      "3 explicar (él)",
+      "4 contestar (ellos)",
+      "5 salir (Uds.)",
+      "6 comer (vosotros)",
+      "7 entender (yo)",
+      "8 vivir (nosotros)",
+      "9 beber (vosotros)",
+      "10 poner (yo)"
+    ],
+    "ex2": [
+      "1 Pedro cantaba todos los días en Madrid.",
+      "2 María ha escrito un libro.",
+      "3 Juan y Miguel tienen un trabajo muy bueno.",
+      "4 Rafael y yo fuimos a Mallorca de vacaciones.",
+      "5 No supe contestar.",
+      "6 ¿Ud. llamó a mi casa?",
+      "7 Vosotros no comprasteis esa casa.",
+      "8 ¿Condujiste un camión hasta Alicante?",
+      "9 Este libro no cabe en la maleta.",
+      "10 No ha dicho nada."
+    ],
+    "ex3": [
+      "1 Will you (tú) leave your job?",
+      "2 Will you (vosotros) go on holiday?",
+      "3 Will Maite buy another car?",
+      "4 Will your (tú) parents have a party?",
+      "5 Will we see you (vosotros) soon?",
+      "6 Will Maite and Pepe sell their house?",
+      "7 Will you (vosotros) come to England?",
+      "8 Will Loreto know it?",
+      "9 Will you (vosotros) have a boat?",
+      "10 And finally, will you (tú) lend me some money?"
+    ],
+    "ex4": [
+      "1 Necesitamos un paraguas porque mañana _____ .",
+      "2 ¿_____ esquiar este fin de semana?",
+      "3 ¿_____ llegar tu hermana a esta casa?",
+      "4 Dice que _____ un gran árbol de navidad.",
+      "5 ¿_____ pronto de trabajar?",
+      "6 ¿_____ todos en el coche?",
+      "7 ¿_____ la carrera?",
+      "8 No _____ el examen.",
+      "9 ¿_____ una casa en la playa.",
+      "10 ¿_____ al cine con nosotros?"
+    ],
+    "ex5": [],
+    "ex6": [],
+    "ex7": [],
+
+    "answers": {
+      "ex1": [
+        "hablarás",
+        "servirán",
+        "explicará",
+        "contestarán",
+        "saldrán",
+        "comeréis",
+        "entenderé",
+        "viviremos",
+        "beberéis",
+        "pondré"
+      ],
+      "ex2": [
+        "Pedro cantará todos los días en Madrid.",
+        "María escribirá un libro.",
+        "Juan y Miguel tendrán un trabajo muy bueno.",
+        "Rafael y yo iremos a Mallorca de vacaciones.",
+        "No sabré contestar.",
+        "¿Ud. llamará a mi casa?",
+        "Vosotros no compraréis esa casa.",
+        "¿Conducirás un camión hasta Alicante?",
+        "Este libro no cabrá en la maleta.",
+        "No dirá nada."
+      ],
+      "ex3": [
+        "¿Dejarás tu trabajo/tu empleo?",
+        "¿Iréis de vacaciones?",
+        "¿(Se) comprará Maite otro coche?",
+        "¿Harán tus padres una fiesta?",
+        "¿Os veremos pronto?",
+        "¿Venderán Maite y Pepe su casa?",
+        "¿Vendréis a Inglaterra?",
+        "¿Lo sabrá Loreto?",
+        "¿Tendréis un barco?",
+        "Y finalmente, ¿me prestarás dinero?"
+      ],
+      "ex4": [
+        "lloverá",
+        "podremos",
+        "sabrá",
+        "pondremos",
+        "saldrás",
+        "cabremos",
+        "ganarán",
+        "aprobaré",
+        "compraréis",
+        "vendrá"
+      ],
+      "ex5": [],
+      "ex6": [],
+      "ex7": []
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": ["Uruguay"],
+    "bContent": [
+      "Uruguay es uno de los países más pequeños de America Latina. Su capital es Montevideo y tiene una población de unos tres millones y medio de habitantes. Los habitantes precolombinos de Uruguay eran los indios Charrúas, que lucharon contra los conquistadores hasta el siglo XVII, cuando decidieron empezar a comerciar con los españoles. La historia de Uruguay está llena de tensiones entre los portugueses (desde Brasil) y los españoles (desde Argentina) por controlar el país. Uruguay se independizó en 1828.",
+      "En la actualidad Uruguay comercia principalmente con sus países vecinos: Brasil y Argentina, aunque también comercia con los EEUU, Italia y Alemania. Sus principales productos de exportación son la piel, la lana, los textiles y el calzado aunque también tiene una fuente importante de ingresos con el turismo. Las crisis económicas de Brasil y Argentina han afectado en gran medida al desarrollo económico uruguayo."
+    ],
+    "vocabulary": [
+      "calzado (m.)",
+      "comerciar ",
+      "ingresos (m.)",
+      "lana (f.)",
+      "piel (f.)"
+    ],
+    "vocabularyE": ["footwear", "to trade", "income", "wool", "hide, fur"]
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "ch": "21",
+    "title": "PRONUNCIATION",
+    "subCh1": "",
+    "lessonContent": [
+      {
+        "type": "paragraph",
+        "text": "The English equivalents given are a rough guide to pronunciation and they will enable you to understand spoken Spanish and to be understood, but you should be aware that in some cases they are not exactly the same sounds as used in English."
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "a",
+          "b",
+          "c",
+          "ch",
+          "d",
+          "e",
+          "f",
+          "g",
+          "h",
+          "i",
+          "j",
+          "k",
+          "l",
+          "ll",
+          "m",
+          "n",
+          "o",
+          "p",
+          "q",
+          "r",
+          "rr",
+          "s",
+          "t",
+          "u",
+          "v",
+          "w",
+          "x",
+          "y",
+          "z"
+        ],
+        "words2": [
+          " [a] as in English 'bag'.",
+          " [b] as in 'big' at the beginning of a phrase or after n or m. Otherwise [β]. The lips are shaped as for [b] but slightly apart.",
+          " [k] as in 'cat' when before a, o, u or a consonant. [θ] as in 'think' before e or i in standard peninsular Spanish, but [s] in Latin America and southern Spain.",
+          " [č] as in 'church'.",
+          " [d] as in 'dog' at the beginning of a phrase or after n or l. Otherwise as in 'this'.",
+          " [e] as in 'bed'.",
+          " [f] as in 'feather'.",
+          " [g] as in 'game' when before a, o or u. But before e or i, [x] as in Scottish 'loch'.",
+          " [i] as in 'meet'.",
+          " [x] as in Scottish 'loch'.",
+          " always silent.",
+          " [k] as in 'car'.",
+          " [l] as in 'flat'.",
+          " [j] as in 'yet' (this is the most commonly heard pronunciation in standard Spanish, although strictly speaking it should be pronounced as in 'million').",
+          " [m] as in 'mother'.",
+          " [n] as in number'.",
+          " [o] as in 'opera'.",
+          " [p] as in 'pear'.",
+          " This is always followed by u and qu is pronounced [k] as in 'corner'.",
+          " [r] this is a rolled 'r' as in Scottish pronunciation of 'car', i.e. with a slight flick or vibration of the tongue.",
+          " this requires a more pronounced rolling of the 'r', or vibration of the tongue.",
+          " [s] as in 'single'.",
+          " [t] as in 'take'.",
+          " [u] as in 'soon'.",
+          " This is pronounced the same as b.",
+          " This only occurs in borrowed words in Spanish and its pronunciation varies. The most common variations are [β], [b] and [w].",
+          " [ks] as in 'extra', but more commonly in spoken peninsular Spanish it is simplified to [s].",
+          " [j] as in 'yellow' when on its own, but when it is used in combination with a vowel it is weakened to [i].",
+          " [θ] as in 'think'"
+        ]
+      }
+    ],
+
+    "subCh2": "STRESS",
+    "lessonContentSubCh2": [
+      {
+        "type": "paragraph",
+        "text": "Apart from a very few cases where the diaresis (e.g. ü) is used, there is only one written accent in Spanish (á) and this is used in the following circumstances:"
+      },
+      {
+        "type": "paragraph",
+        "text": "• to show that a word does not follow the rules of natural stress;"
+      },
+      {
+        "type": "paragraph",
+        "text": "• to differentiate between words which are spelt the same;"
+      },
+      {
+        "type": "paragraph",
+        "text": "• in interrogatives and exclamations."
+      },
+      {
+        "type": "subchapter",
+        "text": "Rules of natural stress"
+      },
+      {
+        "type": "paragraph",
+        "text": "If a word ends in an -n, -s or a vowel, the stress naturally falls on the penultimate (last but one) syllable:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["palabra", "juguetes", "compran"],
+        "words2": ["word", "toys", "they buy"]
+      },
+      {
+        "type": "paragraph",
+        "text": "If a word ends in any other sound, the stress naturally falls on the last syllable:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["pared", "feliz"],
+        "words2": ["wall", "happy"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Words that follow these rules of natural stress do not require a written accent (or stress mark), but if the word is pronounced in a way that does not follow these natural rules then a stress mark must be put on the vowel in the stressed syllable:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["lápiz", "inglés"],
+        "words2": ["pencil", "English"]
+      },
+      {
+        "type": "paragraph",
+        "text": "Some words require a stress mark in the singular but not in the plural, since by making the word plural it now ends in an -s, resulting in the natural stress now falling on the appropriate syllable:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["inglés - ingleses"],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "The situation outlined above is fairly straightforward, but when two or more vowels occur together in a word you will need to understand the rules about diphthongs in order to work out the stress."
+      },
+      {
+        "type": "paragraph",
+        "text": "Vowels are divided into strong and weak vowels – a, e and o are 'strong' vowels and u and i are 'weak' vowels. When a weak vowel occurs together with another vowel, they form a diphthong, which counts as only one syllable. If the weak vowel is next to a strong vowel, the stress falls on the strong vowel:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["piedra (stone) - two syllables pie-dra"],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "If both vowels are weak, the stress falls on the second vowel in the diph-thong:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["viuda (widow) "],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "paragraph",
+        "text": "If, however, two strong vowels occur together they form two separate syllables:"
+      },
+      {
+        "type": "wordSection",
+        "label1": ["ateo (atheist) - three syllables a-te-o"],
+        "label2": [""],
+        "words1": [""],
+        "words2": [""]
+      },
+      {
+        "type": "subchapter",
+        "text": "Differentiating between words"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sometimes stress marks are used to differentiate between two words that are spelt and pronounced in exactly the same way:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": ["el (the)", "si (if)", "tu (your)"],
+        "words2": ["él (he)", "sí (yes)", "tú (you)"]
+      },
+      {
+        "type": "subchapter",
+        "text": "Interrogatives and exclamations"
+      },
+      {
+        "type": "paragraph",
+        "text": "When certain words are used as interrogatives (questions) or exclamations they require a stress mark, whereas they do not require a stress mark in other circumstances:"
+      },
+      {
+        "type": "wordSection",
+        "label1": [""],
+        "label2": [""],
+        "words1": [
+          "¿Qué?",
+          "¿Dónde?",
+          "¿Cuándo?",
+          "¿Cómo?",
+          "¿Quién?",
+          "¡Qué hermoso!"
+        ],
+        "words2": ["What?", "Where?", "When?", "How?", "Who?", "How lovely!"]
+      }
+    ],
+    "subCh3": "",
+    "lessonContentSubCh3": [],
+
+    "exercises": "Exercises",
+    "lessonEx": [],
+    "placeholder": "Type Here",
+    "ex1": [],
+    "ex2": [],
+    "ex3": [],
+    "ex4": [],
+    "ex5": [],
+    "ex6": [],
+    "ex7": [],
+
+    "answers": {
+      "ex1": [],
+      "ex2": [],
+      "ex3": [],
+      "ex4": [],
+      "ex5": [],
+      "ex6": [],
+      "ex7": []
+    },
+    "culturalBrief": "Cultural Brief",
+    "bTitle": [],
+    "bContent": [],
+    "vocabulary": [],
+    "vocabularyE": []
+  }
+]
